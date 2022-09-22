@@ -1,0 +1,3 @@
+include ':nicklib'
+include ':app'
+rootProject.name = "NickLibDemo"

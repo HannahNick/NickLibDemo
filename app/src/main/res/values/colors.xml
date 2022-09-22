@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBgButton">#FECC3F</color>
+    <color name="colorBgButtonPress">#FFE289</color>
+    <color name="colorBgButtonDisable">#B8C2CE</color>
+
+    <color name="colorMain">#47B018</color>
+    <color name="colorMain1">#0080FD</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackT">#aaffffff</color>
+    <color name="colorgray">#bebebe</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorRed">#e40f2b</color>
+
+    <color name="colorMain1T">#DFF1FD</color>
+
+    <color name="goodsTagName">#89c042</color>
+    <color name="mine_start">#FFDC35</color>
+    <color name="mine_end">#FF9224</color>
+    <color name="search_start">#FFDC35</color>
+    <color name="search_end">#FF9224</color>
+
+    <color name="level_line">#eec377</color>
+
+    <color name="viewfinder_mask">#000000</color>
+    <color name="yellow">#FED348</color>
+    <color name="gray">#D7D7D7</color>
+
+    <color name="text_background">#f0f0f0</color>
+    <!--标题颜色-->
+    <color name="titleColor">#222222</color>
+    <color name="lineColor">#10000000</color>
+    <color name="textColor">#909090</color>
+
+    <color name="coupon_background">#FFD5D6</color>
+    <color name="coupon_stroke">#FFA0A0</color>
+    <color name="goodspec_stroke">#949494</color>
+    <color name="userinfo_bg">#EFF2F6</color>
+    <color name="goodspec_solid">#FDCD45</color>
+    <color name="binding_bg">#73D759</color>
+    <color name="login_edt_bg">#FFFCF6</color>
+    <color name="relative_goodtitle">#EFF2F6</color>
+    <color name="protocol_text_color">#5CA5F7</color>
+    <color name="shopdetail_bottom_bg">#eaeaea</color>
+    <color name="shopcart_delete">#FF8C00</color>
+    <color name="cannot_select_gift">#90ffffff</color>
+    <color name="back_bg">#60000000</color>
+    <color name="sign_text_color">#646464</color>
+    <color name="has_subscribe">#e2e2e2</color>
+    <color name="arrival_reminding_bg">#fdd34e</color>
+    <color name="sort_self_othersupport_tag_select">#ffa423</color>
+    <color name="sort_first_dir_bg">#f7f8f9</color>
+
+    <color name="blackTransparent_50">#40000000</color>
+
+    <!--安全键盘颜色-->
+    <color name="keyboard_bg">#BDBDBD</color>
+    <color name="iv_back_bg">#F5F5F5</color>
+    <color name="key_normal_bg">#F5F5F5</color>
+    <color name="key_pressed_bg">#33000000</color>
+    <color name="btn_gray">#E0E0E0</color>
+</resources>

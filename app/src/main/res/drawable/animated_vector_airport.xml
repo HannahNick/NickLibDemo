@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_baseline_connecting_airports_24"
+    >
+    <!--这个name是对应vector里的name,也可以是对应group的name-->
+    <target
+        android:animation="@animator/anim_right"
+        android:name="right"/>
+    <target
+        android:animation="@animator/anim_left"
+        android:name="left"/>
+</animated-vector>
