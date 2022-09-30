@@ -56,6 +56,9 @@ public class MySurfaceView extends SurfaceView {
                 //如果holder已经准备好了再执行
                 if (holder.getSurface().isValid()){
                     Canvas canvas = holder.lockCanvas();
+                    if (canvas == null){
+                        continue;
+                    }
                     canvas.drawColor(Color.WHITE);
                     mTempBubbles.clear();
                     mTempBubbles.addAll(mBubbles);

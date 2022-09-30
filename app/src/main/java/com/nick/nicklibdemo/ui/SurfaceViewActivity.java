@@ -25,7 +25,8 @@ public class SurfaceViewActivity extends BaseActivity {
 
     @Override
     protected void init() {
-
+        //设置SurfaceView在activity的上面
+        mySurfaceView.setZOrderOnTop(true);
     }
 
     @Override
