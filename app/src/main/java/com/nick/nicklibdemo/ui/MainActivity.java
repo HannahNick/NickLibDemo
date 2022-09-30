@@ -19,6 +19,7 @@ import com.nick.nicklibdemo.R;
 import com.nick.nicklibdemo.adapter.HomeListAdapter;
 import com.nick.nicklibdemo.exception.ApiException;
 import com.nick.nicklibdemo.manager.UserManager;
+import com.nick.nicklibdemo.view.MySurfaceView;
 
 import java.net.ConnectException;
 import java.net.SocketTimeoutException;
@@ -74,6 +75,7 @@ public class MainActivity extends BaseUIActivity {
         listData.add("ServiceActivity");
         listData.add("NewProcessActivity");
         listData.add("VectorDrawableActivity");
+        listData.add("SurfaceViewActivity");
         mAdapter.replaceData(listData);
         mAdapter.setOnItemClickListener((adapter, view, position) -> {
             Intent intent = null;
@@ -91,6 +93,9 @@ public class MainActivity extends BaseUIActivity {
                     break;
                 case 3:
                     intent = new Intent(this,VectorDrawableActivity.class);
+                    break;
+                case 4:
+                    intent = new Intent(this, SurfaceViewActivity.class);
                     break;
             }
             startActivity(intent);

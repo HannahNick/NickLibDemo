@@ -60,6 +60,7 @@
         </activity>
         <activity android:name=".ui.GoodsListActivity" />
         <activity android:name=".ui.VectorDrawableActivity"/>
+        <activity android:name=".ui.SurfaceViewActivity" />
         <service android:name=".service.MyService" />
         <service android:name=".service.MyAIDLService" />
     </application>
