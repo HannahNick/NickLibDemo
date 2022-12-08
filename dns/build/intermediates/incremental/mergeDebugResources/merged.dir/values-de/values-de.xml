@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="tasker_configure_actions">
+        <item>DNS Changer starten</item>
+        <item>DNS Changer stoppen</item>
+        <item>DNS Changer pausieren</item>
+        <item>DNS Changer fortsetzen</item>
+    </string-array>
+    <string-array name="theme">
+        <item>Standard</item>
+        <item>Blau</item>
+        <item>Dunkel</item>
+        <item>Wahres Schwarz</item>
+    </string-array>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Alle anzeigen"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AUS"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AN"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Strg +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Löschen"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Eingabetaste"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktionstaste +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta-Taste +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Umschalttaste +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Leertaste"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym-Taste +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menütaste +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Suche"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Anfrage senden"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Teilen mit"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Mit <ns1:g id="APPLICATION_NAME">%s</ns1:g> teilen"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string name="about_text">Diese App ist quelloffen. Der Quellcode kann unter git.frostnerd.com eingesehen werden.
+\nEs werden Icons von Google benutzt (Material icon pack - https://material.io/icons).
+\n
+\nVersion [[version]]
+\nBuild [[build]]
+\n
+\n© Daniel Wolf 2020
+\nAll rights reserved. Quellcode unter der GPLv3 lizenziert.
+\nhttps://git.frostnerd.com/PublicAndroidApps/DnsChanger
+\n
+\nBrasilianische Übersetzung von Lukinhas
+\n
+\nChinesische Übersetzung von Majida Whale
+\n
+\nVietnamesische Übersetzung von Phi</string>
+    <string name="action_pause">Pausieren</string>
+    <string name="action_resume">Fortfahren</string>
+    <string name="action_stop">Stoppen</string>
+    <string name="active">Aktiv</string>
+    <string name="add">Hinzufügen</string>
+    <string name="android4_4_warning">Achtung: deine Android Version (4.4) ist dafür bekannt, Fehler mit VPN zu haben. Sollte diese App abstürzen oder nicht funktionieren, liegt dies höchstwahrscheinlich am System und nicht an dieser App.
+\nEntschuldogung für die Unannehmlichkeit.</string>
+    <string name="app_name">DnsChanger</string>
+    <string name="app_share_text">Hallo, guck dir mal diese App zum Ändern der DNS Server auf deinem Handy an: https://play.google.com/store/apps/details?id=com.frostnerd.dnschanger</string>
+    <string name="app_supports_tasker_text">Diese App unterstützt Tasker und kann als Aktions Plugin zum automatisierten Setzen der DNS-Server genutzt werden.</string>
+    <string name="background">Hintergrund</string>
+    <string name="background_configure_error">Die Berechtigung, den VPN zu starten wurde verwährt.\nDies könnte das System sein, welches die Anfrage automatisch ablehnt, da sie nicht aus dem Vordergrund gestellt wurde (Mögliches Sicherheitsrisiko)\n\nÖffne die App, um den VPN zu starten</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="both">Beides</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="cannot_access_directory">Ordnerzugriff nicht möglich</string>
+    <string name="checking_connectivity">Überprüfe Verbindung</string>
+    <string name="close">Schließen</string>
+    <string name="closed_drawer">Navigation geschlossen</string>
+    <string name="contact_developer">Entwickler kontaktieren</string>
+    <string msgid="3209159573327985035" name="copy">"Kopieren"</string>
+    <string name="create_folder">Ordner erstellen</string>
+    <string name="create_one">Eine erstellen</string>
+    <string name="create_shortcut">Ein Shortcut erstellen</string>
+    <string name="create_tasker_action">Erstelle eine Tasker Aktion</string>
+    <string name="custom_hex">Eigene Hex-Farbe</string>
+    <string name="debug_dialog_info_text">Das Aktivieren des Debugging könnte die Batterienutzung erhöhen. Zusätzlich werden generelle Informationen über das Gerät (nicht personenbezogen) in den Logs gespeichert [App Version, Android Version, Gerätename, Hersteller] und die eingestellten DNS Server mitgespeichert (als Teil des Logging).\n\nDiese Daten werden nicht automatisch versendet, aber behalte dies im Hinterkopf, solltest du diese Logs zu mir senden.</string>
+    <string name="deep_link_title">DNSChanger von Frostnerd</string>
+    <string name="default_dns">Voreingestellte DNS Adressen</string>
+    <string name="default_dns_explain_delete">Halte einen Eintrag lange gedrückt, um ihn zu löschen oder zu bearbeiten. Klicke danach weitere Einträge an, um diese ebenfalls zu löschen.</string>
+    <string name="default_dns_legal_warning">Die hier gezeigten Namen könnten eingetragene Marken deren Besitzer sein. Es gelten die jeweiligen Nutzungsbedingungen der Anbieter.\nAchtung: DNS Server haben die Möglichkeit, zu speichern, welche Webseiten du besuchst.</string>
+    <string name="default_dns_title">Öffentliche DNS Anbieter</string>
+    <string name="delete">Löschen</string>
+    <string name="detect_rule_type">Versuche, den Dateityp zu erkennen</string>
+    <string name="device_admin">Geräteadministrator</string>
+    <string name="device_admin_description">Deinstallation durch Geräteadmin verhindern</string>
+    <string name="device_admin_removal_warning">Warnung: Das Entfernen als Geräteadmin verhindert, dass die Deinstallation blockiert werden kann.</string>
+    <string name="dialog_are_you_sure">Bist du dir sicher, dass du dies tun möchtest?</string>
+    <string name="dialog_connectivity_description">Übeprüfe, ob die DNS Server erreichbar sind</string>
+    <string name="dialog_libraries_text">Diese app enthält von Bibliotheken, welchen von anderen Entwicklern erstellt wurden. Deren Namen, Ersteller und Lizenzen sind hier aufgelistet.</string>
+    <string name="dialog_question_export_shortcuts">Verknüpfungen auch exportieren?\n\n(Exportiert alle Verknüpfungen, welche seit der Installation über die App erstellt wurden, auch solche, welche nicht mehr existieren)</string>
+    <string name="dialog_title_dns_configuration">DNS Konfiguration</string>
+    <string name="disable">Deaktivieren</string>
+    <string name="disable_failfast_info">Deaktivere \'schnell fehlschlagen\" falls der Typ nicht erkannt werden kann. Da dies jedoch länger dauert, versuche den Typ selbst anzugeben.</string>
+    <string name="dns_configuration_taken">DNS Einstellung übernommen.</string>
+    <string name="done">Fertig</string>
+    <string name="dont_ask_again">Nicht erneut fragen</string>
+    <string name="dont_show_again">Nicht nochmal zeigen</string>
+    <string name="easter_egg">Hier gibt es keine Easter eggs. Geh weg.</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="error">Fehler</string>
+    <string name="error_rule_already_exists">Regel existiert bereits</string>
+    <string name="excluded_apps_info_text_blacklist">Jede in der oberen Einstellung ausgewählte Anwendung wird den internen VPN nicht verwenden. Dadurch werden die DNS Server auf diese ebenfalls nicht angewendet.</string>
+    <string name="excluded_apps_info_text_whitelist">Nur die markierten Anwendungen werden den internen VPN verwenden. Dadurch verwenden nicht markierte Apps die DNS Server nicht.</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Erweitert"</string>
+    <string name="exported_dns_queries">[x] Anfragen exportiert.</string>
+    <string name="fail_fast">Schnell fehlschlagen</string>
+    <string name="feature_pin_protection">Du kannst sämtliche Aktionen (start/stopp/pausieren/forsetzen) durch eine PIN schützen. Jedes mal, wenn eine dieser Aktionen ausgeführt werden soll, wird in einem Dialog nach der PIN gefragt.
+\n
+\nDies kann zum Beispiel dafür genutzt werden, den Nutzer des Geräts daran zu hindern, DNS Changer zu beeinflussen. Es wurde entwickelt um Kinder daran zu hindern, DNSChanger zu beenden.
+\nBesuche die Einstellungen um auszuwählen, was auf diese Weise geschützt werden soll.</string>
+    <string name="feature_shortcuts">Mit dieser App lassen sich Verknüpfungen auf dem Hauptbildschirm erstellen. Diese Verknüpfungen enthalten DNS Einstellungen und ändern deine DNS Server, sobald du drauf klickst, ohne, dass du die App öffnen musst.\nDies macht sie sehr nützlich, wenn schnell zwischen mehreren Konfigurationen gewechselt werden muss oder ein Schnellzugriff auf diese möglich sein soll.\n\nDu kannst deren Verhalten in den Einstellungen personalisieren.</string>
+    <string name="feature_tiles">Für den schnellen Zugriff können in der Benachrichtigungszeile Kacheln hinzugefügt werden, mit welchen sich DNSChanger kontrollieren lässt.
+\n
+\nUm diese hinzuzufügen, öffne die Benachrichtigungszeile, indem du diese herunterziehst, drücke auf den Stift und ziehe die Kacheln durch langes Drücken nach oben.</string>
+    <string name="file_adblock">Adblock Datei (Format: ||HOST^)</string>
+    <string name="file_dnsmasq">Dnsmasq Datei</string>
+    <string name="file_hosts">Hosts Datei</string>
+    <string name="file_justdomains">Domainliste</string>
+    <string name="filter">Filtern</string>
+    <string name="fingerprint_description">Fingerabdruck bestätigen, um fortzufahren</string>
+    <string name="fingerprint_hint">Berührungssensor</string>
+    <string name="fingerprint_not_recognized">Fingerabdruck nicht erkannt. Versuche es erneut.</string>
+    <string name="fingerprint_success">Fingerabdruck nicht erkannt.</string>
+    <string name="folder_name">Ordnername</string>
+    <string name="got_it">Verstanden</string>
+    <string name="hint_dns1">Primärer Server</string>
+    <string name="hint_dns2">Sekundärer Server</string>
+    <string name="hint_dns_entry_name">Name</string>
+    <string name="hint_dns_lookup">DNS Anfrage</string>
+    <string name="hint_pin">PIN</string>
+    <string name="host">Host</string>
+    <string name="i_dont_want">Ich möchte das nicht</string>
+    <string name="ignore">Ignorieren</string>
+    <string name="import_rules">Importieren</string>
+    <string name="importing_x_rules">Importiere [x] Regeln</string>
+    <string name="info_dns_button">Infos über DNS</string>
+    <string name="info_functionality_disabled">Sämtliche Funktionalitäten wurden von dir deaktviert. Zum Starten reaktivere diese im seitlichen Menü.</string>
+    <string name="info_importing_rules_app_unusable">Die App importiert nun die Regeln. Währenddessen ist die App nicht nutzbar, da die interne Datenbank gesperrt wird.</string>
+    <string name="info_text_dns">DNS steht für Domain Name System.\n\nDas Domain Name System wird benutzt, um Domains (google.com, yahoo.com, example.org…) zu IP-Adressen (z.B. 192.168.178.1) aufzulösen und zu die Kommunikation über das Internet zu ermöglichen.\n\nDas DNS ist eines der wichtigsten System in IP-basierten Netzwerken.</string>
+    <string name="info_text_how_does_it_work">Android erlaubt es, primäre und sekundäre DNS Server in den WLAN Einstellungen festzulegen - Allerdings nicht für mobile Netze. Zusätzlich bringt diese weitere Nachteile mit sich, zum Beispiel, dass eine statische IP-Adresse genutzt werden muss, kein IPv6 verwendet werden kann und weitere im Vergleich zu dieser App.\n\nDiese App benutzt die VPN-Struktur von Android, um die DNS server dynamisch zu setzen. Um dies zu erreichen, wird ein lokaler VPN erstellt, welcher das eigene Gerät als Endpunkt nutzt - dies bedeutet, dass diese VPN-Verbindung das Gerät nicht verlässt und von außerhalb auch nicht erkennbar ist.\nDa dieser Dummy-VPN jederzeit gestartet/gestoppt werden kann, erlaubt es eine Fülle an Automatisierungen und Verbesserungen. Es werden keine Daten aus dem VPN abgegriffen.\n\nBist du in die technische Seite hiervon interessiert, besuche mein Git unter git.frostnerd.com.</string>
+    <string name="information">Information</string>
+    <string name="information_advanced_settings_warranty">Um die unteren Features zu realisieren werden die DNS Packets abgefangen und modifziert. Dies kann die Batterie- und RAM-Nutzung erhöhen.\n\nBenutze dies unter eigenen Risiko, durch Klicken auf OK bestätigst du, dass der Autor dieser App für keine möglichen Schäden haftbar ist.</string>
+    <string name="invalid_dns_error_text">Es sieht so aus, als würde mindestens einer der eingestellten DNS Server auf diesem Gerät nicht funktionieren.\nDies kann entweder ein temporärer Fehler sein, oder durch eine invalide IP Adresse begründet sein.\n\nBitte stelle sicher, dass deine Einstellungen im Hauptmenü korrekt sind und besonders, dass die eingegebenen IP-Adressen valide sind.</string>
+    <string name="loading">Lade</string>
+    <string name="loading_exporting_queries">Exporting Anfragen, bitte warten…</string>
+    <string name="mail_debug_text">Schreibe eine kleine Nachricht, warum du die Logdateien sendest</string>
+    <string name="message_settings_exported">Die Einstellungen wurden erfolgreich exportiert.</string>
+    <string name="message_user_restricted">Kann VPN nicht starten, das Nutzerprofil scheint eingeschränkt zu sein.</string>
+    <string name="nav_title_advanced">Erweitert</string>
+    <string name="nav_title_current_networks">Aktuelle Netzwerke</string>
+    <string name="nav_title_dns">DNS</string>
+    <string name="nav_title_dns_query">DNS Query</string>
+    <string name="nav_title_features">Funktionen</string>
+    <string name="nav_title_how_does_it_work">Wie funktioniert es?</string>
+    <string name="nav_title_importexport">Import / Export</string>
+    <string name="nav_title_learn">Lernen</string>
+    <string name="nav_title_libraries">Bibliotheken</string>
+    <string name="nav_title_main">Hauptbildschirm</string>
+    <string name="nav_title_more">Und mehr</string>
+    <string name="nav_title_pin_protection">PIN-schutz</string>
+    <string name="nav_title_query_log">Anfragenhistorie</string>
+    <string name="nav_title_rules">Regeln</string>
+    <string name="nav_title_tiles">Schnelleinstellung</string>
+    <string name="nav_title_what_is_dns">Was ist DNS?</string>
+    <string name="nebulo_download_text">Ich habe eine neue App namens Nebulo erstellt, eine Open-Source und werbefreie App für dns-over-https und dns-over-https. Sie ist im Store verfügbar.\nMöchtest du sie dir angucken? Durch Klicken auf ja wirst du zum Store weitergeleitet.</string>
+    <string name="nebulo_no_browser">Du scheinst keinen Browser installiert zu haben.</string>
+    <string name="new_entry">Neuer Eintrag</string>
+    <string name="new_rule">Neue Regel</string>
+    <string name="no">Nein</string>
+    <string name="no_connectivity_warning_text">Von [x] Servern sind [y] nicht erreichbar:\n\n[servers]\nDie Server können offline sein, sind nicht erreichbar (vielleicht ist keine Internetverbindung verfügbar?) oder werden von deinem Internetanbieter blockiert.</string>
+    <string name="no_disable_android_o">Dies kann mit Android O und darüber nicht deaktiviert werden.</string>
+    <string name="not_now">Nicht jetzt</string>
+    <string name="not_running">Inaktiv</string>
+    <string msgid="478774118347071097" name="not_set">"Nicht festgelegt"</string>
+    <string name="notification">Benachrichtigung</string>
+    <string name="notification_channel_default">Standardchannel</string>
+    <string name="notification_channel_default_description">Standardchannel für Benachrichtigungen.</string>
+    <string name="notification_channel_hiddenicon">Channel ohne Icon</string>
+    <string name="notification_channel_hiddenicon_description">Dieser Channel zeigt kein Symbol in der Benachrichtigungsleiste</string>
+    <string name="notification_channel_networkcheck">Channel für Verbindungsprüfung</string>
+    <string name="notification_channel_networkcheck_description">Dieser Channel wird für die Verbindungsprüfung genutzt. Er kann bedenkenlos deaktiviert werden.</string>
+    <string name="notification_connectivity_service">Hintergrund Verbindungsprüfung</string>
+    <string name="notification_connectivity_service_message">Verbindungsprüfung läuft. Diese Benachrichtigung verschwindet bald.</string>
+    <string name="notification_connectivity_service_message_disable">Klicke hier zum deaktivieren</string>
+    <string name="notification_ipv6_text">Öffne die Einstellungen um IPv6 zu aktivieren.</string>
+    <string name="notification_paused">DNSChanger ist pausiert</string>
+    <string name="notification_reason_stopped">DNSChanger wurde automatisch gestoppt: [reason]</string>
+    <string name="notification_restartconnectivity_service">Starte Verbindungsprüfung neu</string>
+    <string name="notification_running">DNSChanger ist aktiv</string>
+    <string name="notification_text_running_in_advanced_mode">Erweiterte Einstellungen aktiv.</string>
+    <string name="notification_x_blacklisted">[x] Apps auf der Blacklist</string>
+    <string name="notification_x_whitelisted">[x] Apps auf der Whitelist</string>
+    <string name="ok">OK</string>
+    <string name="only_show_apps_with_internet">Zeige nur Apps mit Internet-Berechtigung</string>
+    <string name="open_Drawer">Navigation geöffnet</string>
+    <string name="open_app">App öffnen</string>
+    <string name="open_share_file">Datei öffnen/teilen</string>
+    <string name="overlay_permission_explanation">Diese App zeichnet Fenster über andere Apps, genannt Overlays, und benötigt deine Berechtigung, um dies zu tun. Bitte gewähre der App dieses Recht im nächsten Fenster.</string>
+    <string name="password">Passwort</string>
+    <string name="password_description">Gib dein</string>
+    <string name="paused">Pausiert</string>
+    <string name="permissions_description_access_data">Erlaubt es der App auf Daten von DNSChanger zuzugreifen</string>
+    <string name="permissions_label_access_data">Auf Daten zugreifen</string>
+    <string name="pin_dialog_text">Du hast in den Einstellungen festgelegt, dass diese App durch einen PIN geschützt werden soll. Bitte gebe die gesetzte PIN ein (Standard: 1234)</string>
+    <string name="pin_dialog_title">Pingeschützt</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" in Zwischenablage kopiert."</string>
+    <string name="press_back_again">Drücke erneut zurück zum verlassen (Verwirft Änderungen!)</string>
+    <string name="query_destination_info">Anfrage wird an [x] gesendet</string>
+    <string name="query_error_occured">Ein Fehler is aufgetreten: [error]</string>
+    <string name="query_title_answer">Antwort</string>
+    <string name="query_title_dclass">D Klasse</string>
+    <string name="query_title_name">Name</string>
+    <string name="query_title_ttl">TTL</string>
+    <string name="query_title_type">Typ</string>
+    <string name="question_enable_ipv6">Möchtest du IPv6 aktivieren?</string>
+    <string name="rate">Bewerten</string>
+    <string name="rate_request_text">Möchtest du diese App bewerten?\nEs würde helfen, diese App zu verbreiten und zöllt meiner Arbeit Anerkennung.</string>
+    <string name="reason_stop_network_change">Netzwerk wurde geändert (DNSChanger wurde eingestellt zu stoppen)</string>
+    <string name="reason_stop_tasker">Von Tasker gestoppt</string>
+    <string name="regular_expression">Regulärer Ausdruck (RegEx)</string>
+    <string name="remove">Löschen</string>
+    <string name="reset_warning_text">Möchtest du wirklich alle Einstellungen löschen\?
+\nDies kann nicht rückgängig gemacht werden.</string>
+    <string name="rule_unknown_ignoring">Unbekannt, ignoriere</string>
+    <string name="rules_import_finished">[x] Zeilen wurden gelesen, von welchen [y] valide und [z] einzigartige (neue) Einträge waren.</string>
+    <string name="run_query">Abfrage starten</string>
+    <string name="running">Aktiv</string>
+    <string name="search">Suchen</string>
+    <string name="search_by_target">Suche nach einem Ziel</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Suche"</string>
+    <string name="select_files">Wähle Datei(en)</string>
+    <string name="select_folder">Ordner auswählen</string>
+    <string name="send_crash_report">Absturzbericht senden</string>
+    <string name="set_device_admin_info">Diese App kann darauf eingestellt werden, sich als Geräteadmin zu setzen, um eine Deinstallation zu verhindern.\n\nEs werden keine security policies genutzt.\n\nDies funktioniert nur, wenn das Gerät darauf eingestellt ist, bei Deinstallation nach einem Passwort zu fragen (Meistens in Unternehmen oder in Apps zur Überwachung von Kindern durch Eltern anzutreffen)\n\nDNS Changer benutzt diese Rechte nicht, muss sie aber anfordern, um dieses Verhalten zu erzielen.\nBevor die App deinstalliert werden kann, muss ihr das Recht des Geräteadmins entfernt werden, dies kann hier in den Einstellungen getan werden.</string>
+    <string name="settings">Einstellungen</string>
+    <string name="share_using">Teilen über</string>
+    <string name="shortcut_conflict_text">Diese App ist darauf eingestellt, den VPN zu starten/stoppen, wenn sich die Netzwerkverbindung ändert (zu Wlan oder 3G/4G…).\nDies könnte zu Konflikten führen, wenn die App über eine Verknüpfung gestartet wurde, da die eingestellte Aktion durch die App an sich überschrieben werden kann (Nur ein VPN kann aktiv sein).\n\nMöchtest du diese Einstellungen aus der App entfernen?</string>
+    <string name="shortcut_created">Verknüpfung erstellt.</string>
+    <string name="shortcuts">Verknüpfungen</string>
+    <string name="show">Anzeigen</string>
+    <string name="show_local_entries">Zeige Regeln, welche zu einer Loopbackadresse auflösen</string>
+    <string name="show_normal_entries">Zeige normale Einträge</string>
+    <string name="show_system_apps">Zeige Systemapps</string>
+    <string name="show_wildcard_entries">Zeige Wildcard Einträge</string>
+    <string name="sign_in">Einloggen</string>
+    <string name="sql_actions">SQL Aktionen</string>
+    <string name="start">Starten</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop">Stoppen</string>
+    <string name="stop_all">Alle stoppen</string>
+    <string name="subtitle_configuring">Editiere [[x]]</string>
+    <string name="success">Operation erfolgreich</string>
+    <string name="summary_advanced_settings">Die erweiterten Einstellungen aktivieren</string>
+    <string name="summary_auto_mobile">DNSChanger automatisch anschalten, sobald das Handy über ein mobiles Netzwerk mit dem Internet verbunden ist</string>
+    <string name="summary_auto_wifi">DNSChanger automatisch anschalten, sobald das Handy mit einem WLAN-Netzwerk verbunden ist</string>
+    <string name="summary_automation_warn">Achtung: Wenn du eine dieser Optionen aktivierst könnte dies die Automatisierung mit Tasker beeinflussen.</string>
+    <string name="summary_check_connectivity">Überprüfe jedes Mal, wenn auf den Startknopf gedrückt wird, ob die eingestellten DNS Server erreichbar sind</string>
+    <string name="summary_clear_local_rules">Löscht alle Regeln. Kann nicht rückgängig gemacht werden.</string>
+    <string name="summary_clear_queries">Löscht alle gespeicherten Anfragen. Kann nicht rückgängig gemacht werden.</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string name="summary_create_shortcut">Erstelle eine Verknüpfung um DNSChanger schnell mit bestimmten DNS Servern zu starten</string>
+    <string name="summary_custom_ports">Erlaube es, in den Eingabefeldern den Port des DNS Servers anzugeben.</string>
+    <string name="summary_debug">Aktiviert Debugging. Es werden Logdateien erstellt, welche an den Entwickler geschickt werden können (Dies passiert nicht automatisch) und somit bei der Problemlösung helfen könnten.\nKönnte Batterienutzung erhöhen.</string>
+    <string name="summary_device_admin_activate">Diese App als Geräteadministrator setzen, um Deinstallation zu verhindern</string>
+    <string name="summary_disable_crashreporting">Deaktiviere automatische Absturzmeldungen. Meldungen enthalten nur die App- und Android Version und den Absturzgrund. Es werden absolut keine personenbezogenen Daten übertragen.</string>
+    <string name="summary_disable_network_change">DNSChanger automatisch stoppen, wenn das Netz gewechselt wird (z.B. von WLAN zu 3G). DNSChanger startet erneut, wenn es in den vorherigen Einstellungen so gesetzt wurde.</string>
+    <string name="summary_disable_notification_icon">Deaktiviert das DNS Icon in der Benachrichtigungszeile. Dieses wird in der vergrößerten Ansicht im Benachrichtigungsbereich weiterhin angezeigt.</string>
+    <string name="summary_dns_over_tcp">Leitet die DNS Anfragen über TCP weiter (anstatt UDP)</string>
+    <string name="summary_enable_app_shortcuts">Aktiviert app shortcuts. Klicke im Hauptbildschirm lange auf die App, um dieses Menü zu öffnen</string>
+    <string name="summary_enable_ipv4">Aktiviert IPv4. Dies erlaubt es, IPv4 Adressen zur Nutzung als DNS Server einzustellen</string>
+    <string name="summary_enable_ipv6">Aktiviert IPv6. Dies erlaubt es, IPv6 Adressen zur Nutzung als DNS Server einzustellen.</string>
+    <string name="summary_exclude_apps">Installierte Apps daran hindern, die interne VPN Verbindung zu nutzen. Dies sorgt dafür, dass diese nicht die eingestellten DNS Server nutzen</string>
+    <string name="summary_export_queries">Exportiert alle Anfragen in eine Textdatei in einem beliebigen Ordner</string>
+    <string name="summary_jump_advanced_settings">Klicke hier, um erweiterte Einstellungen vorzunehmen.</string>
+    <string name="summary_loopback_allowed">Erlaubt es dir, die Loopbackadresse (::1 und 127.0.0.1) zu benutzen</string>
+    <string name="summary_notification">Zeige eine Benachrichtigung, wenn DNSChanger läuft</string>
+    <string name="summary_notification_on_stop">Zeige eine Benachrichtigung, wenn DNSChanger automatisch beendet wird</string>
+    <string name="summary_pin">PIN-schutz aktivieren</string>
+    <string name="summary_pin_app">Nach der PIN fragen, wenn die App geöffnet wird</string>
+    <string name="summary_pin_app_shortcut">Nach der PIN fragen, wenn DNSChanger von einem App Shortcut aus pausiert/gestoppt wird</string>
+    <string name="summary_pin_fingerprint">Erlaube Authentifizierung mit gespeicherten Fingerabdrücken</string>
+    <string name="summary_pin_notification">Nach der PIN fragen, wenn DNSChanger von der Benachrichtungung aus pausiert/gestoppt wird</string>
+    <string name="summary_pin_tile">Nach der PIN fragen, wenn DNSChanger von den Schnelleinstellungen aus gestartet/gestoppt wird</string>
+    <string name="summary_pin_value">Zum Ändern des PINs hier klicken</string>
+    <string name="summary_priv_mode">Die Automatierung mit höheren Rechten starten. Dies erhöht möglicherweise die Stabilität.</string>
+    <string name="summary_protect_other_vpns">Erlaube der App nur zu stoppen, wenn dies über die eingebauten Methoden geschieht</string>
+    <string name="summary_query_logging">Speichere alle DNS Anfragen wenn die App aktiviert ist</string>
+    <string name="summary_reset">Setzt alle Einstellungen und gespeicherten DNS Server zurück. Verknüpfungen und Tasker Aktionen werden nicht gelöscht.</string>
+    <string name="summary_rules_activated">Benutze die im Hauptmenu eingestellten Regeln</string>
+    <string name="summary_run_after_update">DNS Changer automatisch starten, nachdem die App geupdated wurde.
+\nDies funktioniert möglicherweise nicht, wenn DNS Changer länger nicht aktiv war.</string>
+    <string name="summary_send_debug">Logdateien an Entwickler schicken</string>
+    <string name="summary_shortcut_click_again_disable">DNSChanger stoppen, wenn die Verknüpfung, mit welcher die App gestartet wurde, erneut angeklickt wird</string>
+    <string name="summary_show_used_dns">Zeige die aktuell verwendeten DNS Server in der Benachrichtigung</string>
+    <string name="summary_start_boot">Starte DNSChanger automatisch, wenn dein Handy angeschaltet wird</string>
+    <string name="summary_tcp_timeout">Setzt die Zeit in Millisekunden, nach welcher die App einen Verbindungsversuch zu dem Server abbricht</string>
+    <string name="summary_theme">Setzt das Aussehen dieser App</string>
+    <string name="summary_undo_rule_import">Macht den Regelimport aus einer Datei rückgängig. Kann selber nicht rückgängig gemacht werden.</string>
+    <string name="summary_vpndialog_missing">Diesem Gerät scheint die Fähigkeit zu fehlen, einen Dummy-VPN aufzubauen. Da diese App voll und ganz auf diese angewiesen ist, funktioniert sie leider nicht.</string>
+    <string name="take_dns_configuration_missing_type">Achtung: [type] fehlt in der Konfiguration, aber ist aktiviert. Möchtest du diese deaktivieren?</string>
+    <string name="target">Ziel</string>
+    <string name="tasker_automation_conflict_text">Diese App ist darauf eingestellt, den VPN zu starten/stoppen, wenn sich die Netzwerkverbindung ändert (zu Wlan oder 3G/4G…).\nDies könnte zu Konflikten mit diesem Tasker Plugin führen, da die eingestellte Aktion durch die App an sich überschrieben werden kann (Nur ein VPN kann aktiv sein).\n\nMöchtest du diese Einstellungen aus der App entfernen?</string>
+    <string name="tasker_support">Tasker Unterstützung</string>
+    <string name="tcp">TCP</string>
+    <string name="text_dns_configuration">Das Netzwerk [name] hat die folgenden DNS Server:\n\n[servers]</string>
+    <string name="tile_pause">DNSChanger pausieren</string>
+    <string name="tile_pause_resume">Pausieren / Fortsetzen</string>
+    <string name="tile_resume">DNSChanger fortsetzen</string>
+    <string name="tile_start">DNSChanger starten</string>
+    <string name="tile_start_stop">Starten / Stoppen</string>
+    <string name="tile_stop">DNSChanger stoppen</string>
+    <string name="time">Zeit</string>
+    <string name="title_about">Über diese App</string>
+    <string name="title_advanced_settings">Erweiterte Einstellungen</string>
+    <string name="title_auto_mobile">Automatisch starten (Mobilfunk)</string>
+    <string name="title_auto_wifi">Automatisch starten (WLAN)</string>
+    <string name="title_automation">Automatisierung</string>
+    <string name="title_autopause_apps">Apps, welche DNSChanger pausieren. Aktuell: [[count]]</string>
+    <string name="title_category_pin">PIN</string>
+    <string name="title_check_connectivity">Verbindung Überprüfen</string>
+    <string name="title_clear_local_rules">Lokale Regeln löschen</string>
+    <string name="title_clear_queries">Anfragen löschen</string>
+    <string name="title_create_shortcut">Eine Verknüpfung erstellen</string>
+    <string name="title_custom_ports">Angepasste ports</string>
+    <string name="title_debug">Debug</string>
+    <string name="title_debug_category">Fehlersuche</string>
+    <string name="title_device_admin">Geräteadministrator</string>
+    <string name="title_disable_crashreporting">Absturzmeldungen</string>
+    <string name="title_disable_network_change">Bei Netzwechsel deaktivieren</string>
+    <string name="title_disable_notification_icon">Benachrichtigungssymbol deaktivieren</string>
+    <string name="title_dns_over_tcp">DNS über TCP</string>
+    <string name="title_enable_app_shortcuts">App shortcuts aktivieren</string>
+    <string name="title_enable_ipv4">IPv4 aktivieren</string>
+    <string name="title_enable_ipv6">IPv6 aktivieren</string>
+    <string name="title_exclude_apps">Apps vom VPN ausschließen</string>
+    <string name="title_export_queries">Exportiere Anfragen</string>
+    <string name="title_export_settings">Einstellungen exportieren</string>
+    <string name="title_general">Generelles</string>
+    <string name="title_import_settings">Einstellungen importieren</string>
+    <string name="title_loopback_allowed">Erlaube die Loopback adresse</string>
+    <string name="title_notification">Benachrichtigung</string>
+    <string name="title_notification_on_stop">Bei Stopp benachrichtigen</string>
+    <string name="title_pin">PIN</string>
+    <string name="title_pin_app">App schützen</string>
+    <string name="title_pin_app_shortcut">App shortcuts schützen</string>
+    <string name="title_pin_fingerprint">Fingerabdruck</string>
+    <string name="title_pin_notification">Benachrichtigung schützen</string>
+    <string name="title_pin_tile">Schnelleinstellungen schützen</string>
+    <string name="title_pin_value">PIN ändern</string>
+    <string name="title_priv_mode">Previligierter Modus</string>
+    <string name="title_protect_other_vpns">Nur eingebaute Stops</string>
+    <string name="title_query_logging">Anfragenspeicherung</string>
+    <string name="title_reset">Zurücksetzen</string>
+    <string name="title_rules_activated">Lokale Regeln</string>
+    <string name="title_run_after_update">Nach Appupdate starten</string>
+    <string name="title_send_debug">Logdateien versenden</string>
+    <string name="title_share_app">Diese App teilen</string>
+    <string name="title_shortcut_click_again_disable">App durch Verknüpfung stoppen</string>
+    <string name="title_show_used_dns">Zeige DNS server</string>
+    <string name="title_start_boot">Beim Booten starten</string>
+    <string name="title_tcp_timeout">TCP Timeout</string>
+    <string name="title_theme">Aussehen</string>
+    <string name="title_undo_rule_import">Import rückgängig machen</string>
+    <string name="title_vpn_exclusion">VPN-Umgehung</string>
+    <string name="title_vpndialog_missing">VPN fehlt</string>
+    <string name="unfixable_error_explaination">Der Hintergrundprozess ist aufgrund eines in manchen Geräten vorhandenen Fehlers abgestürzt. Dieser kann leider nicht durch diese App behoben werden.\nProbiere entweder, die App neuzustarten, hilft dies nicht, starte dein Gerät neu.\n\nBesteht das Problem weiterhin, probiere die App Tun.ko Installer herunterzuladen, da diese das Problem eventuell beheben kann. Der Entwickler dieser App ist DroidVPN Inc.\nLink: https://play.google.com/store/apps/details?id=com.aed.tun.installer</string>
+    <string name="use_password">Passwort benutzen</string>
+    <string name="use_these_servers">Nutze diese Server</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"AUS"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"AN"</string>
+    <string name="vpn_error_explain">Die App ist unerwartet abgestürzt. Dies bedeutet entweder, dass dein Gerät/Betriebssystem die Art und Weise, wie diese App funktioniert, nicht unterstützt, oder, dass ein genereller Fehler aufgetreten ist (Was meistens einen Fehler meinerseits impliziert).\n\nDurch das Senden des Absturzberichts (und ggf. debug-Daten) könnest du mir helfen, diesen Fehler zu beheben.\nMöchtest du diesen Bericht an mich senden?</string>
+    <string name="vpn_explain">Diese App funktioniert, ohne, dass das Gerät gerooted sein muss.
+\n
+\nUm dies zu ermöglichen, wird ein sog. VPN benutzt. Dieser VPN empfängt den gesamten Traffic und leitet ihn nur lokal an das eigene Gerät weiter (Loopback), es verlassen über diese VPN Verbindung keine Daten das Gerät.
+\n
+\nDu wirst im nächsten Fenster gefragt, diese VPN Verbindung zu erlauben, ohne deine Zustimmung werden die eingestellten DNS Server nicht genutzt.
+\n
+\n
+\nDer Source Code kann unter https://git.frostnerd.com/PublicAndroidApps/DnsChanger eingesehen werden.</string>
+    <string name="wait_importing_rules">Erkenne Dateitypen, bitte warten…</string>
+    <string name="warning">Warnung</string>
+    <string name="warning_disabling_v4">Unter vielen Android Versionen besteht kein Internetzugriff, wenn IPv4 deaktiviert ist. Dies ist nur der Fall, solange DNSChanger läuft.
+\nOb dies für dein Gerät der Fall ist musst du testen.</string>
+    <string name="warning_started_using_tasker">DNS Changer wurde durch Tasker oder eine ähnliche App gestartet. Das Stoppen des VPN unterbricht den Standardbetrieb. Das erneute Starten des VPN benutzt die Einstellungen der App, nicht die Einstellungen, welche über Tasker gesetzt wurden. Trotzdem stoppen?</string>
+    <string name="whitelist">Whitelist</string>
+    <string name="wildcard">Wildcard</string>
+    <string name="x_apps_selected">[[x]] Apps ausgewählt</string>
+    <string name="x_entries">[x] Einträge</string>
+    <string name="x_lines">[x] Zeilen</string>
+    <string name="yes">Ja</string>
+</resources>

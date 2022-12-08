@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.frostnerd.dnschanger"
+    android:installLocation="internalOnly">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.USE_FINGERPRINT"
+        android:required="false" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+    <permission
+        android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
+        android:protectionLevel="signature" />
+
+    <permission
+        android:name="com.frostnerd.dnschanger.ACCESS_DATA"
+        android:description="@string/permissions_description_access_data"
+        android:label="@string/permissions_label_access_data"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:extractNativeLibs="true"
+        android:icon="@mipmap/ic_launcher"
+        android:requestLegacyExternalStorage="true"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/security_config"
+        android:supportsRtl="true">
+
+        <meta-data android:name="io.sentry.auto-init" android:value="false" />
+
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTop">
+            <intent-filter android:label="@string/deep_link_title">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.frostnerd.com"
+                    android:pathPrefix="/dnschanger"
+                    android:scheme="http" />
+                <data
+                    android:host="www.frostnerd.com"
+                    android:pathPrefix="/dnschanger"
+                    android:scheme="https" />
+                <data
+                    android:host="dnschanger"
+                    android:scheme="frostnerd" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".services.DNSVpnService"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+            <meta-data android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
+                android:value="true" />
+        </service>
+
+        <activity
+            android:name=".activities.InvalidDNSDialogActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+
+        <activity
+            android:name=".activities.BackgroundVpnConfigureActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+
+        <activity
+            android:name=".activities.BackgroundDNSListActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+
+        <activity
+            android:name=".tasker.ConfigureActivity"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".receivers.BootReceiver"
+            android:enabled="true"
+            android:exported="true"> <!-- TODO Check if working on all devices-->
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".tasker.FireReceiver"
+            android:exported="true"
+            android:process=":background">
+            <intent-filter>
+                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".services.ConnectivityBackgroundService" />
+        <service android:name=".services.ConnectivityCheckRestartService" />
+
+        <service
+            android:name=".services.DataService"
+            android:exported="true"
+            android:permission="com.frostnerd.dnschanger.ACCESS_DATA"
+            android:process=":exported">
+            <intent-filter>
+                <action android:name="com.frostnerd.dnschanger.services.DataService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".activities.ShortcutActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:taskAffinity="com.frostnerd.dnschangerShortcut"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+        <activity-alias
+            android:name=".ShortcutActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:targetActivity=".activities.ShortcutActivity"
+            android:taskAffinity="com.frostnerd.dnschangerShortcut"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+        <activity android:name=".activities.automation.PauseDnsActivity"
+            android:exported="true"
+            />
+        <activity android:name=".activities.automation.ResumeDnsActivity"
+            android:exported="true"
+            />
+        <activity android:name=".activities.automation.StartDnsActivity"
+            android:exported="true"
+            />
+        <activity android:name=".activities.automation.StopDnsActivity"
+            android:exported="true"
+            />
+        <activity android:name=".activities.automation.ToggleDnsActivity"
+            android:exported="true"
+            />
+
+
+        <activity
+            android:name=".activities.PinActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ErrorDialogActivity"
+            android:autoRemoveFromRecents="true"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:noHistory="true"
+            android:process=".ErrorProcess"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+
+        <activity
+            android:name=".activities.AppSelectionActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".activities.AdvancedSettingsActivity"
+            android:parentActivityName=".activities.MainActivity">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.MainActivity" />
+        </activity>
+
+        <service
+            android:name=".tiles.TileStartStop"
+            android:icon="@drawable/ic_stat_resume"
+            android:label="@string/tile_start_stop"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.ACTIVE_TILE"
+                android:value="true" />
+        </service>
+
+        <service
+            android:name=".tiles.TilePauseResume"
+            android:icon="@drawable/ic_stat_resume"
+            android:label="@string/tile_pause_resume"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.service.quicksettings.ACTIVE_TILE"
+                android:value="true" />
+        </service>
+
+        <activity
+            android:name=".activities.SettingsImportActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert">
+            <intent-filter android:priority="50">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SENDTO" />
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="file" />
+                <data android:scheme="content" />
+                <data android:scheme="uri" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="application" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.settings" />
+                <data android:pathPattern=".*\\..*\\.settings" />
+                <data android:pathPattern=".*\\..*\\..*\\.settings" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.settings" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.settings" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.settings" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.settings" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.frostnerd.design.filechooseractivity.FileChooserActivity" />
+
+        <receiver
+            android:name=".receivers.AdminReceiver"
+            android:description="@string/device_admin_description"
+            android:label="@string/device_admin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receivers.UpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.frostnerd.dnschanger"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/debug_file_paths" />
+        </provider>
+
+        <provider
+            android:name=".util.GenericFileProvider"
+            android:authorities="com.frostnerd.dnschanger.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/generic_provider_paths" />
+        </provider>
+
+        <service
+            android:name=".services.RuleImportService"
+            android:stopWithTask="false" />
+    </application>
+
+</manifest>

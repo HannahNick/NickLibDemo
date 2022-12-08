@@ -2,6 +2,7 @@ package com.nick.nicklibdemo.application;
 
 import android.app.Application;
 
+import com.frostnerd.dnschanger.config.DnsBootConfig;
 import com.nick.nicklib.util.SPUtil;
 
 /**
@@ -16,6 +17,7 @@ public class MyApplication extends Application {
         super.onCreate();
         mApplication = this;
         initUtil();
+        DnsBootConfig.getInstance().init(this);
     }
 
     public void initUtil(){
@@ -26,4 +28,5 @@ public class MyApplication extends Application {
     public static MyApplication getInstance(){
         return mApplication;
     }
+
 }

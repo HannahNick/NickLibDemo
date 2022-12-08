@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.frostnerd.dnschanger",
+  "variantName": "processDebugResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 125,
+      "versionName": "1.16.5.11",
+      "outputFile": "dns-debug.apk"
+    }
+  ]
+}

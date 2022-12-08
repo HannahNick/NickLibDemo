@@ -76,6 +76,7 @@ public class MainActivity extends BaseUIActivity {
         listData.add("NewProcessActivity");
         listData.add("VectorDrawableActivity");
         listData.add("SurfaceViewActivity");
+        listData.add("DnsTestActivity");
         mAdapter.replaceData(listData);
         mAdapter.setOnItemClickListener((adapter, view, position) -> {
             Intent intent = null;
@@ -96,6 +97,9 @@ public class MainActivity extends BaseUIActivity {
                     break;
                 case 4:
                     intent = new Intent(this, SurfaceViewActivity.class);
+                    break;
+                case 5:
+                    intent = new Intent(this, DnsTestActivity.class);
                     break;
             }
             startActivity(intent);

@@ -50,7 +50,7 @@ ext {
             stetho                 : 'com.facebook.stetho:stetho:1.5.0',
 
             //网络
-            retrofit               : 'com.squareup.retrofit2:retrofit:2.3.0',
+            retrofit               : 'com.squareup.retrofit2:retrofit:2.9.0',
             converterGson          : 'com.squareup.retrofit2:converter-gson:2.1.0',
             loggingInterceptor     : 'com.squareup.okhttp3:logging-interceptor:3.8.0',
             retrofit2Rxjava2Adapter: 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0',
