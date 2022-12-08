@@ -191,11 +191,6 @@
             android:name="com.frostnerd.dnschanger.activities.PinActivity"
             android:launchMode="singleTask"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.frostnerd.dnschanger.activities.ErrorDialogActivity"

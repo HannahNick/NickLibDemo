@@ -2490,7 +2490,6 @@ int string action_stop 0x0
 int string active 0x0
 int string add 0x0
 int string android4_4_warning 0x0
-int string app_name 0x0
 int string app_share_text 0x0
 int string app_supports_tasker_text 0x0
 int string appbar_scrolling_view_behavior 0x0
@@ -2602,6 +2601,7 @@ int string material_slider_range_start 0x0
 int string message_settings_exported 0x0
 int string message_user_restricted 0x0
 int string mit_license 0x0
+int string module_name 0x0
 int string mtrl_badge_numberless_content_description 0x0
 int string mtrl_chip_close_icon_content_description 0x0
 int string mtrl_exceed_max_badge_number_content_description 0x0

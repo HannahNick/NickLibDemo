@@ -22,7 +22,6 @@
     <string name="add">Añade</string>
     <string name="android4_4_warning">Advertencia: se sabe que su versión de Android (4.4) tiene problemas con las conexiones VPN. Si esta aplicación falla o simplemente no funciona, lo más probable es que sea tu sistema y no la culpa de esta aplicación.
 \nSiento las molestias.</string>
-    <string name="app_name">DnsChanger</string>
     <string name="app_share_text">Oye, mira esta aplicación de cambio de DNS para androide. Puedes descargarla aquí: https://play.google.com/store/apps/details\?id=com.frostnerd.dnschanger</string>
     <string name="app_supports_tasker_text">Esta aplicación es compatible con Tasker y puede utilizarse como un plugin de acción para automatizar el uso del DNS.</string>
     <string name="background">Antecedentes</string>
@@ -126,6 +125,7 @@
     <string name="mail_debug_text">Escriba un pequeño mensaje describiendo por qué envía los archivos de registro</string>
     <string name="message_settings_exported">Los ajustes se han exportado con éxito.</string>
     <string name="message_user_restricted">No puede iniciar la VPN, sus usuarios parecen estar restringidos.</string>
+    <string name="module_name">DnsChanger</string>
     <string name="nav_title_advanced">Avanzado</string>
     <string name="nav_title_current_networks">Las redes actuales</string>
     <string name="nav_title_dns">DNS</string>

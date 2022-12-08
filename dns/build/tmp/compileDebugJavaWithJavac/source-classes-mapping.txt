@@ -169,6 +169,8 @@ com/frostnerd/dnschanger/activities/PinActivity.java
  com.frostnerd.dnschanger.activities.PinActivity$3$1
  com.frostnerd.dnschanger.activities.PinActivity$4
  com.frostnerd.dnschanger.activities.PinActivity$5
+com/frostnerd/dnschanger/config/bean/DNSProperties.java
+ com.frostnerd.dnschanger.config.bean.DNSProperties
 com/frostnerd/dnschanger/util/dnsquery/Resolver.java
  com.frostnerd.dnschanger.util.dnsquery.Resolver
 com/frostnerd/dnschanger/fragments/MainFragment.java
@@ -314,6 +316,15 @@ com/frostnerd/dnschanger/database/entities/DNSEntry.java
  com.frostnerd.dnschanger.database.entities.DNSEntry
 com/frostnerd/dnschanger/services/DataService.java
  com.frostnerd.dnschanger.services.DataService
+com/frostnerd/dnschanger/helper/DNSHelper.java
+ com.frostnerd.dnschanger.helper.DNSHelper
+ com.frostnerd.dnschanger.helper.DNSHelper$1
+ com.frostnerd.dnschanger.helper.DNSHelper$1$1
+ com.frostnerd.dnschanger.helper.DNSHelper$1$2
+ com.frostnerd.dnschanger.helper.DNSHelper$1$2$1
+ com.frostnerd.dnschanger.helper.DNSHelper$2
+ com.frostnerd.dnschanger.helper.DNSHelper$DNSReachabilityCallback
+ com.frostnerd.dnschanger.helper.DNSHelper$Holder
 com/frostnerd/dnschanger/activities/MainActivity.java
  com.frostnerd.dnschanger.activities.MainActivity
  com.frostnerd.dnschanger.activities.MainActivity$1
@@ -401,6 +412,12 @@ com/frostnerd/dnschanger/activities/automation/StopDnsActivity.java
  com.frostnerd.dnschanger.activities.automation.StopDnsActivity
 com/frostnerd/dnschanger/util/GenericFileProvider.java
  com.frostnerd.dnschanger.util.GenericFileProvider
+com/frostnerd/dnschanger/config/DnsBootConfig.java
+ com.frostnerd.dnschanger.config.DnsBootConfig
+ com.frostnerd.dnschanger.config.DnsBootConfig$1
+ com.frostnerd.dnschanger.config.DnsBootConfig$2
+ com.frostnerd.dnschanger.config.DnsBootConfig$2$1
+ com.frostnerd.dnschanger.config.DnsBootConfig$Holder
 com/frostnerd/dnschanger/tiles/TilePauseResume.java
  com.frostnerd.dnschanger.tiles.TilePauseResume
 com/frostnerd/dnschanger/util/ThemeHandler.java
@@ -462,20 +479,3 @@ com/frostnerd/dnschanger/services/ConnectivityBackgroundService.java
  com.frostnerd.dnschanger.services.ConnectivityBackgroundService$1
 com/frostnerd/dnschanger/util/dnsproxy/DNSProxy.java
  com.frostnerd.dnschanger.util.dnsproxy.DNSProxy
-com/frostnerd/dnschanger/config/bean/DNSProperties.java
- com.frostnerd.dnschanger.config.bean.DNSProperties
-com/frostnerd/dnschanger/helper/DNSHelper.java
- com.frostnerd.dnschanger.helper.DNSHelper
- com.frostnerd.dnschanger.helper.DNSHelper$1
- com.frostnerd.dnschanger.helper.DNSHelper$1$1
- com.frostnerd.dnschanger.helper.DNSHelper$1$2
- com.frostnerd.dnschanger.helper.DNSHelper$1$2$1
- com.frostnerd.dnschanger.helper.DNSHelper$2
- com.frostnerd.dnschanger.helper.DNSHelper$DNSReachabilityCallback
- com.frostnerd.dnschanger.helper.DNSHelper$Holder
-com/frostnerd/dnschanger/config/DnsBootConfig.java
- com.frostnerd.dnschanger.config.DnsBootConfig
- com.frostnerd.dnschanger.config.DnsBootConfig$1
- com.frostnerd.dnschanger.config.DnsBootConfig$2
- com.frostnerd.dnschanger.config.DnsBootConfig$2$1
- com.frostnerd.dnschanger.config.DnsBootConfig$Holder

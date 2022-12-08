@@ -37,7 +37,7 @@ public class VPNInfoDialog extends BaseDialog {
         }else{
             View content = getLayoutInflater().inflate(R.layout.dialog_vpn_info, null, false);
             final CheckBox checkBox = content.findViewById(R.id.checkbox);
-            setTitle(context.getString(R.string.information) + " - " + context.getString(R.string.app_name));
+            setTitle(context.getString(R.string.information) + " - " + context.getString(R.string.module_name));
             setCancelable(false);
             setButton(BUTTON_POSITIVE, context.getString(R.string.ok), new OnClickListener() {
                 @Override

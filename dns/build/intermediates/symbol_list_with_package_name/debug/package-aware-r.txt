@@ -2491,7 +2491,6 @@ string action_stop
 string active
 string add
 string android4_4_warning
-string app_name
 string app_share_text
 string app_supports_tasker_text
 string appbar_scrolling_view_behavior
@@ -2603,6 +2602,7 @@ string material_slider_range_start
 string message_settings_exported
 string message_user_restricted
 string mit_license
+string module_name
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description

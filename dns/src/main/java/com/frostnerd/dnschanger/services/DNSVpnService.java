@@ -177,7 +177,7 @@ public class DNSVpnService extends VpnService {
             LogFactory.writeMessage(this,new String[]{LOG_TAG, "[NOTIFICATION]"} , "Initiating Notification");
             notificationBuilder = new NotificationCompat.Builder(this, Util.createNotificationChannel(this, true));
             notificationBuilder.setSmallIcon(R.drawable.ic_stat_small_icon); //TODO Update Image
-            notificationBuilder.setContentTitle(getString(R.string.app_name));
+            notificationBuilder.setContentTitle(getString(R.string.module_name));
             notificationBuilder.setContentIntent(PendingIntent.getActivity(this, 6, new Intent(this, PinActivity.class), 0));
             notificationBuilder.setAutoCancel(false);
             notificationBuilder.setOngoing(true);

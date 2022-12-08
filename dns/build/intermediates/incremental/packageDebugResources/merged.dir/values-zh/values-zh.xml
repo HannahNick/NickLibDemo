@@ -33,7 +33,6 @@
     <string name="active">运行中</string>
     <string name="add">添加</string>
     <string name="android4_4_warning">警告: 你的 Android 版本 (4.4) 已知会与 VPN 连接发生问题。如果这个应用发生崩溃或者只是无法工作，有可能是你的系统而不是这个应用的故障问题。\n对此造成不便深感抱歉。</string>
-    <string name="app_name">DnsChanger</string>
     <string name="app_share_text">嘿，快来看一下这个 Android 版的 DNS 更改器。你可以点击链接下载: https://play.google.com/store/apps/details?id=com.frostnerd.dnschanger</string>
     <string name="app_supports_tasker_text">这个应用支持 Tasker，可用作为自动化 DNS 用途的操作插件。</string>
     <string name="background">背景</string>
@@ -115,6 +114,7 @@
     <string name="mail_debug_text">写一段你为什么要发送该日志文件的简短描述</string>
     <string name="message_settings_exported">设置导出成功。</string>
     <string name="message_user_restricted">无法启动VPN，你的用户似乎被限制了。</string>
+    <string name="module_name">DnsChanger</string>
     <string name="nav_title_advanced">高级</string>
     <string name="nav_title_current_networks">目前的网络</string>
     <string name="nav_title_dns">DNS</string>

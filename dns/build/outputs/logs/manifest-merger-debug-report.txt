@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-330:12
-INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-330:12
-INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-330:12
-INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-330:12
-INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-330:12
-INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-330:12
-INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-330:12
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-325:12
+INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-325:12
+INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-325:12
+INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-325:12
+INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-325:12
+INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-325:12
+INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-325:12
 	package
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:4:5-39
 		INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml
 		INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-330:12
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-325:12
 		INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-330:12
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:1-325:12
 		INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:2:11-69
@@ -108,7 +108,7 @@ ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:36:5-41
 	android:anyDensity
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:37:9-34
 application
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:43:5-328:19
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:43:5-323:19
 	android:requestLegacyExternalStorage
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:49:9-52
 	android:extractNativeLibs
@@ -172,9 +172,9 @@ ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-7
 	android:scheme
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
 	android:pathPattern
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:270:23-58
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:265:23-58
 	android:mimeType
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:268:23-45
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:263:23-45
 	android:pathPrefix
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-53
 service#com.frostnerd.dnschanger.services.DNSVpnService
@@ -362,189 +362,179 @@ ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:181:9-1
 	android:name
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:181:19-74
 activity#com.frostnerd.dnschanger.activities.PinActivity
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:186:9-195:20
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:186:9-190:20
 	android:launchMode
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:188:13-44
 	android:theme
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:189:13-70
 	android:name
 		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:187:13-51
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:190:13-194:29
-action#android.intent.action.MAIN
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:191:17-69
-	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:191:25-66
-category#android.intent.category.LAUNCHER
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:193:17-77
-	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:193:27-74
 activity#com.frostnerd.dnschanger.activities.ErrorDialogActivity
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:196:9-204:73
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:191:9-199:73
 	android:process
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:203:13-44
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:198:13-44
 	android:clearTaskOnLaunch
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:199:13-45
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:194:13-45
 	android:excludeFromRecents
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:200:13-46
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:195:13-46
 	android:launchMode
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:201:13-43
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:196:13-43
 	android:autoRemoveFromRecents
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:198:13-49
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:193:13-49
 	android:noHistory
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:202:13-37
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:197:13-37
 	android:theme
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:204:13-70
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:199:13-70
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:197:13-59
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:192:13-59
 activity#com.frostnerd.dnschanger.activities.AppSelectionActivity
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:206:9-213:20
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:201:9-208:20
 	android:parentActivityName
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:209:13-66
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:204:13-66
 	android:launchMode
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:208:13-44
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:203:13-44
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:207:13-60
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:202:13-60
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:210:13-212:60
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:205:13-207:60
 	android:value
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:212:17-57
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:207:17-57
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:211:17-63
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:206:17-63
 activity#com.frostnerd.dnschanger.activities.AdvancedSettingsActivity
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:215:9-222:20
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:210:9-217:20
 	android:parentActivityName
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:217:13-66
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:212:13-66
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:216:13-64
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:211:13-64
 service#com.frostnerd.dnschanger.tiles.TileStartStop
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:224:9-235:19
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:219:9-230:19
 	android:label
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:227:13-52
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:222:13-52
 	android:permission
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:228:13-77
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:223:13-77
 	android:icon
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:226:13-52
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:221:13-52
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:225:13-48
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:220:13-48
 intent-filter#action:name:android.service.quicksettings.action.QS_TILE
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:229:13-231:29
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:224:13-226:29
 action#android.service.quicksettings.action.QS_TILE
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:230:17-87
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:225:17-87
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:230:25-84
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:225:25-84
 meta-data#android.service.quicksettings.ACTIVE_TILE
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:232:13-234:40
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:227:13-229:40
 	android:value
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:234:17-37
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:229:17-37
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:233:17-73
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:228:17-73
 service#com.frostnerd.dnschanger.tiles.TilePauseResume
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:237:9-248:19
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:232:9-243:19
 	android:label
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:240:13-54
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:235:13-54
 	android:permission
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:241:13-77
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:236:13-77
 	android:icon
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:239:13-52
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:234:13-52
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:238:13-50
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:233:13-50
 activity#com.frostnerd.dnschanger.activities.SettingsImportActivity
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:250:9-278:20
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:245:9-273:20
 	android:theme
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:252:13-70
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:247:13-70
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:251:13-62
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:246:13-62
 intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SENDTO+action:name:android.intent.action.SEND_MULTIPLE+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\..*\\.settings+data:pathPattern:.*\\..*\\..*\\..*\\..*\\..*\\.settings+data:pathPattern:.*\\..*\\..*\\..*\\..*\\.settings+data:pathPattern:.*\\..*\\..*\\..*\\.settings+data:pathPattern:.*\\..*\\..*\\.settings+data:pathPattern:.*\\..*\\.settings+data:pathPattern:.*\\.settings+data:scheme:application+data:scheme:content+data:scheme:file+data:scheme:http+data:scheme:https+data:scheme:uri
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:253:13-277:29
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:248:13-272:29
 	android:priority
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:253:28-49
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:248:28-49
 action#android.intent.action.SEND
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:255:17-69
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:250:17-69
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:255:25-66
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:250:25-66
 action#android.intent.action.SENDTO
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:256:17-71
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:251:17-71
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:256:25-68
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:251:25-68
 action#android.intent.action.SEND_MULTIPLE
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:257:17-78
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:252:17-78
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:257:25-75
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:252:25-75
 activity#com.frostnerd.design.filechooseractivity.FileChooserActivity
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:280:9-97
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:275:9-97
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:280:19-94
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:275:19-94
 receiver#com.frostnerd.dnschanger.receivers.AdminReceiver
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:282:9-293:20
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:277:9-288:20
 	android:label
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:285:13-49
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:280:13-49
 	android:permission
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:286:13-70
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:281:13-70
 	android:description
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:284:13-67
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:279:13-67
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:283:13-52
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:278:13-52
 meta-data#android.app.device_admin
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:287:13-289:56
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:282:13-284:56
 	android:resource
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:289:17-53
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:284:17-53
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:288:17-56
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:283:17-56
 intent-filter#action:name:android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:290:13-292:29
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:285:13-287:29
 action#android.app.action.DEVICE_ADMIN_ENABLED
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:291:17-82
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:286:17-82
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:291:25-79
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:286:25-79
 receiver#com.frostnerd.dnschanger.receivers.UpdateReceiver
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:295:9-303:20
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:290:9-298:20
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:295:19-59
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:290:19-59
 intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:296:13-298:29
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:291:13-293:29
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:297:17-84
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:292:17-84
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:297:25-81
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:292:25-81
 intent-filter#action:name:android.intent.action.PACKAGE_REPLACED+data:scheme:package
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:299:13-302:29
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:294:13-297:29
 action#android.intent.action.PACKAGE_REPLACED
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:300:17-81
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:295:17-81
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:300:25-78
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:295:25-78
 provider#androidx.core.content.FileProvider
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:305:9-313:20
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:300:9-308:20
 	android:grantUriPermissions
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:309:13-47
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:304:13-47
 	android:authorities
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:307:13-59
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:302:13-59
 	android:exported
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:308:13-37
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:303:13-37
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:306:13-62
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:301:13-62
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:310:13-312:60
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:305:13-307:60
 	android:resource
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:312:17-57
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:307:17-57
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:311:17-67
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:306:17-67
 provider#com.frostnerd.dnschanger.util.GenericFileProvider
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:315:9-323:20
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:310:9-318:20
 	android:grantUriPermissions
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:319:13-47
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:314:13-47
 	android:authorities
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:317:13-68
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:312:13-68
 	android:exported
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:318:13-37
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:313:13-37
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:316:13-53
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:311:13-53
 service#com.frostnerd.dnschanger.services.RuleImportService
-ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:325:9-327:44
+ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:320:9-322:44
 	android:stopWithTask
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:327:13-41
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:322:13-41
 	android:name
-		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:326:13-55
+		ADDED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:321:13-55
 uses-sdk
 INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml

@@ -29,7 +29,6 @@
     <string name="active">Hoạt động</string>
     <string name="add">Thêm</string>
     <string name="android4_4_warning">Cảnh báo: phiên bản Android của bạn (4.4) được biết là có vấn đề với kết nối VPN. Nếu ứng dụng này gặp sự cố hoặc chỉ cần không làm việc, nó rất có thể là do hệ thống của bạn và không phải là lỗi của ứng dụng này.\nTôi rất lấy làm tiếc cho sự bất tiện này.</string>
-    <string name="app_name">Thay đổi Dns</string>
     <string name="app_share_text">Chào, có một cái nhìn vào ứng dụng này thay đổi DNS cho Android. Bạn có thể tải xuống ở đây: https://play.google.com/store/apps/details?id=com.frostnerd.Trình thay đổi DNS</string>
     <string name="app_supports_tasker_text">Ứng dụng này hỗ trợ Tác vụ tự động và có thể được sử dụng như một phần bổ trợ cho một hoạt động để tự động sử dụng DNS.</string>
     <string name="background">Lý lịch</string>
@@ -108,6 +107,7 @@
     <string name="mail_debug_text">Viết một tin nhắn nhỏ mô tả lý do tại sao bạn gửi các tệp nhật ký</string>
     <string name="message_settings_exported">Các cài đặt đã được xuất thành công.</string>
     <string name="message_user_restricted">Không thể khởi động VPN, người dùng của bạn dường như bị hạn chế.</string>
+    <string name="module_name">Thay đổi Dns</string>
     <string name="nav_title_advanced">Nâng cao</string>
     <string name="nav_title_current_networks">Mạng hiện tại</string>
     <string name="nav_title_dns">DNS</string>

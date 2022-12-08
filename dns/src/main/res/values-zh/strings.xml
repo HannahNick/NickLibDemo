@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DnsChanger</string>
+    <string name="module_name">DnsChanger</string>
     <string name="start">开始</string>
     <string name="stop">停止</string>
     <string name="rate">评分</string>

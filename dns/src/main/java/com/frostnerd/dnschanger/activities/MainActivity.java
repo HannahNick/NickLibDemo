@@ -555,7 +555,7 @@ public class MainActivity extends NavigationDrawerActivity implements RuleImport
                 return false;
             }
         });
-        itemCreator.createItemAndContinue(R.string.app_name);
+        itemCreator.createItemAndContinue(R.string.module_name);
         itemCreator.createItemAndContinue("Nebulo", setDrawableColor(DesignUtil.getDrawable(this, R.drawable.ic_nebulo)), new DrawerItem.ClickListener() {
             @Override
             public boolean onClick(DrawerItem drawerItem, NavigationDrawerActivity navigationDrawerActivity, @Nullable Bundle bundle) {
@@ -591,7 +591,7 @@ public class MainActivity extends NavigationDrawerActivity implements RuleImport
             public boolean onClick(DrawerItem item, NavigationDrawerActivity drawerActivity, @Nullable Bundle arguments) {
                 Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
-                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, getString(R.string.app_name));
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, getString(R.string.module_name));
                 sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, getString(R.string.app_share_text));
                 LogFactory.writeMessage(MainActivity.this, LOG_TAG, "Showing chooser for share", sharingIntent);
                 startActivity(Intent.createChooser(sharingIntent, getResources().getString(R.string.share_using)));
@@ -610,7 +610,7 @@ public class MainActivity extends NavigationDrawerActivity implements RuleImport
                         "mailto","support@frostnerd.com", null));
                 String body = "\n\n\n\n\n\n\nSystem:\nApp version: " + BuildConfig.VERSION_CODE + " (" + BuildConfig.VERSION_NAME + ")\n"+
                         "Android: " + Build.VERSION.SDK_INT + " (" + Build.VERSION.RELEASE + " - " + Build.VERSION.CODENAME + ")";
-                emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name));
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.module_name));
                 emailIntent.putExtra(Intent.EXTRA_EMAIL, "support@frostnerd.com");
                 emailIntent.putExtra(Intent.EXTRA_TEXT, body);
                 LogFactory.writeMessage(MainActivity.this, LOG_TAG, "Now showing chooser for contacting dev", emailIntent);

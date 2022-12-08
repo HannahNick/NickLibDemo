@@ -47,7 +47,7 @@ public class DNSEntryAdapter extends DatabaseAdapter<DNSEntry, DNSEntryAdapter.V
     @NonNull private Set<Long> selectedEntries = new HashSet<>();
     @NonNull private OnEntrySelected entrySelected;
     private OnEntrySelectionUpdated onEntrySelectionUpdated;
-    private static final int idTagKey = R.string.active, positionTagKey = R.string.app_name;
+    private static final int idTagKey = R.string.active, positionTagKey = R.string.module_name;
     @NonNull private View.OnLongClickListener longClickListener = new View.OnLongClickListener() {
         @Override
         public boolean onLongClick(View v) {

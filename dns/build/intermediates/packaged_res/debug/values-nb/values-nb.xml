@@ -20,7 +20,6 @@
     <string name="add">Legg til</string>
     <string name="android4_4_warning">Advarsel: Det er kjent at Android-versjonen din (4.4) har problemer med VPN-tilkoblinger. Hvis denne appen krasjer eller bare ikke fungerer, er det mest sannsynlig at systemet ditt og ikke skylden for denne appen.
 \nJeg beklager bryet.</string>
-    <string name="app_name">DNSChanger</string>
     <string name="app_share_text">Hei, se på denne DNS-skiftende appen for Android. Du kan laste ned det her: https://play.google.com/store/apps/details\?id=com.frostnerd.dnschanger</string>
     <string name="app_supports_tasker_text">Denne appen støtter Tasker og kan brukes som en action-plugin for å automatisere DNS-bruk.</string>
     <string name="background">Bakgrunn</string>
@@ -114,6 +113,7 @@
     <string name="mail_debug_text">Skriv en liten melding som forklarer hvorfor du sender inn loggføringsfilene</string>
     <string name="message_settings_exported">Innstillingene har blitt vellykket eksportert.</string>
     <string name="message_user_restricted">Kan ikke starte VPN, brukerne dine ser ut til å være begrenset.</string>
+    <string name="module_name">DNSChanger</string>
     <string name="nav_title_advanced">Avansert</string>
     <string name="nav_title_current_networks">Nåværende nettverk</string>
     <string name="nav_title_dns">DNS</string>

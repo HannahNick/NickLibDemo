@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Thay đổi Dns</string>
+    <string name="module_name">Thay đổi Dns</string>
     <string name="start">Chạy</string>
     <string name="stop">Dừng</string>
     <string name="rate">Đánh giá</string>

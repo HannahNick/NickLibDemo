@@ -22,7 +22,7 @@
     <string name="add">Добавить</string>
     <string name="android4_4_warning">"Внимание: ваша Версия Android (4.4), как известно, имеет проблемы с VPN-подключениями. Если это приложение падает или просто не работает, это, скорее всего, виновата ваша система, а не приложение.
 Извините за неудобства."</string>
-    <string name="app_name">DnsChanger</string>
+    <string name="module_name">DnsChanger</string>
     <string name="app_share_text">Посмотрите это приложение для изменения DNS на Android. Вы можете скачать его здесь: https://play.google.com/store/apps/details?id=com.frostnerd.dnschanger</string>
     <string name="app_supports_tasker_text">Приложение поддерживает Tasker и может использоваться как плагин действий для автоматизации использования DNS.</string>
     <string name="background">Фон</string>

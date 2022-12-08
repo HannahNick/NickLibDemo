@@ -58,7 +58,6 @@
     <string name="active">Active</string>
     <string name="add">Add</string>
     <string name="android4_4_warning">Warning: your Android version (4.4) is known to have problems with VPN connections. If this app crashes or just doesn\'t work it\'s most likely your system and not the fault of this app.\nI\'m sorry for the inconvenience.</string>
-    <string name="app_name">DnsChanger</string>
     <string name="app_share_text">Hey, have a look at this DNS changing app for android. You can download it here: https://play.google.com/store/apps/details?id=com.frostnerd.dnschanger</string>
     <string name="app_supports_tasker_text">This app supports Tasker and can be used as an action plugin to automate DNS usage.</string>
     <string name="background">Background</string>
@@ -154,6 +153,7 @@ NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPO
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+    <string name="module_name">DnsChanger</string>
     <string name="nav_title_advanced">Advanced</string>
     <string name="nav_title_current_networks">Current networks</string>
     <string name="nav_title_dns">DNS</string>

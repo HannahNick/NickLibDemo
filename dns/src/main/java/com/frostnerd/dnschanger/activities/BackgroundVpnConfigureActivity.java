@@ -145,7 +145,7 @@ public class BackgroundVpnConfigureActivity extends AppCompatActivity {
                 if (System.currentTimeMillis() - requestTime <= 750) {//Most likely the system
                     LogFactory.writeMessage(this, LOG_TAG, "Looks like the System cancelled the action, not the User");
                     LogFactory.writeMessage(this, LOG_TAG, "Showing dialog which explains that this is most likely the System");
-                    dialog2 = new AlertDialog.Builder(this, ThemeHandler.getDialogTheme(BackgroundVpnConfigureActivity.this)).setTitle(getString(R.string.app_name) + " - " + getString(R.string.information)).setMessage(R.string.background_configure_error).setPositiveButton(R.string.open_app, new DialogInterface.OnClickListener() {
+                    dialog2 = new AlertDialog.Builder(this, ThemeHandler.getDialogTheme(BackgroundVpnConfigureActivity.this)).setTitle(getString(R.string.module_name) + " - " + getString(R.string.information)).setMessage(R.string.background_configure_error).setPositiveButton(R.string.open_app, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             Intent i;

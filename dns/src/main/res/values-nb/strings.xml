@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DNSChanger</string>
+    <string name="module_name">DNSChanger</string>
     <string name="start">Start</string>
     <string name="stop">Stopp</string>
     <string name="rate">Ranger</string>

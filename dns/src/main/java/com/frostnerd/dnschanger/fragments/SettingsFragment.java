@@ -219,7 +219,7 @@ public class SettingsFragment extends PreferenceFragmentCompat implements Search
                 Uri zipURI = FileProvider.getUriForFile(requireContext(), "com.frostnerd.dnschanger", zip);
                 Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
                         "mailto", "support@frostnerd.com", null));
-                emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name) + " - " + BuildConfig.VERSION_NAME);
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.module_name) + " - " + BuildConfig.VERSION_NAME);
                 emailIntent.putExtra(Intent.EXTRA_TEXT, getString(R.string.mail_debug_text));
                 emailIntent.putExtra(Intent.EXTRA_EMAIL, "support@frostnerd.com");
                 for (ResolveInfo resolveInfo : requireContext().getPackageManager().queryIntentActivities(emailIntent, PackageManager.MATCH_DEFAULT_ONLY)) {

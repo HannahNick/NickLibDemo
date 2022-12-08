@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DNS Changer</string>
+    <string name="module_name">DNS Changer</string>
     <string name="start">Iniciar</string>
     <string name="stop">Parar</string>
     <string name="rate">Avaliar</string>

@@ -55,7 +55,7 @@ public class ErrorDialogActivity extends Activity {
         final String crashReport = getIntent() != null ? getIntent().getStringExtra("stacktrace") : "";
         LogFactory.writeMessage(this, LOG_TAG,"Creating Dialog displaying the user that an error occurred");
         if(crashReport.contains("Cannot create interface")){ //Kind of dirty, but this error is unfixable
-            AlertDialog alertDialog = new AlertDialog.Builder(this, ThemeHandler.getDialogTheme(this)).setTitle(getString(R.string.error) + " - " + getString(R.string.app_name))
+            AlertDialog alertDialog = new AlertDialog.Builder(this, ThemeHandler.getDialogTheme(this)).setTitle(getString(R.string.error) + " - " + getString(R.string.module_name))
                     .setNeutralButton(R.string.ok, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
@@ -76,7 +76,7 @@ public class ErrorDialogActivity extends Activity {
                 tv.setMovementMethod(LinkMovementMethod.getInstance());
             }
         }else{
-            new AlertDialog.Builder(this, ThemeHandler.getDialogTheme(this)).setTitle(getString(R.string.error) + " - " + getString(R.string.app_name)).setMessage(R.string.vpn_error_explain)
+            new AlertDialog.Builder(this, ThemeHandler.getDialogTheme(this)).setTitle(getString(R.string.error) + " - " + getString(R.string.module_name)).setMessage(R.string.vpn_error_explain)
                     .setCancelable(false).setPositiveButton(R.string.no, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
@@ -91,7 +91,7 @@ public class ErrorDialogActivity extends Activity {
                             "mailto","support@frostnerd.com", null));
                     String body = "\n\n\n\n\n\n\nSystem:\nApp version: " + BuildConfig.VERSION_CODE + " (" + BuildConfig.VERSION_NAME + ")\n"+
                             "Android: " + Build.VERSION.SDK_INT + " (" + Build.VERSION.RELEASE + " - " + Build.VERSION.CODENAME + ")\n\n\nStacktrace:\n" + crashReport;
-                    emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.app_name) + " - crash");
+                    emailIntent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.module_name) + " - crash");
                     emailIntent.putExtra(Intent.EXTRA_EMAIL, "support@frostnerd.com");
                     emailIntent.putExtra(Intent.EXTRA_TEXT, body);
                     LogFactory.writeMessage(ErrorDialogActivity.this, LOG_TAG,"User choose to send Email to dev", emailIntent);
