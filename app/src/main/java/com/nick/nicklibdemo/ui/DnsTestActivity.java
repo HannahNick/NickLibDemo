@@ -30,7 +30,7 @@ public class DnsTestActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        DNSHelper.getInstance().checkAuthCallBack(requestCode, resultCode);
+        DNSHelper.getInstance().handleCallBack(requestCode, resultCode);
     }
 
     public void importHost(View view){
@@ -46,7 +46,7 @@ public class DnsTestActivity extends AppCompatActivity {
     }
 
     public void requestConnect(View view){
-        DNSHelper.getInstance().requestConnect(this);
+        DNSHelper.getInstance().startVpn(this);
     }
 
 

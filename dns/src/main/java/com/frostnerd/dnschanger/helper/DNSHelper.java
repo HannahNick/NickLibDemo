@@ -5,25 +5,20 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.VpnService;
-import android.os.Build;
-import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 
 import com.frostnerd.design.dialogs.LoadingDialog;
-import com.frostnerd.dnschanger.LogFactory;
 import com.frostnerd.dnschanger.R;
 import com.frostnerd.dnschanger.activities.MainActivity;
 import com.frostnerd.dnschanger.config.DnsBootConfig;
 import com.frostnerd.dnschanger.database.DatabaseHelper;
 import com.frostnerd.dnschanger.database.entities.DNSRule;
 import com.frostnerd.dnschanger.database.entities.IPPortPair;
-import com.frostnerd.dnschanger.fragments.MainFragment;
 import com.frostnerd.dnschanger.services.DNSVpnService;
 import com.frostnerd.dnschanger.util.DNSQueryUtil;
-import com.frostnerd.dnschanger.util.Preferences;
 import com.frostnerd.dnschanger.util.PreferencesAccessor;
 import com.frostnerd.dnschanger.util.ThemeHandler;
 import com.frostnerd.dnschanger.util.Util;
@@ -33,8 +28,6 @@ import org.minidns.record.Record;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import io.sentry.util.LogUtils;
 
 public class DNSHelper {
 
@@ -50,7 +43,10 @@ public class DNSHelper {
         return Holder.DNS_HELPER;
     }
 
-    public void requestConnect(Activity context){
+    public void startVpn(Activity context){
+        if (vpnRunning){
+            return;
+        }
         Intent i;
         try {
             i = VpnService.prepare(context);
@@ -120,12 +116,14 @@ public class DNSHelper {
     }
 
     public void stopVpn() {
-        Intent i = DNSVpnService.getDestroyIntent(DnsBootConfig.mContext);
-        DnsBootConfig.mContext.startService(i);
-        vpnRunning = false;
+        if (vpnRunning){
+            Intent i = DNSVpnService.getDestroyIntent(DnsBootConfig.mContext);
+            DnsBootConfig.mContext.startService(i);
+            vpnRunning = false;
+        }
     }
 
-    public void checkAuthCallBack(int requestCode, int resultCode){
+    public void handleCallBack(int requestCode, int resultCode){
         if (requestCode == REQUEST_CODE && resultCode == Activity.RESULT_OK) {
             if (!vpnRunning){
                 startVpn(DnsBootConfig.mContext);

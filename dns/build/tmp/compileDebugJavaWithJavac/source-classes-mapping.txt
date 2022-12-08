@@ -316,15 +316,8 @@ com/frostnerd/dnschanger/database/entities/DNSEntry.java
  com.frostnerd.dnschanger.database.entities.DNSEntry
 com/frostnerd/dnschanger/services/DataService.java
  com.frostnerd.dnschanger.services.DataService
-com/frostnerd/dnschanger/helper/DNSHelper.java
- com.frostnerd.dnschanger.helper.DNSHelper
- com.frostnerd.dnschanger.helper.DNSHelper$1
- com.frostnerd.dnschanger.helper.DNSHelper$1$1
- com.frostnerd.dnschanger.helper.DNSHelper$1$2
- com.frostnerd.dnschanger.helper.DNSHelper$1$2$1
- com.frostnerd.dnschanger.helper.DNSHelper$2
- com.frostnerd.dnschanger.helper.DNSHelper$DNSReachabilityCallback
- com.frostnerd.dnschanger.helper.DNSHelper$Holder
+com/frostnerd/dnschanger/util/dnsproxy/DNSProxy.java
+ com.frostnerd.dnschanger.util.dnsproxy.DNSProxy
 com/frostnerd/dnschanger/activities/MainActivity.java
  com.frostnerd.dnschanger.activities.MainActivity
  com.frostnerd.dnschanger.activities.MainActivity$1
@@ -477,5 +470,12 @@ com/frostnerd/dnschanger/activities/automation/ResumeDnsActivity.java
 com/frostnerd/dnschanger/services/ConnectivityBackgroundService.java
  com.frostnerd.dnschanger.services.ConnectivityBackgroundService
  com.frostnerd.dnschanger.services.ConnectivityBackgroundService$1
-com/frostnerd/dnschanger/util/dnsproxy/DNSProxy.java
- com.frostnerd.dnschanger.util.dnsproxy.DNSProxy
+com/frostnerd/dnschanger/helper/DNSHelper.java
+ com.frostnerd.dnschanger.helper.DNSHelper
+ com.frostnerd.dnschanger.helper.DNSHelper$1
+ com.frostnerd.dnschanger.helper.DNSHelper$1$1
+ com.frostnerd.dnschanger.helper.DNSHelper$1$2
+ com.frostnerd.dnschanger.helper.DNSHelper$1$2$1
+ com.frostnerd.dnschanger.helper.DNSHelper$2
+ com.frostnerd.dnschanger.helper.DNSHelper$DNSReachabilityCallback
+ com.frostnerd.dnschanger.helper.DNSHelper$Holder
