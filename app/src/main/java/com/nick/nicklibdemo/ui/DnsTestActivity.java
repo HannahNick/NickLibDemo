@@ -3,14 +3,19 @@ package com.nick.nicklibdemo.ui;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.text.TextUtils;
 import android.view.View;
+import android.widget.Toast;
 
 import com.blankj.utilcode.util.LogUtils;
 import com.frostnerd.dnschanger.helper.DNSHelper;
 import com.nick.nicklibdemo.R;
 import com.nick.nicklibdemo.http.HttpManager;
+import com.nick.nicklibdemo.service.AccessVpnService;
 
 import java.io.IOException;
 
@@ -25,6 +30,11 @@ public class DnsTestActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dns_test);
+//        if (!isAccessibilitySettingsOn(getApplicationContext())) {
+//            Toast.makeText(getApplicationContext(), "请开启辅助服务", Toast.LENGTH_SHORT).show();
+//            Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
+//            startActivity(intent);
+//        }
     }
 
     @Override
@@ -47,6 +57,43 @@ public class DnsTestActivity extends AppCompatActivity {
 
     public void requestConnect(View view){
         DNSHelper.getInstance().startVpn(this);
+    }
+
+
+    private boolean isAccessibilitySettingsOn(Context mContext) {
+        int accessibilityEnabled = 0;
+        // TestService为对应的服务
+        final String service = getPackageName() + "/" + AccessVpnService.class.getCanonicalName();
+        // com.z.buildingaccessibilityservices/android.accessibilityservice.AccessibilityService
+        try {
+            accessibilityEnabled = Settings.Secure.getInt(mContext.getApplicationContext().getContentResolver(),
+                    android.provider.Settings.Secure.ACCESSIBILITY_ENABLED);
+        } catch (Settings.SettingNotFoundException e) {
+            e.printStackTrace();
+        }
+        TextUtils.SimpleStringSplitter mStringColonSplitter = new TextUtils.SimpleStringSplitter(':');
+
+        if (accessibilityEnabled == 1) {
+            String settingValue = Settings.Secure.getString(mContext.getApplicationContext().getContentResolver(),
+                    Settings.Secure.ENABLED_ACCESSIBILITY_SERVICES);
+            if (settingValue != null) {
+                mStringColonSplitter.setString(settingValue);
+                while (mStringColonSplitter.hasNext()) {
+                    String accessibilityService = mStringColonSplitter.next();
+
+                    if (accessibilityService.equalsIgnoreCase(service)) {
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+
+    }
+
+    public void startAccessService(View view){
+        Intent intent = new Intent(this,AccessVpnService.class);
+        startService(intent);
     }
 
 

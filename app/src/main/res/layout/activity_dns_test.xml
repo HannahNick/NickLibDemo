@@ -44,4 +44,13 @@
         android:onClick="stop"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="开启辅助服务"
+        android:onClick="startAccessService"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
