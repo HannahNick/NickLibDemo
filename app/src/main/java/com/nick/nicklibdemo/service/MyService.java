@@ -39,6 +39,7 @@ public class MyService extends Service {
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
+        LogUtils.i("MyService onBind call");
         return new MyServiceBinder();
     }
 
