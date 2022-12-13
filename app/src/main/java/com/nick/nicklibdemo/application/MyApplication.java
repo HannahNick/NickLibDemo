@@ -2,7 +2,7 @@ package com.nick.nicklibdemo.application;
 
 import android.app.Application;
 
-import com.frostnerd.dnschanger.config.DnsBootConfig;
+import com.nick.dnschanger.config.DnsBootConfig;
 import com.nick.nicklib.util.SPUtil;
 
 /**

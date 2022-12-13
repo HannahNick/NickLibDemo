@@ -1,481 +1,481 @@
-com/frostnerd/dnschanger/activities/InvalidDNSDialogActivity.java
- com.frostnerd.dnschanger.activities.InvalidDNSDialogActivity
- com.frostnerd.dnschanger.activities.InvalidDNSDialogActivity$1
- com.frostnerd.dnschanger.activities.InvalidDNSDialogActivity$2
-com/frostnerd/dnschanger/tasker/FireReceiver.java
- com.frostnerd.dnschanger.tasker.FireReceiver
-com/frostnerd/dnschanger/database/entities/DNSTLSConfiguration.java
- com.frostnerd.dnschanger.database.entities.DNSTLSConfiguration
-com/frostnerd/dnschanger/database/entities/DNSRule.java
- com.frostnerd.dnschanger.database.entities.DNSRule
-com/frostnerd/dnschanger/fragments/DnsQueryFragment.java
- com.frostnerd.dnschanger.fragments.DnsQueryFragment
- com.frostnerd.dnschanger.fragments.DnsQueryFragment$1
- com.frostnerd.dnschanger.fragments.DnsQueryFragment$2
- com.frostnerd.dnschanger.fragments.DnsQueryFragment$3
- com.frostnerd.dnschanger.fragments.DnsQueryFragment$3$1
- com.frostnerd.dnschanger.fragments.DnsQueryFragment$3$2
-com/frostnerd/dnschanger/LogFactory.java
- com.frostnerd.dnschanger.LogFactory
- com.frostnerd.dnschanger.LogFactory$1
- com.frostnerd.dnschanger.LogFactory$Tag
-com/frostnerd/dnschanger/dialogs/DNSCreationDialog.java
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$1
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$2
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$3
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$4
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$4$1
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$4$2
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$5
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$6
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$7
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$Mode
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$OnCreationFinishedListener
- com.frostnerd.dnschanger.dialogs.DNSCreationDialog$OnEditingFinishedListener
-com/frostnerd/dnschanger/tasker/Helper.java
- com.frostnerd.dnschanger.tasker.Helper
-com/frostnerd/dnschanger/util/RuleImport.java
- com.frostnerd.dnschanger.util.RuleImport
- com.frostnerd.dnschanger.util.RuleImport$1
- com.frostnerd.dnschanger.util.RuleImport$FileType
- com.frostnerd.dnschanger.util.RuleImport$FileType$1
- com.frostnerd.dnschanger.util.RuleImport$FileType$2
- com.frostnerd.dnschanger.util.RuleImport$FileType$3
- com.frostnerd.dnschanger.util.RuleImport$FileType$4
- com.frostnerd.dnschanger.util.RuleImport$ImportStartedListener
- com.frostnerd.dnschanger.util.RuleImport$ImportableFile
- com.frostnerd.dnschanger.util.RuleImport$LineParser
- com.frostnerd.dnschanger.util.RuleImport$TemporaryDNSRule
-com/frostnerd/dnschanger/util/DNSQueryUtil.java
- com.frostnerd.dnschanger.util.DNSQueryUtil
- com.frostnerd.dnschanger.util.DNSQueryUtil$1
- com.frostnerd.dnschanger.util.DNSQueryUtil$2
- com.frostnerd.dnschanger.util.DNSQueryUtil$3
-com/frostnerd/dnschanger/activities/AdvancedSettingsActivity.java
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$1
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$10
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$10$1
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$10$1$1
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$11
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$12
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$13
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$14
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$15
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$16
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$16$1
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$2
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$3
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$4
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$5
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$6
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$7
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$8
- com.frostnerd.dnschanger.activities.AdvancedSettingsActivity$9
-com/frostnerd/dnschanger/activities/BackgroundDNSListActivity.java
- com.frostnerd.dnschanger.activities.BackgroundDNSListActivity
- com.frostnerd.dnschanger.activities.BackgroundDNSListActivity$1
-com/frostnerd/dnschanger/database/serializers/IPPortSerializer.java
- com.frostnerd.dnschanger.database.serializers.IPPortSerializer
-com/frostnerd/dnschanger/database/accessors/QueryLogger.java
- com.frostnerd.dnschanger.database.accessors.QueryLogger
- com.frostnerd.dnschanger.database.accessors.QueryLogger$WaitingQuery
-com/frostnerd/dnschanger/tasker/ConfigureActivity.java
- com.frostnerd.dnschanger.tasker.ConfigureActivity
- com.frostnerd.dnschanger.tasker.ConfigureActivity$1
- com.frostnerd.dnschanger.tasker.ConfigureActivity$2
- com.frostnerd.dnschanger.tasker.ConfigureActivity$3
- com.frostnerd.dnschanger.tasker.ConfigureActivity$4
- com.frostnerd.dnschanger.tasker.ConfigureActivity$5
- com.frostnerd.dnschanger.tasker.ConfigureActivity$6
- com.frostnerd.dnschanger.tasker.ConfigureActivity$7
- com.frostnerd.dnschanger.tasker.ConfigureActivity$8
- com.frostnerd.dnschanger.tasker.ConfigureActivity$9
- com.frostnerd.dnschanger.tasker.ConfigureActivity$Action
-com/frostnerd/dnschanger/util/DataSavingSentryEventProcessor.java
- com.frostnerd.dnschanger.util.DataSavingSentryEventProcessor
-com/frostnerd/dnschanger/util/PreferencesAccessor.java
- com.frostnerd.dnschanger.util.PreferencesAccessor
- com.frostnerd.dnschanger.util.PreferencesAccessor$1
- com.frostnerd.dnschanger.util.PreferencesAccessor$PinProtectable
- com.frostnerd.dnschanger.util.PreferencesAccessor$Type
-com/frostnerd/dnschanger/database/entities/DNSQuery.java
- com.frostnerd.dnschanger.database.entities.DNSQuery
-com/frostnerd/dnschanger/adapters/QueryLogAdapter.java
- com.frostnerd.dnschanger.adapters.QueryLogAdapter
- com.frostnerd.dnschanger.adapters.QueryLogAdapter$1
- com.frostnerd.dnschanger.adapters.QueryLogAdapter$2
- com.frostnerd.dnschanger.adapters.QueryLogAdapter$2$1
- com.frostnerd.dnschanger.adapters.QueryLogAdapter$ArgumentBasedFilter
- com.frostnerd.dnschanger.adapters.QueryLogAdapter$ArgumentBasedFilter$1
- com.frostnerd.dnschanger.adapters.QueryLogAdapter$ViewHolder
-com/frostnerd/dnschanger/fragments/QueryLogFragment.java
- com.frostnerd.dnschanger.fragments.QueryLogFragment
- com.frostnerd.dnschanger.fragments.QueryLogFragment$1
- com.frostnerd.dnschanger.fragments.QueryLogFragment$1$1
-com/frostnerd/dnschanger/DNSChanger.java
- com.frostnerd.dnschanger.DNSChanger
- com.frostnerd.dnschanger.DNSChanger$1
- com.frostnerd.dnschanger.DNSChanger$2
- com.frostnerd.dnschanger.DNSChanger$2$1
-com/frostnerd/dnschanger/util/dnsproxy/DummyProxy.java
- com.frostnerd.dnschanger.util.dnsproxy.DummyProxy
-com/frostnerd/dnschanger/fragments/RulesFragment.java
- com.frostnerd.dnschanger.fragments.RulesFragment
- com.frostnerd.dnschanger.fragments.RulesFragment$1
- com.frostnerd.dnschanger.fragments.RulesFragment$2
- com.frostnerd.dnschanger.fragments.RulesFragment$3
- com.frostnerd.dnschanger.fragments.RulesFragment$4
- com.frostnerd.dnschanger.fragments.RulesFragment$5
- com.frostnerd.dnschanger.fragments.RulesFragment$5$1
- com.frostnerd.dnschanger.fragments.RulesFragment$6
- com.frostnerd.dnschanger.fragments.RulesFragment$7
- com.frostnerd.dnschanger.fragments.RulesFragment$8
-com/frostnerd/dnschanger/fragments/SettingsFragment.java
- com.frostnerd.dnschanger.fragments.SettingsFragment
- com.frostnerd.dnschanger.fragments.SettingsFragment$1
- com.frostnerd.dnschanger.fragments.SettingsFragment$1$1
- com.frostnerd.dnschanger.fragments.SettingsFragment$1$2
- com.frostnerd.dnschanger.fragments.SettingsFragment$10
- com.frostnerd.dnschanger.fragments.SettingsFragment$11
- com.frostnerd.dnschanger.fragments.SettingsFragment$12
- com.frostnerd.dnschanger.fragments.SettingsFragment$12$1
- com.frostnerd.dnschanger.fragments.SettingsFragment$13
- com.frostnerd.dnschanger.fragments.SettingsFragment$14
- com.frostnerd.dnschanger.fragments.SettingsFragment$15
- com.frostnerd.dnschanger.fragments.SettingsFragment$16
- com.frostnerd.dnschanger.fragments.SettingsFragment$17
- com.frostnerd.dnschanger.fragments.SettingsFragment$18
- com.frostnerd.dnschanger.fragments.SettingsFragment$19
- com.frostnerd.dnschanger.fragments.SettingsFragment$2
- com.frostnerd.dnschanger.fragments.SettingsFragment$2$1
- com.frostnerd.dnschanger.fragments.SettingsFragment$2$2
- com.frostnerd.dnschanger.fragments.SettingsFragment$3
- com.frostnerd.dnschanger.fragments.SettingsFragment$4
- com.frostnerd.dnschanger.fragments.SettingsFragment$5
- com.frostnerd.dnschanger.fragments.SettingsFragment$6
- com.frostnerd.dnschanger.fragments.SettingsFragment$6$1
- com.frostnerd.dnschanger.fragments.SettingsFragment$6$2
- com.frostnerd.dnschanger.fragments.SettingsFragment$7
- com.frostnerd.dnschanger.fragments.SettingsFragment$8
- com.frostnerd.dnschanger.fragments.SettingsFragment$8$1
- com.frostnerd.dnschanger.fragments.SettingsFragment$9
-com/frostnerd/dnschanger/activities/PinActivity.java
- com.frostnerd.dnschanger.activities.PinActivity
- com.frostnerd.dnschanger.activities.PinActivity$1
- com.frostnerd.dnschanger.activities.PinActivity$2
- com.frostnerd.dnschanger.activities.PinActivity$3
- com.frostnerd.dnschanger.activities.PinActivity$3$1
- com.frostnerd.dnschanger.activities.PinActivity$4
- com.frostnerd.dnschanger.activities.PinActivity$5
-com/frostnerd/dnschanger/config/bean/DNSProperties.java
- com.frostnerd.dnschanger.config.bean.DNSProperties
-com/frostnerd/dnschanger/util/dnsquery/Resolver.java
- com.frostnerd.dnschanger.util.dnsquery.Resolver
-com/frostnerd/dnschanger/fragments/MainFragment.java
- com.frostnerd.dnschanger.fragments.MainFragment
- com.frostnerd.dnschanger.fragments.MainFragment$1
- com.frostnerd.dnschanger.fragments.MainFragment$2
- com.frostnerd.dnschanger.fragments.MainFragment$2$1
- com.frostnerd.dnschanger.fragments.MainFragment$2$1$1
- com.frostnerd.dnschanger.fragments.MainFragment$3
- com.frostnerd.dnschanger.fragments.MainFragment$4
- com.frostnerd.dnschanger.fragments.MainFragment$5
- com.frostnerd.dnschanger.fragments.MainFragment$6
- com.frostnerd.dnschanger.fragments.MainFragment$7
- com.frostnerd.dnschanger.fragments.MainFragment$8
- com.frostnerd.dnschanger.fragments.MainFragment$8$1
- com.frostnerd.dnschanger.fragments.MainFragment$8$2
- com.frostnerd.dnschanger.fragments.MainFragment$8$2$1
- com.frostnerd.dnschanger.fragments.MainFragment$9
- com.frostnerd.dnschanger.fragments.MainFragment$DNSReachabilityCallback
-com/frostnerd/dnschanger/database/entities/Shortcut.java
- com.frostnerd.dnschanger.database.entities.Shortcut
-com/frostnerd/dnschanger/dialogs/RuleImportChooserDialog.java
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$1
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$2
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$3
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$4
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$5
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$6
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$7
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$8
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$8$1
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$8$2
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$8$3
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$8$3$1
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$8$4
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$8$5
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$8$6
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$8$7
- com.frostnerd.dnschanger.dialogs.RuleImportChooserDialog$9
-com/frostnerd/dnschanger/receivers/AdminReceiver.java
- com.frostnerd.dnschanger.receivers.AdminReceiver
-com/frostnerd/dnschanger/database/entities/IPPortPair.java
- com.frostnerd.dnschanger.database.entities.IPPortPair
-com/frostnerd/dnschanger/activities/automation/ToggleDnsActivity.java
- com.frostnerd.dnschanger.activities.automation.ToggleDnsActivity
-com/frostnerd/dnschanger/adapters/RuleAdapter.java
- com.frostnerd.dnschanger.adapters.RuleAdapter
- com.frostnerd.dnschanger.adapters.RuleAdapter$1
- com.frostnerd.dnschanger.adapters.RuleAdapter$2
- com.frostnerd.dnschanger.adapters.RuleAdapter$2$1
- com.frostnerd.dnschanger.adapters.RuleAdapter$3
- com.frostnerd.dnschanger.adapters.RuleAdapter$ArgumentBasedFilter
- com.frostnerd.dnschanger.adapters.RuleAdapter$ArgumentBasedFilter$1
- com.frostnerd.dnschanger.adapters.RuleAdapter$ArgumentBasedFilter$2
- com.frostnerd.dnschanger.adapters.RuleAdapter$ArgumentLessFilter
- com.frostnerd.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$1
- com.frostnerd.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$2
- com.frostnerd.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$3
- com.frostnerd.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$4
- com.frostnerd.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$5
- com.frostnerd.dnschanger.adapters.RuleAdapter$ViewHolder
-com/frostnerd/dnschanger/receivers/UpdateReceiver.java
- com.frostnerd.dnschanger.receivers.UpdateReceiver
-com/frostnerd/dnschanger/dialogs/DNSEntryListDialog.java
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$1
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$2
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$3
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$3$1
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$3$1$1
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$3$1$2
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$3$2
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$4
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$5
- com.frostnerd.dnschanger.dialogs.DNSEntryListDialog$OnProviderSelectedListener
-com/frostnerd/dnschanger/dialogs/ExportSettingsDialog.java
- com.frostnerd.dnschanger.dialogs.ExportSettingsDialog
- com.frostnerd.dnschanger.dialogs.ExportSettingsDialog$1
- com.frostnerd.dnschanger.dialogs.ExportSettingsDialog$2
- com.frostnerd.dnschanger.dialogs.ExportSettingsDialog$3
- com.frostnerd.dnschanger.dialogs.ExportSettingsDialog$4
- com.frostnerd.dnschanger.dialogs.ExportSettingsDialog$4$1
- com.frostnerd.dnschanger.dialogs.ExportSettingsDialog$4$2
-com/frostnerd/dnschanger/receivers/BootReceiver.java
- com.frostnerd.dnschanger.receivers.BootReceiver
-com/frostnerd/dnschanger/threading/VPNRunnable.java
- com.frostnerd.dnschanger.threading.VPNRunnable
-com/frostnerd/dnschanger/util/Preferences.java
- com.frostnerd.dnschanger.util.Preferences
- com.frostnerd.dnschanger.util.Preferences$1
- com.frostnerd.dnschanger.util.Preferences$2
- com.frostnerd.dnschanger.util.Preferences$3
-com/frostnerd/dnschanger/activities/ShortcutActivity.java
- com.frostnerd.dnschanger.activities.ShortcutActivity
- com.frostnerd.dnschanger.activities.ShortcutActivity$1
- com.frostnerd.dnschanger.activities.ShortcutActivity$2
-com/frostnerd/dnschanger/fragments/CurrentNetworksFragment.java
- com.frostnerd.dnschanger.fragments.CurrentNetworksFragment
- com.frostnerd.dnschanger.fragments.CurrentNetworksFragment$1
- com.frostnerd.dnschanger.fragments.CurrentNetworksFragment$1$1
- com.frostnerd.dnschanger.fragments.CurrentNetworksFragment$1$1$1
- com.frostnerd.dnschanger.fragments.CurrentNetworksFragment$1$1$2
- com.frostnerd.dnschanger.fragments.CurrentNetworksFragment$1$1$3
- com.frostnerd.dnschanger.fragments.CurrentNetworksFragment$1$1$4
- com.frostnerd.dnschanger.fragments.CurrentNetworksFragment$DNSProperties
-com/frostnerd/dnschanger/util/VPNServiceArgument.java
- com.frostnerd.dnschanger.util.VPNServiceArgument
-com/frostnerd/dnschanger/database/DatabaseHelper.java
- com.frostnerd.dnschanger.database.DatabaseHelper
- com.frostnerd.dnschanger.database.DatabaseHelper$1
-com/frostnerd/dnschanger/activities/automation/PauseDnsActivity.java
- com.frostnerd.dnschanger.activities.automation.PauseDnsActivity
-com/frostnerd/dnschanger/dialogs/NewRuleDialog.java
- com.frostnerd.dnschanger.dialogs.NewRuleDialog
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$1
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$2
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$3
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$4
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$4$1
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$4$2
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$5
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$6
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$7
- com.frostnerd.dnschanger.dialogs.NewRuleDialog$CreationListener
-com/frostnerd/dnschanger/activities/BackgroundVpnConfigureActivity.java
- com.frostnerd.dnschanger.activities.BackgroundVpnConfigureActivity
- com.frostnerd.dnschanger.activities.BackgroundVpnConfigureActivity$1
- com.frostnerd.dnschanger.activities.BackgroundVpnConfigureActivity$2
- com.frostnerd.dnschanger.activities.BackgroundVpnConfigureActivity$3
- com.frostnerd.dnschanger.activities.BackgroundVpnConfigureActivity$4
-com/frostnerd/dnschanger/adapters/DNSEntryAdapter.java
- com.frostnerd.dnschanger.adapters.DNSEntryAdapter
- com.frostnerd.dnschanger.adapters.DNSEntryAdapter$1
- com.frostnerd.dnschanger.adapters.DNSEntryAdapter$2
- com.frostnerd.dnschanger.adapters.DNSEntryAdapter$3
- com.frostnerd.dnschanger.adapters.DNSEntryAdapter$OnEntrySelected
- com.frostnerd.dnschanger.adapters.DNSEntryAdapter$OnEntrySelectionUpdated
- com.frostnerd.dnschanger.adapters.DNSEntryAdapter$ViewHolder
-com/frostnerd/dnschanger/activities/automation/StartDnsActivity.java
- com.frostnerd.dnschanger.activities.automation.StartDnsActivity
-com/frostnerd/dnschanger/database/entities/DNSEntry.java
- com.frostnerd.dnschanger.database.entities.DNSEntry
-com/frostnerd/dnschanger/services/DataService.java
- com.frostnerd.dnschanger.services.DataService
-com/frostnerd/dnschanger/util/dnsproxy/DNSProxy.java
- com.frostnerd.dnschanger.util.dnsproxy.DNSProxy
-com/frostnerd/dnschanger/activities/MainActivity.java
- com.frostnerd.dnschanger.activities.MainActivity
- com.frostnerd.dnschanger.activities.MainActivity$1
- com.frostnerd.dnschanger.activities.MainActivity$1$1
- com.frostnerd.dnschanger.activities.MainActivity$10
- com.frostnerd.dnschanger.activities.MainActivity$11
- com.frostnerd.dnschanger.activities.MainActivity$12
- com.frostnerd.dnschanger.activities.MainActivity$13
- com.frostnerd.dnschanger.activities.MainActivity$14
- com.frostnerd.dnschanger.activities.MainActivity$15
- com.frostnerd.dnschanger.activities.MainActivity$16
- com.frostnerd.dnschanger.activities.MainActivity$17
- com.frostnerd.dnschanger.activities.MainActivity$18
- com.frostnerd.dnschanger.activities.MainActivity$18$1
- com.frostnerd.dnschanger.activities.MainActivity$19
- com.frostnerd.dnschanger.activities.MainActivity$19$1
- com.frostnerd.dnschanger.activities.MainActivity$2
- com.frostnerd.dnschanger.activities.MainActivity$20
- com.frostnerd.dnschanger.activities.MainActivity$20$1
- com.frostnerd.dnschanger.activities.MainActivity$20$2
- com.frostnerd.dnschanger.activities.MainActivity$20$3
- com.frostnerd.dnschanger.activities.MainActivity$21
- com.frostnerd.dnschanger.activities.MainActivity$22
- com.frostnerd.dnschanger.activities.MainActivity$23
- com.frostnerd.dnschanger.activities.MainActivity$23$1
- com.frostnerd.dnschanger.activities.MainActivity$23$2
- com.frostnerd.dnschanger.activities.MainActivity$24
- com.frostnerd.dnschanger.activities.MainActivity$25
- com.frostnerd.dnschanger.activities.MainActivity$26
- com.frostnerd.dnschanger.activities.MainActivity$27
- com.frostnerd.dnschanger.activities.MainActivity$28
- com.frostnerd.dnschanger.activities.MainActivity$29
- com.frostnerd.dnschanger.activities.MainActivity$3
- com.frostnerd.dnschanger.activities.MainActivity$30
- com.frostnerd.dnschanger.activities.MainActivity$31
- com.frostnerd.dnschanger.activities.MainActivity$32
- com.frostnerd.dnschanger.activities.MainActivity$32$1
- com.frostnerd.dnschanger.activities.MainActivity$32$2
- com.frostnerd.dnschanger.activities.MainActivity$32$3
- com.frostnerd.dnschanger.activities.MainActivity$32$4
- com.frostnerd.dnschanger.activities.MainActivity$32$5
- com.frostnerd.dnschanger.activities.MainActivity$33
- com.frostnerd.dnschanger.activities.MainActivity$33$1
- com.frostnerd.dnschanger.activities.MainActivity$34
- com.frostnerd.dnschanger.activities.MainActivity$35
- com.frostnerd.dnschanger.activities.MainActivity$36
- com.frostnerd.dnschanger.activities.MainActivity$37
- com.frostnerd.dnschanger.activities.MainActivity$38
- com.frostnerd.dnschanger.activities.MainActivity$38$1
- com.frostnerd.dnschanger.activities.MainActivity$38$2
- com.frostnerd.dnschanger.activities.MainActivity$38$2$1
- com.frostnerd.dnschanger.activities.MainActivity$39
- com.frostnerd.dnschanger.activities.MainActivity$4
- com.frostnerd.dnschanger.activities.MainActivity$5
- com.frostnerd.dnschanger.activities.MainActivity$6
- com.frostnerd.dnschanger.activities.MainActivity$7
- com.frostnerd.dnschanger.activities.MainActivity$8
- com.frostnerd.dnschanger.activities.MainActivity$9
-com/frostnerd/dnschanger/tiles/TileStartStop.java
- com.frostnerd.dnschanger.tiles.TileStartStop
-com/frostnerd/dnschanger/database/accessors/DNSResolver.java
- com.frostnerd.dnschanger.database.accessors.DNSResolver
-com/frostnerd/dnschanger/activities/AppSelectionActivity.java
- com.frostnerd.dnschanger.activities.AppSelectionActivity
- com.frostnerd.dnschanger.activities.AppSelectionActivity$1
- com.frostnerd.dnschanger.activities.AppSelectionActivity$1$1
- com.frostnerd.dnschanger.activities.AppSelectionActivity$2
- com.frostnerd.dnschanger.activities.AppSelectionActivity$3
- com.frostnerd.dnschanger.activities.AppSelectionActivity$4
- com.frostnerd.dnschanger.activities.AppSelectionActivity$4$1
- com.frostnerd.dnschanger.activities.AppSelectionActivity$AppEntry
- com.frostnerd.dnschanger.activities.AppSelectionActivity$AppListAdapter
- com.frostnerd.dnschanger.activities.AppSelectionActivity$AppListAdapter$1
- com.frostnerd.dnschanger.activities.AppSelectionActivity$AppListAdapter$2
- com.frostnerd.dnschanger.activities.AppSelectionActivity$AppListAdapter$3
- com.frostnerd.dnschanger.activities.AppSelectionActivity$AppListAdapter$4
- com.frostnerd.dnschanger.activities.AppSelectionActivity$ViewHolder
-com/frostnerd/dnschanger/services/ConnectivityCheckRestartService.java
- com.frostnerd.dnschanger.services.ConnectivityCheckRestartService
-com/frostnerd/dnschanger/util/dnsproxy/DNSUDPProxy.java
- com.frostnerd.dnschanger.util.dnsproxy.DNSUDPProxy
- com.frostnerd.dnschanger.util.dnsproxy.DNSUDPProxy$1
- com.frostnerd.dnschanger.util.dnsproxy.DNSUDPProxy$PacketWrap
-com/frostnerd/dnschanger/activities/automation/StopDnsActivity.java
- com.frostnerd.dnschanger.activities.automation.StopDnsActivity
-com/frostnerd/dnschanger/util/GenericFileProvider.java
- com.frostnerd.dnschanger.util.GenericFileProvider
-com/frostnerd/dnschanger/config/DnsBootConfig.java
- com.frostnerd.dnschanger.config.DnsBootConfig
- com.frostnerd.dnschanger.config.DnsBootConfig$1
- com.frostnerd.dnschanger.config.DnsBootConfig$2
- com.frostnerd.dnschanger.config.DnsBootConfig$2$1
- com.frostnerd.dnschanger.config.DnsBootConfig$Holder
-com/frostnerd/dnschanger/tiles/TilePauseResume.java
- com.frostnerd.dnschanger.tiles.TilePauseResume
-com/frostnerd/dnschanger/util/ThemeHandler.java
- com.frostnerd.dnschanger.util.ThemeHandler
-com/frostnerd/dnschanger/adapters/QueryResultAdapter.java
- com.frostnerd.dnschanger.adapters.QueryResultAdapter
- com.frostnerd.dnschanger.adapters.QueryResultAdapter$1
- com.frostnerd.dnschanger.adapters.QueryResultAdapter$ViewHolder
-com/frostnerd/dnschanger/util/NetworkCheckHandle.java
- com.frostnerd.dnschanger.util.NetworkCheckHandle
- com.frostnerd.dnschanger.util.NetworkCheckHandle$1
- com.frostnerd.dnschanger.util.NetworkCheckHandle$2
- com.frostnerd.dnschanger.util.NetworkCheckHandle$ConnectionType
- com.frostnerd.dnschanger.util.NetworkCheckHandle$ReallyWeiredExceptionOnlyAFewPeopleHave
-com/frostnerd/dnschanger/database/entities/DNSRuleImport.java
- com.frostnerd.dnschanger.database.entities.DNSRuleImport
-com/frostnerd/dnschanger/activities/SettingsImportActivity.java
- com.frostnerd.dnschanger.activities.SettingsImportActivity
-com/frostnerd/dnschanger/services/DNSVpnService.java
- com.frostnerd.dnschanger.services.DNSVpnService
- com.frostnerd.dnschanger.services.DNSVpnService$1
- com.frostnerd.dnschanger.services.DNSVpnService$2
- com.frostnerd.dnschanger.services.DNSVpnService$3
- com.frostnerd.dnschanger.services.DNSVpnService$ServiceBinder
-com/frostnerd/dnschanger/util/dnsquery/TCPDataSource.java
- com.frostnerd.dnschanger.util.dnsquery.TCPDataSource
-com/frostnerd/dnschanger/services/RuleImportService.java
- com.frostnerd.dnschanger.services.RuleImportService
- com.frostnerd.dnschanger.services.RuleImportService$1
- com.frostnerd.dnschanger.services.RuleImportService$Configuration
- com.frostnerd.dnschanger.services.RuleImportService$FileList
- com.frostnerd.dnschanger.services.RuleImportService$FileList$1
-com/frostnerd/dnschanger/BuildConfig.java
- com.frostnerd.dnschanger.BuildConfig
-com/frostnerd/dnschanger/util/dnsproxy/DNSTCPProxy.java
- com.frostnerd.dnschanger.util.dnsproxy.DNSTCPProxy
- com.frostnerd.dnschanger.util.dnsproxy.DNSTCPProxy$1
- com.frostnerd.dnschanger.util.dnsproxy.DNSTCPProxy$PacketWrap
-com/frostnerd/dnschanger/activities/ErrorDialogActivity.java
- com.frostnerd.dnschanger.activities.ErrorDialogActivity
- com.frostnerd.dnschanger.activities.ErrorDialogActivity$1
- com.frostnerd.dnschanger.activities.ErrorDialogActivity$2
- com.frostnerd.dnschanger.activities.ErrorDialogActivity$3
- com.frostnerd.dnschanger.activities.ErrorDialogActivity$4
- com.frostnerd.dnschanger.activities.ErrorDialogActivity$5
-com/frostnerd/dnschanger/util/dnsquery/ResolverResult.java
- com.frostnerd.dnschanger.util.dnsquery.ResolverResult
-com/frostnerd/dnschanger/util/Util.java
- com.frostnerd.dnschanger.util.Util
- com.frostnerd.dnschanger.util.Util$ConnectivityCheckCallback
- com.frostnerd.dnschanger.util.Util$DNSQueryResultListener
-com/frostnerd/dnschanger/dialogs/VPNInfoDialog.java
- com.frostnerd.dnschanger.dialogs.VPNInfoDialog
- com.frostnerd.dnschanger.dialogs.VPNInfoDialog$1
-com/frostnerd/dnschanger/activities/automation/ResumeDnsActivity.java
- com.frostnerd.dnschanger.activities.automation.ResumeDnsActivity
-com/frostnerd/dnschanger/services/ConnectivityBackgroundService.java
- com.frostnerd.dnschanger.services.ConnectivityBackgroundService
- com.frostnerd.dnschanger.services.ConnectivityBackgroundService$1
-com/frostnerd/dnschanger/helper/DNSHelper.java
- com.frostnerd.dnschanger.helper.DNSHelper
- com.frostnerd.dnschanger.helper.DNSHelper$1
- com.frostnerd.dnschanger.helper.DNSHelper$1$1
- com.frostnerd.dnschanger.helper.DNSHelper$1$2
- com.frostnerd.dnschanger.helper.DNSHelper$1$2$1
- com.frostnerd.dnschanger.helper.DNSHelper$2
- com.frostnerd.dnschanger.helper.DNSHelper$DNSReachabilityCallback
- com.frostnerd.dnschanger.helper.DNSHelper$Holder
+com/nick/dnschanger/util/Util.java
+ com.nick.dnschanger.util.Util
+ com.nick.dnschanger.util.Util$ConnectivityCheckCallback
+ com.nick.dnschanger.util.Util$DNSQueryResultListener
+com/nick/dnschanger/util/VPNServiceArgument.java
+ com.nick.dnschanger.util.VPNServiceArgument
+com/nick/dnschanger/fragments/SettingsFragment.java
+ com.nick.dnschanger.fragments.SettingsFragment
+ com.nick.dnschanger.fragments.SettingsFragment$1
+ com.nick.dnschanger.fragments.SettingsFragment$1$1
+ com.nick.dnschanger.fragments.SettingsFragment$1$2
+ com.nick.dnschanger.fragments.SettingsFragment$10
+ com.nick.dnschanger.fragments.SettingsFragment$11
+ com.nick.dnschanger.fragments.SettingsFragment$12
+ com.nick.dnschanger.fragments.SettingsFragment$12$1
+ com.nick.dnschanger.fragments.SettingsFragment$13
+ com.nick.dnschanger.fragments.SettingsFragment$14
+ com.nick.dnschanger.fragments.SettingsFragment$15
+ com.nick.dnschanger.fragments.SettingsFragment$16
+ com.nick.dnschanger.fragments.SettingsFragment$17
+ com.nick.dnschanger.fragments.SettingsFragment$18
+ com.nick.dnschanger.fragments.SettingsFragment$19
+ com.nick.dnschanger.fragments.SettingsFragment$2
+ com.nick.dnschanger.fragments.SettingsFragment$2$1
+ com.nick.dnschanger.fragments.SettingsFragment$2$2
+ com.nick.dnschanger.fragments.SettingsFragment$3
+ com.nick.dnschanger.fragments.SettingsFragment$4
+ com.nick.dnschanger.fragments.SettingsFragment$5
+ com.nick.dnschanger.fragments.SettingsFragment$6
+ com.nick.dnschanger.fragments.SettingsFragment$6$1
+ com.nick.dnschanger.fragments.SettingsFragment$6$2
+ com.nick.dnschanger.fragments.SettingsFragment$7
+ com.nick.dnschanger.fragments.SettingsFragment$8
+ com.nick.dnschanger.fragments.SettingsFragment$8$1
+ com.nick.dnschanger.fragments.SettingsFragment$9
+com/nick/dnschanger/database/accessors/QueryLogger.java
+ com.nick.dnschanger.database.accessors.QueryLogger
+ com.nick.dnschanger.database.accessors.QueryLogger$WaitingQuery
+com/nick/dnschanger/util/PreferencesAccessor.java
+ com.nick.dnschanger.util.PreferencesAccessor
+ com.nick.dnschanger.util.PreferencesAccessor$1
+ com.nick.dnschanger.util.PreferencesAccessor$PinProtectable
+ com.nick.dnschanger.util.PreferencesAccessor$Type
+com/nick/dnschanger/util/dnsproxy/DNSUDPProxy.java
+ com.nick.dnschanger.util.dnsproxy.DNSUDPProxy
+ com.nick.dnschanger.util.dnsproxy.DNSUDPProxy$1
+ com.nick.dnschanger.util.dnsproxy.DNSUDPProxy$PacketWrap
+com/nick/dnschanger/tasker/ConfigureActivity.java
+ com.nick.dnschanger.tasker.ConfigureActivity
+ com.nick.dnschanger.tasker.ConfigureActivity$1
+ com.nick.dnschanger.tasker.ConfigureActivity$2
+ com.nick.dnschanger.tasker.ConfigureActivity$3
+ com.nick.dnschanger.tasker.ConfigureActivity$4
+ com.nick.dnschanger.tasker.ConfigureActivity$5
+ com.nick.dnschanger.tasker.ConfigureActivity$6
+ com.nick.dnschanger.tasker.ConfigureActivity$7
+ com.nick.dnschanger.tasker.ConfigureActivity$8
+ com.nick.dnschanger.tasker.ConfigureActivity$9
+ com.nick.dnschanger.tasker.ConfigureActivity$Action
+com/nick/dnschanger/dialogs/RuleImportChooserDialog.java
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$1
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$2
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$3
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$4
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$5
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$6
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$7
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$8
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$8$1
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$8$2
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$8$3
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$8$3$1
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$8$4
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$8$5
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$8$6
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$8$7
+ com.nick.dnschanger.dialogs.RuleImportChooserDialog$9
+com/nick/dnschanger/dialogs/ExportSettingsDialog.java
+ com.nick.dnschanger.dialogs.ExportSettingsDialog
+ com.nick.dnschanger.dialogs.ExportSettingsDialog$1
+ com.nick.dnschanger.dialogs.ExportSettingsDialog$2
+ com.nick.dnschanger.dialogs.ExportSettingsDialog$3
+ com.nick.dnschanger.dialogs.ExportSettingsDialog$4
+ com.nick.dnschanger.dialogs.ExportSettingsDialog$4$1
+ com.nick.dnschanger.dialogs.ExportSettingsDialog$4$2
+com/nick/dnschanger/services/ConnectivityCheckRestartService.java
+ com.nick.dnschanger.services.ConnectivityCheckRestartService
+com/nick/dnschanger/activities/PinActivity.java
+ com.nick.dnschanger.activities.PinActivity
+ com.nick.dnschanger.activities.PinActivity$1
+ com.nick.dnschanger.activities.PinActivity$2
+ com.nick.dnschanger.activities.PinActivity$3
+ com.nick.dnschanger.activities.PinActivity$3$1
+ com.nick.dnschanger.activities.PinActivity$4
+ com.nick.dnschanger.activities.PinActivity$5
+com/nick/dnschanger/util/dnsquery/Resolver.java
+ com.nick.dnschanger.util.dnsquery.Resolver
+com/nick/dnschanger/activities/automation/StopDnsActivity.java
+ com.nick.dnschanger.activities.automation.StopDnsActivity
+com/nick/dnschanger/util/dnsproxy/DummyProxy.java
+ com.nick.dnschanger.util.dnsproxy.DummyProxy
+com/nick/dnschanger/config/DnsBootConfig.java
+ com.nick.dnschanger.config.DnsBootConfig
+ com.nick.dnschanger.config.DnsBootConfig$1
+ com.nick.dnschanger.config.DnsBootConfig$2
+ com.nick.dnschanger.config.DnsBootConfig$2$1
+ com.nick.dnschanger.config.DnsBootConfig$Holder
+com/nick/dnschanger/receivers/AdminReceiver.java
+ com.nick.dnschanger.receivers.AdminReceiver
+com/nick/dnschanger/database/entities/DNSTLSConfiguration.java
+ com.nick.dnschanger.database.entities.DNSTLSConfiguration
+com/nick/dnschanger/config/bean/DNSProperties.java
+ com.nick.dnschanger.config.bean.DNSProperties
+com/nick/dnschanger/fragments/QueryLogFragment.java
+ com.nick.dnschanger.fragments.QueryLogFragment
+ com.nick.dnschanger.fragments.QueryLogFragment$1
+ com.nick.dnschanger.fragments.QueryLogFragment$1$1
+com/nick/dnschanger/threading/VPNRunnable.java
+ com.nick.dnschanger.threading.VPNRunnable
+com/nick/dnschanger/adapters/QueryResultAdapter.java
+ com.nick.dnschanger.adapters.QueryResultAdapter
+ com.nick.dnschanger.adapters.QueryResultAdapter$1
+ com.nick.dnschanger.adapters.QueryResultAdapter$ViewHolder
+com/nick/dnschanger/activities/SettingsImportActivity.java
+ com.nick.dnschanger.activities.SettingsImportActivity
+com/nick/dnschanger/DNSChanger.java
+ com.nick.dnschanger.DNSChanger
+ com.nick.dnschanger.DNSChanger$1
+ com.nick.dnschanger.DNSChanger$2
+ com.nick.dnschanger.DNSChanger$2$1
+com/nick/dnschanger/services/ConnectivityBackgroundService.java
+ com.nick.dnschanger.services.ConnectivityBackgroundService
+ com.nick.dnschanger.services.ConnectivityBackgroundService$1
+com/nick/dnschanger/util/dnsquery/ResolverResult.java
+ com.nick.dnschanger.util.dnsquery.ResolverResult
+com/nick/dnschanger/database/accessors/DNSResolver.java
+ com.nick.dnschanger.database.accessors.DNSResolver
+com/nick/dnschanger/activities/automation/ResumeDnsActivity.java
+ com.nick.dnschanger.activities.automation.ResumeDnsActivity
+com/nick/dnschanger/util/dnsquery/TCPDataSource.java
+ com.nick.dnschanger.util.dnsquery.TCPDataSource
+com/nick/dnschanger/activities/ErrorDialogActivity.java
+ com.nick.dnschanger.activities.ErrorDialogActivity
+ com.nick.dnschanger.activities.ErrorDialogActivity$1
+ com.nick.dnschanger.activities.ErrorDialogActivity$2
+ com.nick.dnschanger.activities.ErrorDialogActivity$3
+ com.nick.dnschanger.activities.ErrorDialogActivity$4
+ com.nick.dnschanger.activities.ErrorDialogActivity$5
+com/nick/dnschanger/fragments/DnsQueryFragment.java
+ com.nick.dnschanger.fragments.DnsQueryFragment
+ com.nick.dnschanger.fragments.DnsQueryFragment$1
+ com.nick.dnschanger.fragments.DnsQueryFragment$2
+ com.nick.dnschanger.fragments.DnsQueryFragment$3
+ com.nick.dnschanger.fragments.DnsQueryFragment$3$1
+ com.nick.dnschanger.fragments.DnsQueryFragment$3$2
+com/nick/dnschanger/receivers/BootReceiver.java
+ com.nick.dnschanger.receivers.BootReceiver
+com/nick/dnschanger/dialogs/DNSEntryListDialog.java
+ com.nick.dnschanger.dialogs.DNSEntryListDialog
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$1
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$2
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$3
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$3$1
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$3$1$1
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$3$1$2
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$3$2
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$4
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$5
+ com.nick.dnschanger.dialogs.DNSEntryListDialog$OnProviderSelectedListener
+com/nick/dnschanger/util/RuleImport.java
+ com.nick.dnschanger.util.RuleImport
+ com.nick.dnschanger.util.RuleImport$1
+ com.nick.dnschanger.util.RuleImport$FileType
+ com.nick.dnschanger.util.RuleImport$FileType$1
+ com.nick.dnschanger.util.RuleImport$FileType$2
+ com.nick.dnschanger.util.RuleImport$FileType$3
+ com.nick.dnschanger.util.RuleImport$FileType$4
+ com.nick.dnschanger.util.RuleImport$ImportStartedListener
+ com.nick.dnschanger.util.RuleImport$ImportableFile
+ com.nick.dnschanger.util.RuleImport$LineParser
+ com.nick.dnschanger.util.RuleImport$TemporaryDNSRule
+com/nick/dnschanger/tasker/Helper.java
+ com.nick.dnschanger.tasker.Helper
+com/nick/dnschanger/activities/AdvancedSettingsActivity.java
+ com.nick.dnschanger.activities.AdvancedSettingsActivity
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$1
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$10
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$10$1
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$10$1$1
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$11
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$12
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$13
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$14
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$15
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$16
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$16$1
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$2
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$3
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$4
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$5
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$6
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$7
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$8
+ com.nick.dnschanger.activities.AdvancedSettingsActivity$9
+com/nick/dnschanger/tasker/FireReceiver.java
+ com.nick.dnschanger.tasker.FireReceiver
+com/nick/dnschanger/util/ThemeHandler.java
+ com.nick.dnschanger.util.ThemeHandler
+com/nick/dnschanger/activities/automation/StartDnsActivity.java
+ com.nick.dnschanger.activities.automation.StartDnsActivity
+com/nick/dnschanger/util/Preferences.java
+ com.nick.dnschanger.util.Preferences
+ com.nick.dnschanger.util.Preferences$1
+ com.nick.dnschanger.util.Preferences$2
+ com.nick.dnschanger.util.Preferences$3
+com/nick/dnschanger/dialogs/DNSCreationDialog.java
+ com.nick.dnschanger.dialogs.DNSCreationDialog
+ com.nick.dnschanger.dialogs.DNSCreationDialog$1
+ com.nick.dnschanger.dialogs.DNSCreationDialog$2
+ com.nick.dnschanger.dialogs.DNSCreationDialog$3
+ com.nick.dnschanger.dialogs.DNSCreationDialog$4
+ com.nick.dnschanger.dialogs.DNSCreationDialog$4$1
+ com.nick.dnschanger.dialogs.DNSCreationDialog$4$2
+ com.nick.dnschanger.dialogs.DNSCreationDialog$5
+ com.nick.dnschanger.dialogs.DNSCreationDialog$6
+ com.nick.dnschanger.dialogs.DNSCreationDialog$7
+ com.nick.dnschanger.dialogs.DNSCreationDialog$Mode
+ com.nick.dnschanger.dialogs.DNSCreationDialog$OnCreationFinishedListener
+ com.nick.dnschanger.dialogs.DNSCreationDialog$OnEditingFinishedListener
+com/nick/dnschanger/activities/BackgroundVpnConfigureActivity.java
+ com.nick.dnschanger.activities.BackgroundVpnConfigureActivity
+ com.nick.dnschanger.activities.BackgroundVpnConfigureActivity$1
+ com.nick.dnschanger.activities.BackgroundVpnConfigureActivity$2
+ com.nick.dnschanger.activities.BackgroundVpnConfigureActivity$3
+ com.nick.dnschanger.activities.BackgroundVpnConfigureActivity$4
+com/nick/dnschanger/tiles/TileStartStop.java
+ com.nick.dnschanger.tiles.TileStartStop
+com/nick/dnschanger/database/entities/DNSRule.java
+ com.nick.dnschanger.database.entities.DNSRule
+com/nick/dnschanger/receivers/UpdateReceiver.java
+ com.nick.dnschanger.receivers.UpdateReceiver
+com/nick/dnschanger/fragments/RulesFragment.java
+ com.nick.dnschanger.fragments.RulesFragment
+ com.nick.dnschanger.fragments.RulesFragment$1
+ com.nick.dnschanger.fragments.RulesFragment$2
+ com.nick.dnschanger.fragments.RulesFragment$3
+ com.nick.dnschanger.fragments.RulesFragment$4
+ com.nick.dnschanger.fragments.RulesFragment$5
+ com.nick.dnschanger.fragments.RulesFragment$5$1
+ com.nick.dnschanger.fragments.RulesFragment$6
+ com.nick.dnschanger.fragments.RulesFragment$7
+ com.nick.dnschanger.fragments.RulesFragment$8
+com/nick/dnschanger/database/entities/Shortcut.java
+ com.nick.dnschanger.database.entities.Shortcut
+com/nick/dnschanger/fragments/MainFragment.java
+ com.nick.dnschanger.fragments.MainFragment
+ com.nick.dnschanger.fragments.MainFragment$1
+ com.nick.dnschanger.fragments.MainFragment$2
+ com.nick.dnschanger.fragments.MainFragment$2$1
+ com.nick.dnschanger.fragments.MainFragment$2$1$1
+ com.nick.dnschanger.fragments.MainFragment$3
+ com.nick.dnschanger.fragments.MainFragment$4
+ com.nick.dnschanger.fragments.MainFragment$5
+ com.nick.dnschanger.fragments.MainFragment$6
+ com.nick.dnschanger.fragments.MainFragment$7
+ com.nick.dnschanger.fragments.MainFragment$8
+ com.nick.dnschanger.fragments.MainFragment$8$1
+ com.nick.dnschanger.fragments.MainFragment$8$2
+ com.nick.dnschanger.fragments.MainFragment$8$2$1
+ com.nick.dnschanger.fragments.MainFragment$9
+ com.nick.dnschanger.fragments.MainFragment$DNSReachabilityCallback
+com/nick/dnschanger/util/NetworkCheckHandle.java
+ com.nick.dnschanger.util.NetworkCheckHandle
+ com.nick.dnschanger.util.NetworkCheckHandle$1
+ com.nick.dnschanger.util.NetworkCheckHandle$2
+ com.nick.dnschanger.util.NetworkCheckHandle$ConnectionType
+ com.nick.dnschanger.util.NetworkCheckHandle$ReallyWeiredExceptionOnlyAFewPeopleHave
+com/nick/dnschanger/util/DataSavingSentryEventProcessor.java
+ com.nick.dnschanger.util.DataSavingSentryEventProcessor
+com/nick/dnschanger/activities/BackgroundDNSListActivity.java
+ com.nick.dnschanger.activities.BackgroundDNSListActivity
+ com.nick.dnschanger.activities.BackgroundDNSListActivity$1
+com/nick/dnschanger/services/DataService.java
+ com.nick.dnschanger.services.DataService
+com/nick/dnschanger/services/DNSVpnService.java
+ com.nick.dnschanger.services.DNSVpnService
+ com.nick.dnschanger.services.DNSVpnService$1
+ com.nick.dnschanger.services.DNSVpnService$2
+ com.nick.dnschanger.services.DNSVpnService$3
+ com.nick.dnschanger.services.DNSVpnService$ServiceBinder
+com/nick/dnschanger/helper/DNSHelper.java
+ com.nick.dnschanger.helper.DNSHelper
+ com.nick.dnschanger.helper.DNSHelper$1
+ com.nick.dnschanger.helper.DNSHelper$1$1
+ com.nick.dnschanger.helper.DNSHelper$1$2
+ com.nick.dnschanger.helper.DNSHelper$1$2$1
+ com.nick.dnschanger.helper.DNSHelper$2
+ com.nick.dnschanger.helper.DNSHelper$DNSReachabilityCallback
+ com.nick.dnschanger.helper.DNSHelper$Holder
+com/nick/dnschanger/dialogs/VPNInfoDialog.java
+ com.nick.dnschanger.dialogs.VPNInfoDialog
+ com.nick.dnschanger.dialogs.VPNInfoDialog$1
+com/nick/dnschanger/util/DNSQueryUtil.java
+ com.nick.dnschanger.util.DNSQueryUtil
+ com.nick.dnschanger.util.DNSQueryUtil$1
+ com.nick.dnschanger.util.DNSQueryUtil$2
+ com.nick.dnschanger.util.DNSQueryUtil$3
+com/nick/dnschanger/adapters/QueryLogAdapter.java
+ com.nick.dnschanger.adapters.QueryLogAdapter
+ com.nick.dnschanger.adapters.QueryLogAdapter$1
+ com.nick.dnschanger.adapters.QueryLogAdapter$2
+ com.nick.dnschanger.adapters.QueryLogAdapter$2$1
+ com.nick.dnschanger.adapters.QueryLogAdapter$ArgumentBasedFilter
+ com.nick.dnschanger.adapters.QueryLogAdapter$ArgumentBasedFilter$1
+ com.nick.dnschanger.adapters.QueryLogAdapter$ViewHolder
+com/nick/dnschanger/activities/MainActivity.java
+ com.nick.dnschanger.activities.MainActivity
+ com.nick.dnschanger.activities.MainActivity$1
+ com.nick.dnschanger.activities.MainActivity$1$1
+ com.nick.dnschanger.activities.MainActivity$10
+ com.nick.dnschanger.activities.MainActivity$11
+ com.nick.dnschanger.activities.MainActivity$12
+ com.nick.dnschanger.activities.MainActivity$13
+ com.nick.dnschanger.activities.MainActivity$14
+ com.nick.dnschanger.activities.MainActivity$15
+ com.nick.dnschanger.activities.MainActivity$16
+ com.nick.dnschanger.activities.MainActivity$17
+ com.nick.dnschanger.activities.MainActivity$18
+ com.nick.dnschanger.activities.MainActivity$18$1
+ com.nick.dnschanger.activities.MainActivity$19
+ com.nick.dnschanger.activities.MainActivity$19$1
+ com.nick.dnschanger.activities.MainActivity$2
+ com.nick.dnschanger.activities.MainActivity$20
+ com.nick.dnschanger.activities.MainActivity$20$1
+ com.nick.dnschanger.activities.MainActivity$20$2
+ com.nick.dnschanger.activities.MainActivity$20$3
+ com.nick.dnschanger.activities.MainActivity$21
+ com.nick.dnschanger.activities.MainActivity$22
+ com.nick.dnschanger.activities.MainActivity$23
+ com.nick.dnschanger.activities.MainActivity$23$1
+ com.nick.dnschanger.activities.MainActivity$23$2
+ com.nick.dnschanger.activities.MainActivity$24
+ com.nick.dnschanger.activities.MainActivity$25
+ com.nick.dnschanger.activities.MainActivity$26
+ com.nick.dnschanger.activities.MainActivity$27
+ com.nick.dnschanger.activities.MainActivity$28
+ com.nick.dnschanger.activities.MainActivity$29
+ com.nick.dnschanger.activities.MainActivity$3
+ com.nick.dnschanger.activities.MainActivity$30
+ com.nick.dnschanger.activities.MainActivity$31
+ com.nick.dnschanger.activities.MainActivity$32
+ com.nick.dnschanger.activities.MainActivity$32$1
+ com.nick.dnschanger.activities.MainActivity$32$2
+ com.nick.dnschanger.activities.MainActivity$32$3
+ com.nick.dnschanger.activities.MainActivity$32$4
+ com.nick.dnschanger.activities.MainActivity$32$5
+ com.nick.dnschanger.activities.MainActivity$33
+ com.nick.dnschanger.activities.MainActivity$33$1
+ com.nick.dnschanger.activities.MainActivity$34
+ com.nick.dnschanger.activities.MainActivity$35
+ com.nick.dnschanger.activities.MainActivity$36
+ com.nick.dnschanger.activities.MainActivity$37
+ com.nick.dnschanger.activities.MainActivity$38
+ com.nick.dnschanger.activities.MainActivity$38$1
+ com.nick.dnschanger.activities.MainActivity$38$2
+ com.nick.dnschanger.activities.MainActivity$38$2$1
+ com.nick.dnschanger.activities.MainActivity$39
+ com.nick.dnschanger.activities.MainActivity$4
+ com.nick.dnschanger.activities.MainActivity$5
+ com.nick.dnschanger.activities.MainActivity$6
+ com.nick.dnschanger.activities.MainActivity$7
+ com.nick.dnschanger.activities.MainActivity$8
+ com.nick.dnschanger.activities.MainActivity$9
+com/nick/dnschanger/util/dnsproxy/DNSTCPProxy.java
+ com.nick.dnschanger.util.dnsproxy.DNSTCPProxy
+ com.nick.dnschanger.util.dnsproxy.DNSTCPProxy$1
+ com.nick.dnschanger.util.dnsproxy.DNSTCPProxy$PacketWrap
+com/nick/dnschanger/database/entities/DNSQuery.java
+ com.nick.dnschanger.database.entities.DNSQuery
+com/nick/dnschanger/database/serializers/IPPortSerializer.java
+ com.nick.dnschanger.database.serializers.IPPortSerializer
+com/nick/dnschanger/fragments/CurrentNetworksFragment.java
+ com.nick.dnschanger.fragments.CurrentNetworksFragment
+ com.nick.dnschanger.fragments.CurrentNetworksFragment$1
+ com.nick.dnschanger.fragments.CurrentNetworksFragment$1$1
+ com.nick.dnschanger.fragments.CurrentNetworksFragment$1$1$1
+ com.nick.dnschanger.fragments.CurrentNetworksFragment$1$1$2
+ com.nick.dnschanger.fragments.CurrentNetworksFragment$1$1$3
+ com.nick.dnschanger.fragments.CurrentNetworksFragment$1$1$4
+ com.nick.dnschanger.fragments.CurrentNetworksFragment$DNSProperties
+com/nick/dnschanger/LogFactory.java
+ com.nick.dnschanger.LogFactory
+ com.nick.dnschanger.LogFactory$1
+ com.nick.dnschanger.LogFactory$Tag
+com/nick/dnschanger/tiles/TilePauseResume.java
+ com.nick.dnschanger.tiles.TilePauseResume
+com/nick/dnschanger/database/DatabaseHelper.java
+ com.nick.dnschanger.database.DatabaseHelper
+ com.nick.dnschanger.database.DatabaseHelper$1
+com/nick/dnschanger/adapters/DNSEntryAdapter.java
+ com.nick.dnschanger.adapters.DNSEntryAdapter
+ com.nick.dnschanger.adapters.DNSEntryAdapter$1
+ com.nick.dnschanger.adapters.DNSEntryAdapter$2
+ com.nick.dnschanger.adapters.DNSEntryAdapter$3
+ com.nick.dnschanger.adapters.DNSEntryAdapter$OnEntrySelected
+ com.nick.dnschanger.adapters.DNSEntryAdapter$OnEntrySelectionUpdated
+ com.nick.dnschanger.adapters.DNSEntryAdapter$ViewHolder
+com/nick/dnschanger/BuildConfig.java
+ com.nick.dnschanger.BuildConfig
+com/nick/dnschanger/database/entities/DNSEntry.java
+ com.nick.dnschanger.database.entities.DNSEntry
+com/nick/dnschanger/database/entities/DNSRuleImport.java
+ com.nick.dnschanger.database.entities.DNSRuleImport
+com/nick/dnschanger/activities/automation/ToggleDnsActivity.java
+ com.nick.dnschanger.activities.automation.ToggleDnsActivity
+com/nick/dnschanger/services/RuleImportService.java
+ com.nick.dnschanger.services.RuleImportService
+ com.nick.dnschanger.services.RuleImportService$1
+ com.nick.dnschanger.services.RuleImportService$Configuration
+ com.nick.dnschanger.services.RuleImportService$FileList
+ com.nick.dnschanger.services.RuleImportService$FileList$1
+com/nick/dnschanger/activities/automation/PauseDnsActivity.java
+ com.nick.dnschanger.activities.automation.PauseDnsActivity
+com/nick/dnschanger/adapters/RuleAdapter.java
+ com.nick.dnschanger.adapters.RuleAdapter
+ com.nick.dnschanger.adapters.RuleAdapter$1
+ com.nick.dnschanger.adapters.RuleAdapter$2
+ com.nick.dnschanger.adapters.RuleAdapter$2$1
+ com.nick.dnschanger.adapters.RuleAdapter$3
+ com.nick.dnschanger.adapters.RuleAdapter$ArgumentBasedFilter
+ com.nick.dnschanger.adapters.RuleAdapter$ArgumentBasedFilter$1
+ com.nick.dnschanger.adapters.RuleAdapter$ArgumentBasedFilter$2
+ com.nick.dnschanger.adapters.RuleAdapter$ArgumentLessFilter
+ com.nick.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$1
+ com.nick.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$2
+ com.nick.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$3
+ com.nick.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$4
+ com.nick.dnschanger.adapters.RuleAdapter$ArgumentLessFilter$5
+ com.nick.dnschanger.adapters.RuleAdapter$ViewHolder
+com/nick/dnschanger/util/dnsproxy/DNSProxy.java
+ com.nick.dnschanger.util.dnsproxy.DNSProxy
+com/nick/dnschanger/database/entities/IPPortPair.java
+ com.nick.dnschanger.database.entities.IPPortPair
+com/nick/dnschanger/activities/ShortcutActivity.java
+ com.nick.dnschanger.activities.ShortcutActivity
+ com.nick.dnschanger.activities.ShortcutActivity$1
+ com.nick.dnschanger.activities.ShortcutActivity$2
+com/nick/dnschanger/util/GenericFileProvider.java
+ com.nick.dnschanger.util.GenericFileProvider
+com/nick/dnschanger/activities/InvalidDNSDialogActivity.java
+ com.nick.dnschanger.activities.InvalidDNSDialogActivity
+ com.nick.dnschanger.activities.InvalidDNSDialogActivity$1
+ com.nick.dnschanger.activities.InvalidDNSDialogActivity$2
+com/nick/dnschanger/activities/AppSelectionActivity.java
+ com.nick.dnschanger.activities.AppSelectionActivity
+ com.nick.dnschanger.activities.AppSelectionActivity$1
+ com.nick.dnschanger.activities.AppSelectionActivity$1$1
+ com.nick.dnschanger.activities.AppSelectionActivity$2
+ com.nick.dnschanger.activities.AppSelectionActivity$3
+ com.nick.dnschanger.activities.AppSelectionActivity$4
+ com.nick.dnschanger.activities.AppSelectionActivity$4$1
+ com.nick.dnschanger.activities.AppSelectionActivity$AppEntry
+ com.nick.dnschanger.activities.AppSelectionActivity$AppListAdapter
+ com.nick.dnschanger.activities.AppSelectionActivity$AppListAdapter$1
+ com.nick.dnschanger.activities.AppSelectionActivity$AppListAdapter$2
+ com.nick.dnschanger.activities.AppSelectionActivity$AppListAdapter$3
+ com.nick.dnschanger.activities.AppSelectionActivity$AppListAdapter$4
+ com.nick.dnschanger.activities.AppSelectionActivity$ViewHolder
+com/nick/dnschanger/dialogs/NewRuleDialog.java
+ com.nick.dnschanger.dialogs.NewRuleDialog
+ com.nick.dnschanger.dialogs.NewRuleDialog$1
+ com.nick.dnschanger.dialogs.NewRuleDialog$2
+ com.nick.dnschanger.dialogs.NewRuleDialog$3
+ com.nick.dnschanger.dialogs.NewRuleDialog$4
+ com.nick.dnschanger.dialogs.NewRuleDialog$4$1
+ com.nick.dnschanger.dialogs.NewRuleDialog$4$2
+ com.nick.dnschanger.dialogs.NewRuleDialog$5
+ com.nick.dnschanger.dialogs.NewRuleDialog$6
+ com.nick.dnschanger.dialogs.NewRuleDialog$7
+ com.nick.dnschanger.dialogs.NewRuleDialog$CreationListener

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.frostnerd.dnschanger"
+    package="com.nick.dnschanger"
     android:installLocation="internalOnly"
     android:versionCode="125"
     android:versionName="1.16.5.11" >
@@ -30,7 +30,7 @@
         android:name="android.permission.INTERACT_ACROSS_USERS_FULL"
         android:protectionLevel="signature" />
     <permission
-        android:name="com.frostnerd.dnschanger.ACCESS_DATA"
+        android:name="com.nick.dnschanger.ACCESS_DATA"
         android:description="@string/permissions_description_access_data"
         android:label="@string/permissions_label_access_data"
         android:protectionLevel="signature" />
@@ -52,7 +52,6 @@
         android:fullBackupContent="@xml/backup_rules"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:networkSecurityConfig="@xml/security_config"
         android:requestLegacyExternalStorage="true"
         android:supportsRtl="true" >
@@ -64,7 +63,7 @@
             android:value="2.1" />
 
         <activity
-            android:name="com.frostnerd.dnschanger.activities.MainActivity"
+            android:name="com.nick.dnschanger.activities.MainActivity"
             android:configChanges="orientation|keyboardHidden"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop" >
@@ -89,7 +88,7 @@
         </activity>
 
         <service
-            android:name="com.frostnerd.dnschanger.services.DNSVpnService"
+            android:name="com.nick.dnschanger.services.DNSVpnService"
             android:permission="android.permission.BIND_VPN_SERVICE"
             android:stopWithTask="false" >
             <intent-filter>
@@ -102,22 +101,22 @@
         </service>
 
         <activity
-            android:name="com.frostnerd.dnschanger.activities.InvalidDNSDialogActivity"
+            android:name="com.nick.dnschanger.activities.InvalidDNSDialogActivity"
             android:launchMode="singleInstance"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
         <activity
-            android:name="com.frostnerd.dnschanger.activities.BackgroundVpnConfigureActivity"
+            android:name="com.nick.dnschanger.activities.BackgroundVpnConfigureActivity"
             android:launchMode="singleInstance"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
         <activity
-            android:name="com.frostnerd.dnschanger.activities.BackgroundDNSListActivity"
+            android:name="com.nick.dnschanger.activities.BackgroundDNSListActivity"
             android:launchMode="singleInstance"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
         <activity
-            android:name="com.frostnerd.dnschanger.tasker.ConfigureActivity"
+            android:name="com.nick.dnschanger.tasker.ConfigureActivity"
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
+            android:label="@string/module_name"
             android:uiOptions="splitActionBarWhenNarrow"
             android:windowSoftInputMode="adjustResize" >
             <intent-filter>
@@ -126,7 +125,7 @@
         </activity>
 
         <receiver
-            android:name="com.frostnerd.dnschanger.receivers.BootReceiver"
+            android:name="com.nick.dnschanger.receivers.BootReceiver"
             android:enabled="true"
             android:exported="true" > <!-- TODO Check if working on all devices -->
             <intent-filter>
@@ -137,7 +136,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.frostnerd.dnschanger.tasker.FireReceiver"
+            android:name="com.nick.dnschanger.tasker.FireReceiver"
             android:exported="true"
             android:process=":background" >
             <intent-filter>
@@ -145,55 +144,55 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.frostnerd.dnschanger.services.ConnectivityBackgroundService" />
-        <service android:name="com.frostnerd.dnschanger.services.ConnectivityCheckRestartService" />
+        <service android:name="com.nick.dnschanger.services.ConnectivityBackgroundService" />
+        <service android:name="com.nick.dnschanger.services.ConnectivityCheckRestartService" />
         <service
-            android:name="com.frostnerd.dnschanger.services.DataService"
+            android:name="com.nick.dnschanger.services.DataService"
             android:exported="true"
-            android:permission="com.frostnerd.dnschanger.ACCESS_DATA"
+            android:permission="com.nick.dnschanger.ACCESS_DATA"
             android:process=":exported" >
             <intent-filter>
-                <action android:name="com.frostnerd.dnschanger.services.DataService" />
+                <action android:name="com.nick.dnschanger.services.DataService" />
             </intent-filter>
         </service>
 
         <activity
-            android:name="com.frostnerd.dnschanger.activities.ShortcutActivity"
+            android:name="com.nick.dnschanger.activities.ShortcutActivity"
             android:exported="true"
             android:launchMode="singleTop"
-            android:taskAffinity="com.frostnerd.dnschangerShortcut"
+            android:taskAffinity="com.nick.dnschangerShortcut"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
 
         <activity-alias
-            android:name="com.frostnerd.dnschanger.ShortcutActivity"
+            android:name="com.nick.dnschanger.ShortcutActivity"
             android:exported="true"
             android:launchMode="singleTop"
-            android:targetActivity="com.frostnerd.dnschanger.activities.ShortcutActivity"
-            android:taskAffinity="com.frostnerd.dnschangerShortcut"
+            android:targetActivity="com.nick.dnschanger.activities.ShortcutActivity"
+            android:taskAffinity="com.nick.dnschangerShortcut"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
 
         <activity
-            android:name="com.frostnerd.dnschanger.activities.automation.PauseDnsActivity"
+            android:name="com.nick.dnschanger.activities.automation.PauseDnsActivity"
             android:exported="true" />
         <activity
-            android:name="com.frostnerd.dnschanger.activities.automation.ResumeDnsActivity"
+            android:name="com.nick.dnschanger.activities.automation.ResumeDnsActivity"
             android:exported="true" />
         <activity
-            android:name="com.frostnerd.dnschanger.activities.automation.StartDnsActivity"
+            android:name="com.nick.dnschanger.activities.automation.StartDnsActivity"
             android:exported="true" />
         <activity
-            android:name="com.frostnerd.dnschanger.activities.automation.StopDnsActivity"
+            android:name="com.nick.dnschanger.activities.automation.StopDnsActivity"
             android:exported="true" />
         <activity
-            android:name="com.frostnerd.dnschanger.activities.automation.ToggleDnsActivity"
+            android:name="com.nick.dnschanger.activities.automation.ToggleDnsActivity"
             android:exported="true" />
         <activity
-            android:name="com.frostnerd.dnschanger.activities.PinActivity"
+            android:name="com.nick.dnschanger.activities.PinActivity"
             android:launchMode="singleTask"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" >
         </activity>
         <activity
-            android:name="com.frostnerd.dnschanger.activities.ErrorDialogActivity"
+            android:name="com.nick.dnschanger.activities.ErrorDialogActivity"
             android:autoRemoveFromRecents="true"
             android:clearTaskOnLaunch="true"
             android:excludeFromRecents="true"
@@ -202,23 +201,23 @@
             android:process=".ErrorProcess"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
         <activity
-            android:name="com.frostnerd.dnschanger.activities.AppSelectionActivity"
+            android:name="com.nick.dnschanger.activities.AppSelectionActivity"
             android:launchMode="singleTask"
-            android:parentActivityName="com.frostnerd.dnschanger.activities.MainActivity" >
+            android:parentActivityName="com.nick.dnschanger.activities.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
         <activity
-            android:name="com.frostnerd.dnschanger.activities.AdvancedSettingsActivity"
-            android:parentActivityName="com.frostnerd.dnschanger.activities.MainActivity" >
+            android:name="com.nick.dnschanger.activities.AdvancedSettingsActivity"
+            android:parentActivityName="com.nick.dnschanger.activities.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.MainActivity" />
         </activity>
 
         <service
-            android:name="com.frostnerd.dnschanger.tiles.TileStartStop"
+            android:name="com.nick.dnschanger.tiles.TileStartStop"
             android:icon="@drawable/ic_stat_resume"
             android:label="@string/tile_start_stop"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
@@ -231,7 +230,7 @@
                 android:value="true" />
         </service>
         <service
-            android:name="com.frostnerd.dnschanger.tiles.TilePauseResume"
+            android:name="com.nick.dnschanger.tiles.TilePauseResume"
             android:icon="@drawable/ic_stat_resume"
             android:label="@string/tile_pause_resume"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
@@ -245,7 +244,7 @@
         </service>
 
         <activity
-            android:name="com.frostnerd.dnschanger.activities.SettingsImportActivity"
+            android:name="com.nick.dnschanger.activities.SettingsImportActivity"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" >
             <intent-filter android:priority="50" >
                 <action android:name="android.intent.action.VIEW" />
@@ -276,7 +275,7 @@
         <activity android:name="com.frostnerd.design.filechooseractivity.FileChooserActivity" />
 
         <receiver
-            android:name="com.frostnerd.dnschanger.receivers.AdminReceiver"
+            android:name="com.nick.dnschanger.receivers.AdminReceiver"
             android:description="@string/device_admin_description"
             android:label="@string/device_admin"
             android:permission="android.permission.BIND_DEVICE_ADMIN" >
@@ -288,7 +287,7 @@
                 <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.frostnerd.dnschanger.receivers.UpdateReceiver" >
+        <receiver android:name="com.nick.dnschanger.receivers.UpdateReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
             </intent-filter>
@@ -301,7 +300,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.frostnerd.dnschanger"
+            android:authorities="com.nick.dnschanger"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -309,8 +308,8 @@
                 android:resource="@xml/debug_file_paths" />
         </provider>
         <provider
-            android:name="com.frostnerd.dnschanger.util.GenericFileProvider"
-            android:authorities="com.frostnerd.dnschanger.provider"
+            android:name="com.nick.dnschanger.util.GenericFileProvider"
+            android:authorities="com.nick.dnschanger.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -319,7 +318,7 @@
         </provider>
 
         <service
-            android:name="com.frostnerd.dnschanger.services.RuleImportService"
+            android:name="com.nick.dnschanger.services.RuleImportService"
             android:stopWithTask="false" />
     </application>
 

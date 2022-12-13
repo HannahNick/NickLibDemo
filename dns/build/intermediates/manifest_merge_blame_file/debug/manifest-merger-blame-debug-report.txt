@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    xmlns:tools="http://schemas.android.com/tools"
-4    package="com.frostnerd.dnschanger"
+4    package="com.nick.dnschanger"
 5    android:installLocation="internalOnly"
 6    android:versionCode="125"
 7    android:versionName="1.16.5.11" >
@@ -60,8 +60,8 @@
 31-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:24:9-44
 32    <permission
 32-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:26:5-30:47
-33        android:name="com.frostnerd.dnschanger.ACCESS_DATA"
-33-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:27:9-60
+33        android:name="com.nick.dnschanger.ACCESS_DATA"
+33-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:27:9-55
 34        android:description="@string/permissions_description_access_data"
 34-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:28:9-74
 35        android:label="@string/permissions_label_access_data"
@@ -90,7 +90,7 @@
 47-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:41:9-37
 48
 49    <application
-49-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:43:5-323:19
+49-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:43:5-322:19
 50        android:allowBackup="true"
 50-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:44:9-35
 51        android:extractNativeLibs="true"
@@ -101,538 +101,536 @@
 53-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:46:9-43
 54        android:icon="@mipmap/ic_launcher"
 54-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:48:9-43
-55        android:label="@string/app_name"
-55-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:50:9-41
-56        android:networkSecurityConfig="@xml/security_config"
-56-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:51:9-61
-57        android:requestLegacyExternalStorage="true"
-57-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:49:9-52
-58        android:supportsRtl="true" >
-58-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:52:9-35
-59        <meta-data
-59-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:54:9-79
-60            android:name="io.sentry.auto-init"
-60-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:54:20-54
-61            android:value="false" />
-61-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:54:55-76
-62        <meta-data
-62-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:56:9-58:35
-63            android:name="android.max_aspect"
-63-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:57:13-46
-64            android:value="2.1" />
-64-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:58:13-32
-65
-66        <activity
-66-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:59:9-82:20
-67            android:name="com.frostnerd.dnschanger.activities.MainActivity"
-67-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:60:13-52
-68            android:configChanges="orientation|keyboardHidden"
-68-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:61:13-63
-69            android:hardwareAccelerated="true"
-69-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:62:13-47
-70            android:launchMode="singleTop" >
-70-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:63:13-43
-71            <intent-filter android:label="@string/deep_link_title" >
-71-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:64:13-81:29
-71-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:64:28-67
-72                <action android:name="android.intent.action.VIEW" />
-72-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:65:17-69
-72-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:65:25-66
-73
-74                <category android:name="android.intent.category.DEFAULT" />
-74-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:67:17-76
-74-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:67:27-73
-75                <category android:name="android.intent.category.BROWSABLE" />
-75-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:68:17-78
-75-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:68:27-75
-76
-77                <data
-77-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-78                    android:host="www.frostnerd.com"
+55        android:networkSecurityConfig="@xml/security_config"
+55-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:50:9-61
+56        android:requestLegacyExternalStorage="true"
+56-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:49:9-52
+57        android:supportsRtl="true" >
+57-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:51:9-35
+58        <meta-data
+58-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:53:9-79
+59            android:name="io.sentry.auto-init"
+59-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:53:20-54
+60            android:value="false" />
+60-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:53:55-76
+61        <meta-data
+61-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:55:9-57:35
+62            android:name="android.max_aspect"
+62-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:56:13-46
+63            android:value="2.1" />
+63-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:57:13-32
+64
+65        <activity
+65-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:58:9-81:20
+66            android:name="com.nick.dnschanger.activities.MainActivity"
+66-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:59:13-52
+67            android:configChanges="orientation|keyboardHidden"
+67-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:60:13-63
+68            android:hardwareAccelerated="true"
+68-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:61:13-47
+69            android:launchMode="singleTop" >
+69-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:62:13-43
+70            <intent-filter android:label="@string/deep_link_title" >
+70-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:63:13-80:29
+70-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:63:28-67
+71                <action android:name="android.intent.action.VIEW" />
+71-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:64:17-69
+71-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:64:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:66:17-76
+73-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:66:27-73
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:67:17-78
+74-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:67:27-75
+75
+76                <data
+76-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+77                    android:host="www.frostnerd.com"
+77-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:21-53
+78                    android:pathPrefix="/dnschanger"
 78-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:71:21-53
-79                    android:pathPrefix="/dnschanger"
-79-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-53
-80                    android:scheme="http" />
-80-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-81                <data
-81-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-82                    android:host="www.frostnerd.com"
+79                    android:scheme="http" />
+79-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+80                <data
+80-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+81                    android:host="www.frostnerd.com"
+81-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:21-53
+82                    android:pathPrefix="/dnschanger"
 82-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:71:21-53
-83                    android:pathPrefix="/dnschanger"
-83-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-53
-84                    android:scheme="https" />
-84-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-85                <data
-85-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-86                    android:host="dnschanger"
-86-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:71:21-53
-87                    android:scheme="frostnerd" />
-87-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-88            </intent-filter>
-89        </activity>
-90
-91        <service
-91-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:84:9-93:19
-92            android:name="com.frostnerd.dnschanger.services.DNSVpnService"
-92-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:85:13-51
-93            android:permission="android.permission.BIND_VPN_SERVICE"
-93-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:86:13-69
-94            android:stopWithTask="false" >
-94-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:87:13-41
-95            <intent-filter>
-95-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:88:13-90:29
-96                <action android:name="android.net.VpnService" />
-96-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:89:17-65
-96-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:89:25-62
-97            </intent-filter>
-98
-99            <meta-data
-99-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:91:13-92:40
-100                android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
-100-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:91:24-80
-101                android:value="true" />
-101-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:92:17-37
-102        </service>
-103
-104        <activity
-104-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:95:9-98:73
-105            android:name="com.frostnerd.dnschanger.activities.InvalidDNSDialogActivity"
-105-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:96:13-64
-106            android:launchMode="singleInstance"
-106-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:97:13-48
-107            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
-107-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:98:13-70
-108        <activity
-108-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:100:9-103:73
-109            android:name="com.frostnerd.dnschanger.activities.BackgroundVpnConfigureActivity"
-109-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:101:13-70
-110            android:launchMode="singleInstance"
-110-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:102:13-48
-111            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
-111-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:103:13-70
-112        <activity
-112-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:105:9-108:73
-113            android:name="com.frostnerd.dnschanger.activities.BackgroundDNSListActivity"
-113-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:106:13-65
-114            android:launchMode="singleInstance"
-114-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:107:13-48
-115            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
-115-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:108:13-70
-116        <activity
-116-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:110:9-120:20
-117            android:name="com.frostnerd.dnschanger.tasker.ConfigureActivity"
-117-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:111:13-53
-118            android:exported="true"
-118-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:112:13-36
-119            android:icon="@mipmap/ic_launcher"
-119-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:113:13-47
-120            android:label="@string/app_name"
-120-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:114:13-45
-121            android:uiOptions="splitActionBarWhenNarrow"
-121-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:115:13-57
-122            android:windowSoftInputMode="adjustResize" >
-122-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:116:13-55
-123            <intent-filter>
-123-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:117:13-119:29
-124                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
-124-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:118:17-95
-124-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:118:25-92
-125            </intent-filter>
-126        </activity>
-127
-128        <receiver
-128-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:122:9-132:20
-129            android:name="com.frostnerd.dnschanger.receivers.BootReceiver"
-129-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:123:13-51
-130            android:enabled="true"
-130-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:124:13-35
-131            android:exported="true" > <!-- TODO Check if working on all devices -->
-131-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:125:13-36
-132            <intent-filter>
-132-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:126:13-131:29
-133                <action android:name="android.intent.action.BOOT_COMPLETED" />
-133-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:127:17-79
-133-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:127:25-76
-134                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
-134-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:128:17-86
-134-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:128:25-83
-135                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+83                    android:scheme="https" />
+83-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+84                <data
+84-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+85                    android:host="dnschanger"
+85-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:21-53
+86                    android:scheme="frostnerd" />
+86-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+87            </intent-filter>
+88        </activity>
+89
+90        <service
+90-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:83:9-92:19
+91            android:name="com.nick.dnschanger.services.DNSVpnService"
+91-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:84:13-51
+92            android:permission="android.permission.BIND_VPN_SERVICE"
+92-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:85:13-69
+93            android:stopWithTask="false" >
+93-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:86:13-41
+94            <intent-filter>
+94-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:87:13-89:29
+95                <action android:name="android.net.VpnService" />
+95-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:88:17-65
+95-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:88:25-62
+96            </intent-filter>
+97
+98            <meta-data
+98-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:90:13-91:40
+99                android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
+99-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:90:24-80
+100                android:value="true" />
+100-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:91:17-37
+101        </service>
+102
+103        <activity
+103-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:94:9-97:73
+104            android:name="com.nick.dnschanger.activities.InvalidDNSDialogActivity"
+104-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:95:13-64
+105            android:launchMode="singleInstance"
+105-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:96:13-48
+106            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+106-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:97:13-70
+107        <activity
+107-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:99:9-102:73
+108            android:name="com.nick.dnschanger.activities.BackgroundVpnConfigureActivity"
+108-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:100:13-70
+109            android:launchMode="singleInstance"
+109-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:101:13-48
+110            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+110-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:102:13-70
+111        <activity
+111-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:104:9-107:73
+112            android:name="com.nick.dnschanger.activities.BackgroundDNSListActivity"
+112-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:105:13-65
+113            android:launchMode="singleInstance"
+113-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:106:13-48
+114            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+114-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:107:13-70
+115        <activity
+115-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:109:9-119:20
+116            android:name="com.nick.dnschanger.tasker.ConfigureActivity"
+116-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:110:13-53
+117            android:exported="true"
+117-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:111:13-36
+118            android:icon="@mipmap/ic_launcher"
+118-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:112:13-47
+119            android:label="@string/module_name"
+119-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:113:13-48
+120            android:uiOptions="splitActionBarWhenNarrow"
+120-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:114:13-57
+121            android:windowSoftInputMode="adjustResize" >
+121-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:115:13-55
+122            <intent-filter>
+122-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:116:13-118:29
+123                <action android:name="com.twofortyfouram.locale.intent.action.EDIT_SETTING" />
+123-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:117:17-95
+123-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:117:25-92
+124            </intent-filter>
+125        </activity>
+126
+127        <receiver
+127-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:121:9-131:20
+128            android:name="com.nick.dnschanger.receivers.BootReceiver"
+128-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:122:13-51
+129            android:enabled="true"
+129-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:123:13-35
+130            android:exported="true" > <!-- TODO Check if working on all devices -->
+130-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:124:13-36
+131            <intent-filter>
+131-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:125:13-130:29
+132                <action android:name="android.intent.action.BOOT_COMPLETED" />
+132-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:126:17-79
+132-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:126:25-76
+133                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+133-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:127:17-86
+133-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:127:25-83
+134                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+134-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:128:17-82
+134-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:128:25-79
+135                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
 135-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:129:17-82
 135-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:129:25-79
-136                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-136-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:130:17-82
-136-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:130:25-79
-137            </intent-filter>
-138        </receiver>
-139        <receiver
-139-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:134:9-141:20
-140            android:name="com.frostnerd.dnschanger.tasker.FireReceiver"
-140-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:135:13-48
-141            android:exported="true"
-141-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:136:13-36
-142            android:process=":background" >
-142-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:137:13-42
-143            <intent-filter>
-143-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:138:13-140:29
-144                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
-144-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:139:17-95
-144-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:139:25-92
-145            </intent-filter>
-146        </receiver>
-147
-148        <service android:name="com.frostnerd.dnschanger.services.ConnectivityBackgroundService" />
-148-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:143:9-75
-148-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:143:18-72
-149        <service android:name="com.frostnerd.dnschanger.services.ConnectivityCheckRestartService" />
-149-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:144:9-77
-149-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:144:18-74
-150        <service
-150-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:146:9-154:19
-151            android:name="com.frostnerd.dnschanger.services.DataService"
-151-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:147:13-49
-152            android:exported="true"
-152-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:148:13-36
-153            android:permission="com.frostnerd.dnschanger.ACCESS_DATA"
-153-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:149:13-70
-154            android:process=":exported" >
-154-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:150:13-40
-155            <intent-filter>
-155-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:151:13-153:29
-156                <action android:name="com.frostnerd.dnschanger.services.DataService" />
-156-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:152:17-88
-156-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:152:25-85
-157            </intent-filter>
-158        </service>
-159
-160        <activity
-160-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:156:9-161:73
-161            android:name="com.frostnerd.dnschanger.activities.ShortcutActivity"
-161-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:157:13-56
-162            android:exported="true"
-162-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:158:13-36
-163            android:launchMode="singleTop"
-163-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:159:13-43
-164            android:taskAffinity="com.frostnerd.dnschangerShortcut"
-164-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:160:13-68
-165            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
-165-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:161:13-70
-166
-167        <activity-alias
-167-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:162:9-168:73
-168            android:name="com.frostnerd.dnschanger.ShortcutActivity"
-168-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:163:13-45
-169            android:exported="true"
-169-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:164:13-36
-170            android:launchMode="singleTop"
-170-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:165:13-43
-171            android:targetActivity="com.frostnerd.dnschanger.activities.ShortcutActivity"
-171-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:166:13-66
-172            android:taskAffinity="com.frostnerd.dnschangerShortcut"
-172-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:167:13-68
-173            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
-173-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:168:13-70
-174
-175        <activity
-175-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:169:9-171:15
-176            android:name="com.frostnerd.dnschanger.activities.automation.PauseDnsActivity"
-176-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:169:19-73
-177            android:exported="true" />
-177-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:170:13-36
-178        <activity
-178-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:172:9-174:15
-179            android:name="com.frostnerd.dnschanger.activities.automation.ResumeDnsActivity"
-179-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:172:19-74
-180            android:exported="true" />
-180-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:173:13-36
-181        <activity
-181-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:175:9-177:15
-182            android:name="com.frostnerd.dnschanger.activities.automation.StartDnsActivity"
-182-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:175:19-73
-183            android:exported="true" />
-183-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:176:13-36
-184        <activity
-184-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:178:9-180:15
-185            android:name="com.frostnerd.dnschanger.activities.automation.StopDnsActivity"
-185-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:178:19-72
-186            android:exported="true" />
-186-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:179:13-36
-187        <activity
-187-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:181:9-183:15
-188            android:name="com.frostnerd.dnschanger.activities.automation.ToggleDnsActivity"
-188-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:181:19-74
-189            android:exported="true" />
-189-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:182:13-36
-190        <activity
-190-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:186:9-190:20
-191            android:name="com.frostnerd.dnschanger.activities.PinActivity"
-191-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:187:13-51
-192            android:launchMode="singleTask"
-192-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:188:13-44
-193            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" >
-193-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:189:13-70
-194        </activity>
-195        <activity
-195-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:191:9-199:73
-196            android:name="com.frostnerd.dnschanger.activities.ErrorDialogActivity"
-196-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:192:13-59
-197            android:autoRemoveFromRecents="true"
-197-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:193:13-49
-198            android:clearTaskOnLaunch="true"
-198-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:194:13-45
-199            android:excludeFromRecents="true"
-199-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:195:13-46
-200            android:launchMode="singleTop"
-200-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:196:13-43
-201            android:noHistory="true"
-201-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:197:13-37
-202            android:process=".ErrorProcess"
-202-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:198:13-44
-203            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
-203-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:199:13-70
-204        <activity
-204-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:201:9-208:20
-205            android:name="com.frostnerd.dnschanger.activities.AppSelectionActivity"
-205-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:202:13-60
-206            android:launchMode="singleTask"
-206-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:203:13-44
-207            android:parentActivityName="com.frostnerd.dnschanger.activities.MainActivity" >
-207-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:204:13-66
-208            <meta-data
-208-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:205:13-207:60
-209                android:name="android.support.PARENT_ACTIVITY"
-209-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:206:17-63
-210                android:value=".activities.MainActivity" />
-210-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:207:17-57
-211        </activity>
-212        <activity
-212-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:210:9-217:20
-213            android:name="com.frostnerd.dnschanger.activities.AdvancedSettingsActivity"
-213-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:211:13-64
-214            android:parentActivityName="com.frostnerd.dnschanger.activities.MainActivity" >
-214-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:212:13-66
-215            <meta-data
-215-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:205:13-207:60
-216                android:name="android.support.PARENT_ACTIVITY"
-216-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:206:17-63
-217                android:value=".activities.MainActivity" />
-217-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:207:17-57
-218        </activity>
-219
-220        <service
-220-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:219:9-230:19
-221            android:name="com.frostnerd.dnschanger.tiles.TileStartStop"
-221-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:220:13-48
-222            android:icon="@drawable/ic_stat_resume"
+136            </intent-filter>
+137        </receiver>
+138        <receiver
+138-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:133:9-140:20
+139            android:name="com.nick.dnschanger.tasker.FireReceiver"
+139-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:134:13-48
+140            android:exported="true"
+140-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:135:13-36
+141            android:process=":background" >
+141-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:136:13-42
+142            <intent-filter>
+142-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:137:13-139:29
+143                <action android:name="com.twofortyfouram.locale.intent.action.FIRE_SETTING" />
+143-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:138:17-95
+143-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:138:25-92
+144            </intent-filter>
+145        </receiver>
+146
+147        <service android:name="com.nick.dnschanger.services.ConnectivityBackgroundService" />
+147-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:142:9-75
+147-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:142:18-72
+148        <service android:name="com.nick.dnschanger.services.ConnectivityCheckRestartService" />
+148-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:143:9-77
+148-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:143:18-74
+149        <service
+149-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:145:9-153:19
+150            android:name="com.nick.dnschanger.services.DataService"
+150-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:146:13-49
+151            android:exported="true"
+151-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:147:13-36
+152            android:permission="com.nick.dnschanger.ACCESS_DATA"
+152-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:148:13-65
+153            android:process=":exported" >
+153-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:149:13-40
+154            <intent-filter>
+154-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:150:13-152:29
+155                <action android:name="com.nick.dnschanger.services.DataService" />
+155-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:151:17-83
+155-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:151:25-80
+156            </intent-filter>
+157        </service>
+158
+159        <activity
+159-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:155:9-160:73
+160            android:name="com.nick.dnschanger.activities.ShortcutActivity"
+160-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:156:13-56
+161            android:exported="true"
+161-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:157:13-36
+162            android:launchMode="singleTop"
+162-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:158:13-43
+163            android:taskAffinity="com.nick.dnschangerShortcut"
+163-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:159:13-63
+164            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+164-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:160:13-70
+165
+166        <activity-alias
+166-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:161:9-167:73
+167            android:name="com.nick.dnschanger.ShortcutActivity"
+167-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:162:13-45
+168            android:exported="true"
+168-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:163:13-36
+169            android:launchMode="singleTop"
+169-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:164:13-43
+170            android:targetActivity="com.nick.dnschanger.activities.ShortcutActivity"
+170-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:165:13-66
+171            android:taskAffinity="com.nick.dnschangerShortcut"
+171-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:166:13-63
+172            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+172-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:167:13-70
+173
+174        <activity
+174-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:168:9-170:15
+175            android:name="com.nick.dnschanger.activities.automation.PauseDnsActivity"
+175-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:168:19-73
+176            android:exported="true" />
+176-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:169:13-36
+177        <activity
+177-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:171:9-173:15
+178            android:name="com.nick.dnschanger.activities.automation.ResumeDnsActivity"
+178-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:171:19-74
+179            android:exported="true" />
+179-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:172:13-36
+180        <activity
+180-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:174:9-176:15
+181            android:name="com.nick.dnschanger.activities.automation.StartDnsActivity"
+181-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:174:19-73
+182            android:exported="true" />
+182-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:175:13-36
+183        <activity
+183-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:177:9-179:15
+184            android:name="com.nick.dnschanger.activities.automation.StopDnsActivity"
+184-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:177:19-72
+185            android:exported="true" />
+185-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:178:13-36
+186        <activity
+186-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:180:9-182:15
+187            android:name="com.nick.dnschanger.activities.automation.ToggleDnsActivity"
+187-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:180:19-74
+188            android:exported="true" />
+188-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:181:13-36
+189        <activity
+189-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:185:9-189:20
+190            android:name="com.nick.dnschanger.activities.PinActivity"
+190-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:186:13-51
+191            android:launchMode="singleTask"
+191-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:187:13-44
+192            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" >
+192-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:188:13-70
+193        </activity>
+194        <activity
+194-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:190:9-198:73
+195            android:name="com.nick.dnschanger.activities.ErrorDialogActivity"
+195-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:191:13-59
+196            android:autoRemoveFromRecents="true"
+196-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:192:13-49
+197            android:clearTaskOnLaunch="true"
+197-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:193:13-45
+198            android:excludeFromRecents="true"
+198-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:194:13-46
+199            android:launchMode="singleTop"
+199-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:195:13-43
+200            android:noHistory="true"
+200-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:196:13-37
+201            android:process=".ErrorProcess"
+201-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:197:13-44
+202            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
+202-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:198:13-70
+203        <activity
+203-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:200:9-207:20
+204            android:name="com.nick.dnschanger.activities.AppSelectionActivity"
+204-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:201:13-60
+205            android:launchMode="singleTask"
+205-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:202:13-44
+206            android:parentActivityName="com.nick.dnschanger.activities.MainActivity" >
+206-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:203:13-66
+207            <meta-data
+207-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:204:13-206:60
+208                android:name="android.support.PARENT_ACTIVITY"
+208-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:205:17-63
+209                android:value=".activities.MainActivity" />
+209-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:206:17-57
+210        </activity>
+211        <activity
+211-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:209:9-216:20
+212            android:name="com.nick.dnschanger.activities.AdvancedSettingsActivity"
+212-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:210:13-64
+213            android:parentActivityName="com.nick.dnschanger.activities.MainActivity" >
+213-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:211:13-66
+214            <meta-data
+214-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:204:13-206:60
+215                android:name="android.support.PARENT_ACTIVITY"
+215-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:205:17-63
+216                android:value=".activities.MainActivity" />
+216-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:206:17-57
+217        </activity>
+218
+219        <service
+219-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:218:9-229:19
+220            android:name="com.nick.dnschanger.tiles.TileStartStop"
+220-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:219:13-48
+221            android:icon="@drawable/ic_stat_resume"
+221-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:220:13-52
+222            android:label="@string/tile_start_stop"
 222-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:221:13-52
-223            android:label="@string/tile_start_stop"
-223-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:222:13-52
-224            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
-224-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:223:13-77
-225            <intent-filter>
-225-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:224:13-226:29
-226                <action android:name="android.service.quicksettings.action.QS_TILE" />
-226-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:225:17-87
-226-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:225:25-84
-227            </intent-filter>
-228
-229            <meta-data
-229-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:227:13-229:40
-230                android:name="android.service.quicksettings.ACTIVE_TILE"
-230-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:228:17-73
-231                android:value="true" />
-231-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:229:17-37
-232        </service>
-233        <service
-233-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:232:9-243:19
-234            android:name="com.frostnerd.dnschanger.tiles.TilePauseResume"
-234-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:233:13-50
-235            android:icon="@drawable/ic_stat_resume"
-235-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:234:13-52
-236            android:label="@string/tile_pause_resume"
-236-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:235:13-54
-237            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
-237-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:236:13-77
-238            <intent-filter>
-238-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:224:13-226:29
-239                <action android:name="android.service.quicksettings.action.QS_TILE" />
-239-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:225:17-87
-239-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:225:25-84
-240            </intent-filter>
-241
-242            <meta-data
-242-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:227:13-229:40
-243                android:name="android.service.quicksettings.ACTIVE_TILE"
-243-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:228:17-73
-244                android:value="true" />
-244-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:229:17-37
-245        </service>
-246
-247        <activity
-247-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:245:9-273:20
-248            android:name="com.frostnerd.dnschanger.activities.SettingsImportActivity"
-248-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:246:13-62
-249            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" >
-249-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:247:13-70
-250            <intent-filter android:priority="50" >
-250-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:248:13-272:29
-250-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:248:28-49
-251                <action android:name="android.intent.action.VIEW" />
-251-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:65:17-69
-251-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:65:25-66
-252                <action android:name="android.intent.action.SEND" />
-252-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:250:17-69
-252-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:250:25-66
-253                <action android:name="android.intent.action.SENDTO" />
-253-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:251:17-71
-253-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:251:25-68
-254                <action android:name="android.intent.action.SEND_MULTIPLE" />
-254-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:252:17-78
-254-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:252:25-75
-255
-256                <category android:name="android.intent.category.BROWSABLE" />
-256-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:68:17-78
-256-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:68:27-75
-257                <category android:name="android.intent.category.DEFAULT" />
-257-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:67:17-76
-257-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:67:27-73
-258
-259                <data android:scheme="file" />
-259-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-259-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-260                <data android:scheme="content" />
-260-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-260-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-261                <data android:scheme="uri" />
-261-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-261-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-262                <data android:scheme="http" />
-262-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-262-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-263                <data android:scheme="https" />
-263-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-263-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-264                <data android:scheme="application" />
-264-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-264-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-265                <data android:mimeType="*/*" />
-265-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-265-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:263:23-45
-266                <data android:host="*" />
-266-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-266-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:71:21-53
-267                <data android:pathPattern=".*\\.settings" />
-267-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-267-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:265:23-58
-268                <data android:pathPattern=".*\\..*\\.settings" />
-268-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-268-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:265:23-58
-269                <data android:pathPattern=".*\\..*\\..*\\.settings" />
-269-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-269-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:265:23-58
-270                <data android:pathPattern=".*\\..*\\..*\\..*\\.settings" />
-270-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-270-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:265:23-58
-271                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.settings" />
-271-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-271-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:265:23-58
-272                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.settings" />
-272-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-272-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:265:23-58
-273                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.settings" />
-273-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-273-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:265:23-58
-274            </intent-filter>
-275        </activity>
-276        <activity android:name="com.frostnerd.design.filechooseractivity.FileChooserActivity" />
-276-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:275:9-97
-276-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:275:19-94
-277
-278        <receiver
-278-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:277:9-288:20
-279            android:name="com.frostnerd.dnschanger.receivers.AdminReceiver"
-279-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:278:13-52
-280            android:description="@string/device_admin_description"
-280-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:279:13-67
-281            android:label="@string/device_admin"
-281-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:280:13-49
-282            android:permission="android.permission.BIND_DEVICE_ADMIN" >
-282-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:281:13-70
-283            <meta-data
-283-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:282:13-284:56
-284                android:name="android.app.device_admin"
-284-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:283:17-56
-285                android:resource="@xml/device_admin" />
-285-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:284:17-53
-286
-287            <intent-filter>
-287-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:285:13-287:29
-288                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
-288-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:286:17-82
-288-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:286:25-79
-289            </intent-filter>
-290        </receiver>
-291        <receiver android:name="com.frostnerd.dnschanger.receivers.UpdateReceiver" >
-291-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:290:9-298:20
-291-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:290:19-59
-292            <intent-filter>
-292-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:291:13-293:29
-293                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-293-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:292:17-84
-293-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:292:25-81
-294            </intent-filter>
-295            <intent-filter>
-295-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:294:13-297:29
-296                <action android:name="android.intent.action.PACKAGE_REPLACED" />
-296-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:295:17-81
-296-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:295:25-78
-297
-298                <data android:scheme="package" />
-298-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:17-73:45
-298-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:73:21-42
-299            </intent-filter>
-300        </receiver>
-301
-302        <provider
-302-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:300:9-308:20
-303            android:name="androidx.core.content.FileProvider"
-303-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:301:13-62
-304            android:authorities="com.frostnerd.dnschanger"
-304-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:302:13-59
-305            android:exported="false"
-305-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:303:13-37
-306            android:grantUriPermissions="true" >
-306-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:304:13-47
-307            <meta-data
-307-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:305:13-307:60
-308                android:name="android.support.FILE_PROVIDER_PATHS"
-308-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:306:17-67
-309                android:resource="@xml/debug_file_paths" />
-309-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:307:17-57
-310        </provider>
-311        <provider
-311-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:310:9-318:20
-312            android:name="com.frostnerd.dnschanger.util.GenericFileProvider"
-312-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:311:13-53
-313            android:authorities="com.frostnerd.dnschanger.provider"
-313-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:312:13-68
-314            android:exported="false"
-314-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:313:13-37
-315            android:grantUriPermissions="true" >
-315-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:314:13-47
-316            <meta-data
-316-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:305:13-307:60
-317                android:name="android.support.FILE_PROVIDER_PATHS"
-317-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:306:17-67
-318                android:resource="@xml/generic_provider_paths" />
-318-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:307:17-57
-319        </provider>
-320
-321        <service
-321-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:320:9-322:44
-322            android:name="com.frostnerd.dnschanger.services.RuleImportService"
-322-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:321:13-55
-323            android:stopWithTask="false" />
-323-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:322:13-41
-324    </application>
-325
-326</manifest>
+223            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+223-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:222:13-77
+224            <intent-filter>
+224-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:223:13-225:29
+225                <action android:name="android.service.quicksettings.action.QS_TILE" />
+225-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:224:17-87
+225-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:224:25-84
+226            </intent-filter>
+227
+228            <meta-data
+228-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:226:13-228:40
+229                android:name="android.service.quicksettings.ACTIVE_TILE"
+229-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:227:17-73
+230                android:value="true" />
+230-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:228:17-37
+231        </service>
+232        <service
+232-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:231:9-242:19
+233            android:name="com.nick.dnschanger.tiles.TilePauseResume"
+233-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:232:13-50
+234            android:icon="@drawable/ic_stat_resume"
+234-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:233:13-52
+235            android:label="@string/tile_pause_resume"
+235-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:234:13-54
+236            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+236-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:235:13-77
+237            <intent-filter>
+237-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:223:13-225:29
+238                <action android:name="android.service.quicksettings.action.QS_TILE" />
+238-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:224:17-87
+238-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:224:25-84
+239            </intent-filter>
+240
+241            <meta-data
+241-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:226:13-228:40
+242                android:name="android.service.quicksettings.ACTIVE_TILE"
+242-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:227:17-73
+243                android:value="true" />
+243-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:228:17-37
+244        </service>
+245
+246        <activity
+246-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:244:9-272:20
+247            android:name="com.nick.dnschanger.activities.SettingsImportActivity"
+247-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:245:13-62
+248            android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" >
+248-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:246:13-70
+249            <intent-filter android:priority="50" >
+249-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:247:13-271:29
+249-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:247:28-49
+250                <action android:name="android.intent.action.VIEW" />
+250-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:64:17-69
+250-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:64:25-66
+251                <action android:name="android.intent.action.SEND" />
+251-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:249:17-69
+251-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:249:25-66
+252                <action android:name="android.intent.action.SENDTO" />
+252-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:250:17-71
+252-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:250:25-68
+253                <action android:name="android.intent.action.SEND_MULTIPLE" />
+253-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:251:17-78
+253-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:251:25-75
+254
+255                <category android:name="android.intent.category.BROWSABLE" />
+255-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:67:17-78
+255-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:67:27-75
+256                <category android:name="android.intent.category.DEFAULT" />
+256-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:66:17-76
+256-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:66:27-73
+257
+258                <data android:scheme="file" />
+258-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+258-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+259                <data android:scheme="content" />
+259-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+259-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+260                <data android:scheme="uri" />
+260-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+260-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+261                <data android:scheme="http" />
+261-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+261-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+262                <data android:scheme="https" />
+262-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+262-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+263                <data android:scheme="application" />
+263-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+263-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+264                <data android:mimeType="*/*" />
+264-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+264-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:262:23-45
+265                <data android:host="*" />
+265-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+265-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:70:21-53
+266                <data android:pathPattern=".*\\.settings" />
+266-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+266-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:264:23-58
+267                <data android:pathPattern=".*\\..*\\.settings" />
+267-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+267-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:264:23-58
+268                <data android:pathPattern=".*\\..*\\..*\\.settings" />
+268-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+268-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:264:23-58
+269                <data android:pathPattern=".*\\..*\\..*\\..*\\.settings" />
+269-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+269-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:264:23-58
+270                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.settings" />
+270-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+270-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:264:23-58
+271                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.settings" />
+271-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+271-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:264:23-58
+272                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\.settings" />
+272-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+272-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:264:23-58
+273            </intent-filter>
+274        </activity>
+275        <activity android:name="com.frostnerd.design.filechooseractivity.FileChooserActivity" />
+275-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:274:9-97
+275-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:274:19-94
+276
+277        <receiver
+277-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:276:9-287:20
+278            android:name="com.nick.dnschanger.receivers.AdminReceiver"
+278-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:277:13-52
+279            android:description="@string/device_admin_description"
+279-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:278:13-67
+280            android:label="@string/device_admin"
+280-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:279:13-49
+281            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+281-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:280:13-70
+282            <meta-data
+282-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:281:13-283:56
+283                android:name="android.app.device_admin"
+283-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:282:17-56
+284                android:resource="@xml/device_admin" />
+284-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:283:17-53
+285
+286            <intent-filter>
+286-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:284:13-286:29
+287                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+287-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:285:17-82
+287-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:285:25-79
+288            </intent-filter>
+289        </receiver>
+290        <receiver android:name="com.nick.dnschanger.receivers.UpdateReceiver" >
+290-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:289:9-297:20
+290-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:289:19-59
+291            <intent-filter>
+291-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:290:13-292:29
+292                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+292-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:291:17-84
+292-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:291:25-81
+293            </intent-filter>
+294            <intent-filter>
+294-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:293:13-296:29
+295                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+295-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:294:17-81
+295-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:294:25-78
+296
+297                <data android:scheme="package" />
+297-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:69:17-72:45
+297-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:72:21-42
+298            </intent-filter>
+299        </receiver>
+300
+301        <provider
+301-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:299:9-307:20
+302            android:name="androidx.core.content.FileProvider"
+302-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:300:13-62
+303            android:authorities="com.nick.dnschanger"
+303-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:301:13-54
+304            android:exported="false"
+304-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:302:13-37
+305            android:grantUriPermissions="true" >
+305-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:303:13-47
+306            <meta-data
+306-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:304:13-306:60
+307                android:name="android.support.FILE_PROVIDER_PATHS"
+307-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:305:17-67
+308                android:resource="@xml/debug_file_paths" />
+308-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:306:17-57
+309        </provider>
+310        <provider
+310-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:309:9-317:20
+311            android:name="com.nick.dnschanger.util.GenericFileProvider"
+311-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:310:13-53
+312            android:authorities="com.nick.dnschanger.provider"
+312-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:311:13-63
+313            android:exported="false"
+313-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:312:13-37
+314            android:grantUriPermissions="true" >
+314-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:313:13-47
+315            <meta-data
+315-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:304:13-306:60
+316                android:name="android.support.FILE_PROVIDER_PATHS"
+316-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:305:17-67
+317                android:resource="@xml/generic_provider_paths" />
+317-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:306:17-57
+318        </provider>
+319
+320        <service
+320-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:319:9-321:44
+321            android:name="com.nick.dnschanger.services.RuleImportService"
+321-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:320:13-55
+322            android:stopWithTask="false" />
+322-->E:\StudioProject\NickLibDemo\dns\src\main\AndroidManifest.xml:321:13-41
+323    </application>
+324
+325</manifest>

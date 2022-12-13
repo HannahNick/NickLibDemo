@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.frostnerd.dnschanger"
+    package="com.nick.dnschanger"
     android:installLocation="internalOnly">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -24,7 +24,7 @@
         android:protectionLevel="signature" />
 
     <permission
-        android:name="com.frostnerd.dnschanger.ACCESS_DATA"
+        android:name="com.nick.dnschanger.ACCESS_DATA"
         android:description="@string/permissions_description_access_data"
         android:label="@string/permissions_label_access_data"
         android:protectionLevel="signature" />
@@ -47,7 +47,6 @@
         android:extractNativeLibs="true"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true"
-        android:label="@string/app_name"
         android:networkSecurityConfig="@xml/security_config"
         android:supportsRtl="true">
 
@@ -111,7 +110,7 @@
             android:name=".tasker.ConfigureActivity"
             android:exported="true"
             android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
+            android:label="@string/module_name"
             android:uiOptions="splitActionBarWhenNarrow"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -146,10 +145,10 @@
         <service
             android:name=".services.DataService"
             android:exported="true"
-            android:permission="com.frostnerd.dnschanger.ACCESS_DATA"
+            android:permission="com.nick.dnschanger.ACCESS_DATA"
             android:process=":exported">
             <intent-filter>
-                <action android:name="com.frostnerd.dnschanger.services.DataService" />
+                <action android:name="com.nick.dnschanger.services.DataService" />
             </intent-filter>
         </service>
 
@@ -157,14 +156,14 @@
             android:name=".activities.ShortcutActivity"
             android:exported="true"
             android:launchMode="singleTop"
-            android:taskAffinity="com.frostnerd.dnschangerShortcut"
+            android:taskAffinity="com.nick.dnschangerShortcut"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
         <activity-alias
             android:name=".ShortcutActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:targetActivity=".activities.ShortcutActivity"
-            android:taskAffinity="com.frostnerd.dnschangerShortcut"
+            android:taskAffinity="com.nick.dnschangerShortcut"
             android:theme="@style/Theme.AppCompat.Light.Dialog.Alert" />
         <activity android:name=".activities.automation.PauseDnsActivity"
             android:exported="true"
@@ -299,7 +298,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.frostnerd.dnschanger"
+            android:authorities="com.nick.dnschanger"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -309,7 +308,7 @@
 
         <provider
             android:name=".util.GenericFileProvider"
-            android:authorities="com.frostnerd.dnschanger.provider"
+            android:authorities="com.nick.dnschanger.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

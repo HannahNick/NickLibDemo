@@ -9,10 +9,9 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Toast;
 
 import com.blankj.utilcode.util.LogUtils;
-import com.frostnerd.dnschanger.helper.DNSHelper;
+import com.nick.dnschanger.helper.DNSHelper;
 import com.nick.nicklibdemo.R;
 import com.nick.nicklibdemo.http.HttpManager;
 import com.nick.nicklibdemo.service.AccessVpnService;
