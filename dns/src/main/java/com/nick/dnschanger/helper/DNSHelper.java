@@ -43,21 +43,23 @@ public class DNSHelper {
         return Holder.DNS_HELPER;
     }
 
-    public void startVpn(Activity context){
+    public boolean toggleVpn(Activity context){
         if (vpnRunning){
-            return;
-        }
-        Intent i;
-        try {
-            i = VpnService.prepare(context);
-        } catch (NullPointerException ex) {
-            i = null; // I have no idea why this sometimes occurs.
-        }
-        if (i != null){
-            context.startActivityForResult(i,REQUEST_CODE);
+            stopVpn();
         }else {
-            startVpn(context);
+            Intent i;
+            try {
+                i = VpnService.prepare(context);
+            } catch (NullPointerException ex) {
+                i = null; // I have no idea why this sometimes occurs.
+            }
+            if (i != null){
+                context.startActivityForResult(i,REQUEST_CODE);
+            }else {
+                startVpn(context);
+            }
         }
+        return vpnRunning;
     }
 
     private void startVpn(final Context ctx) {

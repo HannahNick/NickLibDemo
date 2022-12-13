@@ -10,6 +10,7 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.blankj.utilcode.util.LogUtils;
 import com.nick.dnschanger.helper.DNSHelper;
 import com.nick.nicklibdemo.R;
@@ -25,6 +26,8 @@ import okhttp3.Response;
 
 public class DnsTestActivity extends AppCompatActivity {
 
+    private LottieAnimationView lottieAnimationView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +37,8 @@ public class DnsTestActivity extends AppCompatActivity {
 //            Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
 //            startActivity(intent);
 //        }
+        lottieAnimationView = findViewById(R.id.animation_view);
+        lottieAnimationView.setAnimation(R.raw.no_sign);
     }
 
     @Override
@@ -50,12 +55,13 @@ public class DnsTestActivity extends AppCompatActivity {
         DNSHelper.getInstance().clearHostCache();
     }
 
-    public void stop(View view){
-        DNSHelper.getInstance().stopVpn();
-    }
-
     public void requestConnect(View view){
-        DNSHelper.getInstance().startVpn(this);
+        boolean serviceRunning = DNSHelper.getInstance().toggleVpn(this);
+        if (serviceRunning){
+            lottieAnimationView.resumeAnimation();
+        }else {
+            lottieAnimationView.pauseAnimation();
+        }
     }
 
 

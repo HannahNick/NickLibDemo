@@ -77,6 +77,7 @@ public class MainActivity extends BaseUIActivity {
         listData.add("VectorDrawableActivity");
         listData.add("SurfaceViewActivity");
         listData.add("DnsTestActivity");
+        listData.add("LottieActivity");
         mAdapter.replaceData(listData);
         mAdapter.setOnItemClickListener((adapter, view, position) -> {
             Intent intent = null;
@@ -101,6 +102,10 @@ public class MainActivity extends BaseUIActivity {
                 case 5:
                     intent = new Intent(this, DnsTestActivity.class);
                     break;
+                case 6:
+                    intent = new Intent(this,LottieActivity.class);
+                    break;
+
             }
             startActivity(intent);
         });
