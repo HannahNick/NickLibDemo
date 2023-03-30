@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:lottie_loop="true" />
+
+    <View
+        android:id="@+id/middle"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_marginBottom="@dimen/dp_40"
+        android:background="#dfe4ea" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_toggle_vpn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="开启vpn"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:onClick="requestConnect"
+            android:backgroundTint="@color/vpn_button"
+            android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/dp_40"
+            app:cornerRadius="999dp"
+            app:strokeColor="#fac03d"
+            app:strokeWidth="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/dp_40"
+            android:text="导入host"
+            android:onClick="importHost"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/dp_40"
+            android:text="调用接口"
+            android:onClick="apiTest"
+            />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:onClick="selectDns"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="@dimen/dp_40"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btn_toggle_vpn"
+            android:background="@drawable/shape_btn_host_list"
+            android:src="@drawable/ic_baseline_dehaze_24"
+            />
+
+        <TextView
+            android:id="@+id/tv_service_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/btn_toggle_vpn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="NOT CONNECTED"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/tv_main_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_service_state"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/dp_40"
+            android:text="Main Service:"
+            />
+        <TextView
+            android:id="@+id/tv_second_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_main_service"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="@dimen/dp_40"
+            android:text="Second Service:"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

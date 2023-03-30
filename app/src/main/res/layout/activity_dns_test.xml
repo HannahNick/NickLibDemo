@@ -15,16 +15,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:lottie_loop="true" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_toggle_vpn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/dp_40"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="开启vpn"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:onClick="requestConnect"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/animation_view"
-        android:layout_marginTop="@dimen/dp_40"
-        android:text="开启VPN"
-        android:onClick="requestConnect"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="@dimen/dp_40"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        app:cornerRadius="999dp"
+        app:strokeColor="#fac03d"
+        app:strokeWidth="5dp" />
 
     <Button
         android:layout_width="wrap_content"

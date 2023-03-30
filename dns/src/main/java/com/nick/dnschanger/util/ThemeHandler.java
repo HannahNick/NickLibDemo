@@ -42,13 +42,11 @@ public class ThemeHandler {
     }
 
     public static int getDialogTheme(Context context) {
-        switch(Preferences.getInstance(context).getInteger("dialogtheme", 2)) {
-            case 1: return R.style.DialogTheme;
-            case 2: return R.style.DialogTheme_Mono;
-            case 3: return R.style.DialogTheme_Dark;
-            case 4: return R.style.DialogTheme_True_Black;
-        }
-        return Preferences.getInstance(context).getInteger("dialogtheme", R.style.DialogTheme_Mono);
+        return R.style.DialogTheme;
+//        return R.style.DialogTheme_Mono;
+//        return R.style.DialogTheme_Dark;
+//        return R.style.DialogTheme_True_Black;
+//        return Preferences.getInstance(context).getInteger("dialogtheme", R.style.DialogTheme_Mono);
     }
 
     public static int getAppTheme(Context context) {

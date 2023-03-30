@@ -113,14 +113,6 @@
         <item name="keyResource">@drawable/ic_action_key</item>
         <item name="android:windowBackground">@drawable/background_default</item>
 
-        <item name="android:textColor">#EEEEEE</item>
-        <item name="android:textColorPrimary">#EEEEEE</item>
-        <item name="android:textColorSecondary">#EEEEEE</item>
-        <item name="android:textColorHighlight">#EEEEEE</item>
-        <item name="android:textColorTertiary">#EEEEEE</item>
-        <item name="android:textColorAlertDialogListItem">#EEEEEE</item>
-        <item name="textColorAlertDialogListItem">#EEEEEE</item>
-        <item name="android:editTextColor">#EEEEEE</item>
         <item name="foregroundElementColor">#FFF</item>
 
         <item name="color">#EEEEEE</item>

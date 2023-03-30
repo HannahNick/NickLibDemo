@@ -125,6 +125,12 @@ public class DNSHelper {
         }
     }
 
+    public void updateVpn(){
+        if (vpnRunning){
+            DnsBootConfig.mContext.startService(DNSVpnService.getUpdateServersIntent(DnsBootConfig.mContext, true, false));
+        }
+    }
+
     public void handleCallBack(int requestCode, int resultCode){
         if (requestCode == REQUEST_CODE && resultCode == Activity.RESULT_OK) {
             if (!vpnRunning){
@@ -169,6 +175,7 @@ public class DNSHelper {
         DatabaseHelper.getInstance(DnsBootConfig.mContext).deleteAll(DNSRule.class);
     }
 
+
     public static abstract class DNSReachabilityCallback{
         @NonNull private final List<IPPortPair> unreachable = new ArrayList<>();
         @NonNull private final List<IPPortPair> reachable = new ArrayList<>();
@@ -186,9 +193,7 @@ public class DNSHelper {
         void setServers(int servers){
             this.servers = servers;
         }
-
     }
-
 
     private static class Holder{
         private static final DNSHelper DNS_HELPER = new DNSHelper();

@@ -83,6 +83,13 @@ public class DnsBootConfig {
         Preferences.getInstance(context).put("advanced_settings", true, true);
         Preferences.getInstance(context).put("dns_over_tcp", true, true);
         Preferences.getInstance(context).put("rules_activated", true, true);
+        Preferences.getInstance(context).put("setting_ipv4_enabled", true, true);
+        Preferences.getInstance(context).put("setting_show_notification", true, true);
+        Preferences.getInstance(context).put("automation_priv_mode_set", true, true);
+        Preferences.getInstance(context).put("automation_priv_mode", true, true);
+        Preferences.getInstance(context).put("rated", true, true);
+        Preferences.getInstance(context).put("nebulo_shown", true, true);
+        Preferences.getInstance(context).put("show_used_dns", true, true);
     }
 
     public void maybeReportSentry(Throwable ex) {
@@ -161,6 +168,9 @@ public class DnsBootConfig {
         return customHandler;
     }
 
+    /**
+     * 使用当前网络IP
+     */
     private void applyCurrentNetWork(){
         List<DNSProperties> dnsProperties = new ArrayList<>();
         ConnectivityManager mgr = Utils.requireNonNull((ConnectivityManager) mContext.getSystemService(Context.CONNECTIVITY_SERVICE));
@@ -204,7 +214,6 @@ public class DnsBootConfig {
         if(Util.isServiceRunning(mContext)){
             mContext.startService(DNSVpnService.getUpdateServersIntent(mContext, true, false));
         }
-        Toast.makeText(mContext, R.string.dns_configuration_taken, Toast.LENGTH_LONG).show();
     }
 
 
